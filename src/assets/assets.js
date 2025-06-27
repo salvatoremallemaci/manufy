@@ -22,7 +22,7 @@ import arrow_right from "./right_arrow.png";
 import arrow_left from "./left_arrow.png";
 import spotify_logo from "./spotify_logo.png";
 import clock_icon from "./clock_icon.png";
-
+import switch_to_video from "./switch_to_video.png";
 
 import aadukalam from "./img/song-thumb/aadukalam.webp";
 import david from "./img/song-thumb/david.png";
@@ -51,6 +51,19 @@ import poivalva from "./songs/Poi-Vazhva.mp3";
 import sirukkivaasasm from "./songs/Sirukki-Vaasam.mp3";
 import bodhaikaname from "./songs/Bodhai-Kaname.mp3";
 
+// Manu songs
+import unonoveottoquattro_mp3 from "./manu-songs/1984_salmo.mp3";
+import fuoricontrollo_mp3 from "./manu-songs/fuori_controllo_salmo.mp3";
+import nientepanico_mp3 from "./manu-songs/niente_panico_ghali.mp3";
+// Manu videos
+import unonoveottoquattro_mp4 from "./manu-videos/1984_salmo.mp4";
+import fuoricontrollo_mp4 from "./manu-videos/fuori_controllo_salmo.mp4";
+import nientepanico_mp4 from "./manu-videos/niente_panico_ghali.mp4";
+// Manu songs thumb
+import unonoveottoquattro_thumb from "./img/manu-songs-thumb/1984_salmo.png";
+import fuoricontrollo_thumb from "./img/manu-songs-thumb/fuori_controllo_salmo.png";
+import nientepanico_thumb from "./img/manu-songs-thumb/niente_panico_ghali.png";
+
 export const assets = {
   bell_icon,
   home_icon,
@@ -76,6 +89,7 @@ export const assets = {
   arrow_right,
   spotify_logo,
   clock_icon,
+  switch_to_video
 };
 
 export const albumsData = [
@@ -201,5 +215,80 @@ export const songsData = [
     file: bodhaikaname,
     desc: "Put a smile on your face with these happy tunes",
     duration: "4:22",
+  },
+];
+
+export const songsManuData = [
+  {
+    id: 0,
+    name: "FUORI CONTROLLO",
+    image: fuoricontrollo_thumb,
+    file: fuoricontrollo_mp3,
+    video: fuoricontrollo_mp4,
+    desc: "Salmo, RANCH, 2025",
+    duration: "3:38",
+  },
+  {
+    id: 1,
+    name: "Niente Panico",
+    image: nientepanico_thumb,
+    file: nientepanico_mp3,
+    video: nientepanico_mp4,
+    desc: "Ghali, Chill, 2024",
+    duration: "3:09",
+  },
+  {
+    id: 2,
+    name: "1984",
+    image: unonoveottoquattro_thumb,
+    file: unonoveottoquattro_mp3,
+    video: unonoveottoquattro_mp4,
+    desc: "Salmo, Hellvisback, 2015",
+    duration: "4:17",
+  },
+  {
+    id: 3,
+    name: "FUORI CONTROLLO",
+    image: fuoricontrollo_thumb,
+    file: fuoricontrollo_mp3,
+    video: fuoricontrollo_mp4,
+    desc: "Salmo, RANCH, 2025",
+    duration: "3:38",
+  },
+  {
+    id: 4,
+    name: "Niente Panico",
+    image: nientepanico_thumb,
+    file: nientepanico_mp3,
+    video: nientepanico_mp4,
+    desc: "Ghali, Chill, 2024",
+    duration: "3:09",
+  },
+  {
+    id: 5,
+    name: "1984",
+    image: unonoveottoquattro_thumb,
+    file: unonoveottoquattro_mp3,
+    video: unonoveottoquattro_mp4,
+    desc: "Salmo, Hellvisback, 2015",
+    duration: "4:17",
+  },
+  {
+    id: 6,
+    name: "Niente Panico",
+    image: nientepanico_thumb,
+    file: nientepanico_mp3,
+    video: nientepanico_mp4,
+    desc: "Ghali, Chill, 2024",
+    duration: "3:09",
+  },
+  {
+    id: 7,
+    name: "1984",
+    image: unonoveottoquattro_thumb,
+    file: unonoveottoquattro_mp3,
+    video: unonoveottoquattro_mp4,
+    desc: "Salmo, Hellvisback, 2015",
+    duration: "4:17",
   },
 ];

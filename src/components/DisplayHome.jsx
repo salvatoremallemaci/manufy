@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { albumsData, songsData } from "../assets/assets";
+import { albumsData, songsData, songsManuData } from "../assets/assets";
 import AlbumItems from "./AlbumItems";
 import SongItems from "./SongItems";
 
@@ -25,7 +25,7 @@ const DisplayHome = () => {
       <div className="mb-4">
         <h1 className="my-5 font-bold text-2xl">Recently Played</h1>
         <div className="flex overflow-auto">
-          {songsData.map((item, index) => (
+          {songsManuData.map((item, index) => (
             <SongItems
               key={index}
               name={item.name}

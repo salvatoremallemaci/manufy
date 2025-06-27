@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import Navbar from './Navbar'
 import { useParams } from 'react-router-dom'
-import { albumsData, assets, songsData } from '../assets/assets';
+import { albumsData, assets, songsData, songsManuData } from '../assets/assets';
 import { PlayerContext } from '../context/PlayerContext';
 
 const DisplayAlbum = () => {
@@ -36,7 +36,7 @@ const DisplayAlbum = () => {
     </div>
     <hr />
     {
-        songsData.map((item,index)=>(
+        songsManuData.map((item,index)=>(
             <div onClick={()=>playWithId(item.id)} key={index} className='grid grid-cols-3 sm:grid-cols-4 gap-3 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer'>
                 <p className='tetx-white'>
                     <b className='mr-4 text-[#a7a7a7]'>{index+1}</b>
