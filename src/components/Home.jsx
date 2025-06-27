@@ -5,16 +5,16 @@ import Display from './Display'
 import { PlayerContext } from '../context/PlayerContext'
 
 const Home = () => {
+  const { audioRef, track } = useContext(PlayerContext)
 
-  const {audioRef,track}= useContext(PlayerContext)
   return (
-    <div className='h-screen bg-black'>
-        <div className='h-[90%] flex'>
-            <Sidebar/>
-            <Display/>
-        </div>
-        <Player/>
-        <audio ref={audioRef} src={track.file} preload='auto'></audio>
+    <div className='flex flex-col h-screen bg-black'>
+      <div className='flex-1 flex overflow-hidden'>
+        <Sidebar />
+        <Display />
+      </div>
+      <Player />
+      <audio ref={audioRef} src={track.file} preload='auto'></audio>
     </div>
   )
 }

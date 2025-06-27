@@ -176,19 +176,20 @@ const Player = () => {
       </div>
 
       <div className="hidden lg:flex items-center gap-2 opacity-75">
-        <button
-          disabled={!track.video}
-          className={`flex items-center gap-1 px-3 py-1 border rounded-full text-xs font-bold transition ${!track.video
-            ? "border-gray-600 text-gray-600 cursor-not-allowed"
-            : showVideo
-              ? "bg-white text-black border-white"
-              : "border-white text-white hover:bg-white hover:text-black"
-            }`}
-          style={{ fontFamily: '"Circular", "Helvetica Neue", Helvetica, Arial, sans-serif' }}
-          onClick={() => setShowVideo(true)}
-        >
-          Video Player
-        </button>
+        {track?.video && time.totalTime.minute !== "-- " && time.totalTime.second !== " --" &&
+          <button
+            disabled={!track.video}
+            className={`flex items-center gap-1 px-3 py-1 border rounded-full text-xs font-bold transition ${!track.video
+              ? "border-gray-600 text-gray-600 cursor-not-allowed"
+              : showVideo
+                ? "bg-white text-black border-white"
+                : "border-white text-white hover:bg-white hover:text-black"
+              }`}
+            style={{ fontFamily: '"Circular", "Helvetica Neue", Helvetica, Arial, sans-serif' }}
+            onClick={() => setShowVideo(true)}
+          >
+            Video Player
+          </button>}
         <img className="w-4" src={assets.play_icon} alt="" />
         <img className="w-4" src={assets.mic_icon} alt="" />
         <img className="w-4" src={assets.queue_icon} alt="" />
@@ -199,21 +200,23 @@ const Player = () => {
         <img className="w-4" src={assets.zoom_icon} alt="" />
       </div>
       {/* Bottone "Video Player" mobile migliorato */}
-      <div className="fixed bottom-20 right-2 z-50 lg:hidden">
-        <button
-          disabled={!track.video}
-          className={`px-4 py-2 rounded-full text-sm font-semibold shadow-md backdrop-blur-md transition-all duration-300 ${!track.video
-            ? "bg-gray-600 text-white cursor-not-allowed"
-            : showVideo
-              ? "bg-white text-black"
-              : "bg-white/10 text-white border border-white hover:bg-white hover:text-black"
-            }`}
-          style={{ fontFamily: '"Circular", "Helvetica Neue", Helvetica, Arial, sans-serif' }}
-          onClick={() => setShowVideo(true)}
-        >
-          Video
-        </button>
-      </div>
+      {track?.video && time.totalTime.minute !== "-- " && time.totalTime.second !== " --" && (
+        <div className="fixed bottom-14 right-3 z-50 lg:hidden">
+          <button
+            disabled={!track.video}
+            className={`px-4 py-2 rounded-full text-sm font-semibold shadow-md backdrop-blur-md transition-all duration-300 ${!track.video
+              ? "bg-gray-600 text-white cursor-not-allowed"
+              : showVideo
+                ? "bg-white text-black"
+                : "bg-white/10 text-white border border-white hover:bg-white hover:text-black"
+              }`}
+            style={{ fontFamily: '"Circular", "Helvetica Neue", Helvetica, Arial, sans-serif' }}
+            onClick={() => setShowVideo(true)}
+          >
+            Video
+          </button>
+        </div>
+      )}
     </div>
   );
 };
