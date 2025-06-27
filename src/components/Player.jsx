@@ -150,7 +150,7 @@ const Player = () => {
 
         {showVideo && track.video && (
           <div className="absolute bottom-full mb-4 w-full flex justify-center z-40">
-            <div className="relative w-full max-w-md aspect-video rounded-xl overflow-hidden shadow-2xl border border-white/10 bg-neutral-900">
+            <div className="relative w-[90%] sm:w-[80%] md:w-full max-w-sm md:max-w-md aspect-video rounded-xl overflow-hidden shadow-2xl border border-white/10 bg-neutral-900">
               <div className="absolute top-0 left-0 w-full h-16 bg-gradient-to-b from-black/80 to-transparent pointer-events-none z-10" />
               <button
                 className="absolute top-2 right-2 text-white hover:text-black bg-white/10 hover:bg-white transition px-2 py-1 rounded-full text-sm z-20"
@@ -197,6 +197,22 @@ const Player = () => {
         <div className="w-20 bg-slate-50 h-1 rounded"></div>
         <img className="w-4" src={assets.mini_player_icon} alt="" />
         <img className="w-4" src={assets.zoom_icon} alt="" />
+      </div>
+      {/* Bottone "Video Player" mobile migliorato */}
+      <div className="fixed bottom-20 right-2 z-50 lg:hidden">
+        <button
+          disabled={!track.video}
+          className={`px-4 py-2 rounded-full text-sm font-semibold shadow-md backdrop-blur-md transition-all duration-300 ${!track.video
+            ? "bg-gray-600 text-white cursor-not-allowed"
+            : showVideo
+              ? "bg-white text-black"
+              : "bg-white/10 text-white border border-white hover:bg-white hover:text-black"
+            }`}
+          style={{ fontFamily: '"Circular", "Helvetica Neue", Helvetica, Arial, sans-serif' }}
+          onClick={() => setShowVideo(true)}
+        >
+          Video
+        </button>
       </div>
     </div>
   );
