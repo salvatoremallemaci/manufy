@@ -51,6 +51,16 @@ import poivalva from "./songs/Poi-Vazhva.mp3";
 import sirukkivaasasm from "./songs/Sirukki-Vaasam.mp3";
 import bodhaikaname from "./songs/Bodhai-Kaname.mp3";
 
+
+// Manu playlist thumb
+import salvo_thumb from "./img/manu-playlist-thumb/playlist_salvo_thumb.png";
+import thumb from "./img/manu-playlist-thumb/playlist_thumb.png";
+
+// Da S assets
+import da_s_thumb from "./da-s/da_s_thumb.jpg";
+import da_s_mp3 from "./da-s/da_s.mp3";
+import da_s_mp4 from "./da-s/da_s.mp4";
+
 // Manu songs
 import unonoveottoquattro_mp3 from "./manu-songs/1984_salmo.mp3";
 import fuoricontrollo_mp3 from "./manu-songs/fuori_controllo_salmo.mp3";
@@ -95,60 +105,62 @@ export const assets = {
 export const albumsData = [
   {
     id: 0,
-    name: "Munpani Kaadhal",
-    image: munpanikaadhal,
+    name: "This is Salvo",
+    image: salvo_thumb,
     desc: "Your weekly update of the most played tracks",
-    bgColor: "#D10000",
+    bgColor: "#800020",
   },
   {
     id: 1,
-    name: "10s Romance Tamil",
-    image: tensromance,
-    desc: "Best Love Songs of 2010s from kollywood",
-    bgColor: "#bcc45e",
+    name: "This is ?",
+    image: thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "##632043",
   },
   {
     id: 2,
-    name: "A.R. Rahman",
-    image: arrmix,
-    desc: "Hits of A.R. Rahman that will kill you",
-    bgColor: "#029ed6",
+    name: "This is ?",
+    image: thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "##632043",
   },
   {
     id: 3,
-    name: "Kollywood Chill",
-    image: kollychill,
-    desc: "Cool tracks from Kollywood music industry",
-    bgColor: "#44337a",
+    name: "This is ?",
+    image: thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "##632043",
   },
   {
     id: 4,
-    name: "Purely Kadhal",
-    image: purelykaadhal,
-    desc: "All the mushy feels from top romantic hits",
-    bgColor: "#D10000",
+    name: "This is ?",
+    image: thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "##632043",
   },
+  /*
   {
     id: 5,
-    name: "Romantic Anirudh",
-    image: romanticanirudh,
-    desc: "Enjoy the Romantic side of Ani",
-    bgColor: "#744210",
+    name: "This is Salvo",
+    image: salvo_thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "#800020",
   },
   {
     id: 6,
-    name: "Hip Hop Tamizha",
-    image: hiphopradio,
-    desc: "Love and more love from Aadhi",
-    bgColor: "#F7567C",
+    name: "This is Salvo",
+    image: salvo_thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "#800020",
   },
   {
     id: 7,
-    name: "Yuvan Hits",
-    image: yuvan,
-    desc: "Love and more love from Aadhi",
-    bgColor: "#4E3822",
+    name: "This is Salvo",
+    image: salvo_thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "#800020",
   },
+  */
 ];
 
 export const songsData = [
@@ -221,12 +233,12 @@ export const songsData = [
 export const songsManuData = [
   {
     id: 0,
-    name: "FUORI CONTROLLO",
-    image: fuoricontrollo_thumb,
-    file: fuoricontrollo_mp3,
-    video: fuoricontrollo_mp4,
-    desc: "Salmo, RANCH, 2025",
-    duration: "3:38",
+    name: "uNa DiReZioNe giUsTa",
+    image: da_s_thumb,
+    file: da_s_mp3,
+    video: da_s_mp4,
+    desc: "Manu feat. S, 2024",
+    duration: "0:30",
   },
   {
     id: 1,
@@ -264,6 +276,7 @@ export const songsManuData = [
     desc: "Ghali, Chill, 2024",
     duration: "3:09",
   },
+  /*
   {
     id: 5,
     name: "1984",
@@ -291,4 +304,5 @@ export const songsManuData = [
     desc: "Salmo, Hellvisback, 2015",
     duration: "4:17",
   },
+  */
 ];
