@@ -65,14 +65,17 @@ import da_s_mp4 from "./da-s/da_s.mp4";
 import unonoveottoquattro_mp3 from "./manu-songs/1984_salmo.mp3";
 import fuoricontrollo_mp3 from "./manu-songs/fuori_controllo_salmo.mp3";
 import nientepanico_mp3 from "./manu-songs/niente_panico_ghali.mp3";
+import laureaadhonorem_mp3 from "./manu-songs/laurea_ad_honorem_marracash.mp3";
 // Manu videos
 import unonoveottoquattro_mp4 from "./manu-videos/1984_salmo.mp4";
 import fuoricontrollo_mp4 from "./manu-videos/fuori_controllo_salmo.mp4";
 import nientepanico_mp4 from "./manu-videos/niente_panico_ghali.mp4";
+import laureaadhonorem_mp4 from "./manu-videos/laurea_ad_honorem_marracash.mp4";
 // Manu songs thumb
 import unonoveottoquattro_thumb from "./img/manu-songs-thumb/1984_salmo.png";
 import fuoricontrollo_thumb from "./img/manu-songs-thumb/fuori_controllo_salmo.png";
 import nientepanico_thumb from "./img/manu-songs-thumb/niente_panico_ghali.png";
+import laureaadhonorem_thumb from "./img/manu-songs-thumb/laurea_ad_honorem_marracash.png";
 
 export const assets = {
   bell_icon,
@@ -269,12 +272,12 @@ export const songsManuData = [
   },
   {
     id: 4,
-    name: "Niente Panico",
-    image: nientepanico_thumb,
-    file: nientepanico_mp3,
-    video: nientepanico_mp4,
-    desc: "Ghali, Chill, 2024",
-    duration: "3:09",
+    name: "LAUREA AD HONOREM",
+    image: laureaadhonorem_thumb,
+    file: laureaadhonorem_mp3,
+    video: laureaadhonorem_mp4,
+    desc: "Marracash feat. Calcutta, NOI, LORO, GLI ALTRI, 2021",
+    duration: "3:15",
   },
   /*
   {
