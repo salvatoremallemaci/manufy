@@ -249,7 +249,7 @@ export const songsManuData = [
     image: nientepanico_thumb,
     file: nientepanico_mp3,
     video: nientepanico_mp4,
-    desc: "Ghali, Chill, 2024",
+    desc: "Ghali, 2024",
     duration: "3:09",
   },
   {
@@ -258,7 +258,7 @@ export const songsManuData = [
     image: unonoveottoquattro_thumb,
     file: unonoveottoquattro_mp3,
     video: unonoveottoquattro_mp4,
-    desc: "Salmo, Hellvisback, 2015",
+    desc: "Salmo, 2015",
     duration: "4:17",
   },
   {
@@ -267,7 +267,7 @@ export const songsManuData = [
     image: fuoricontrollo_thumb,
     file: fuoricontrollo_mp3,
     video: fuoricontrollo_mp4,
-    desc: "Salmo, RANCH, 2025",
+    desc: "Salmo, 2025",
     duration: "3:38",
   },
   {
@@ -276,7 +276,7 @@ export const songsManuData = [
     image: laureaadhonorem_thumb,
     file: laureaadhonorem_mp3,
     video: laureaadhonorem_mp4,
-    desc: "Marracash feat. Calcutta, NOI, LORO, GLI ALTRI, 2021",
+    desc: "Marracash feat. Calcutta, 2021",
     duration: "3:15",
   },
   /*
