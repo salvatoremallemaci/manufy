@@ -1,5 +1,5 @@
 import React from 'react'
-import background from '../assets/background-intro.mp4'
+import background from '../assets/manu-intro.mp4'
 
 const Opening = () => {
   return (
