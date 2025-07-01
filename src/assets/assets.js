@@ -54,6 +54,8 @@ import bodhaikaname from "./songs/Bodhai-Kaname.mp3";
 
 // Manu playlist thumb
 import salvo_thumb from "./img/manu-playlist-thumb/playlist_salvo_thumb.png";
+import fede_thumb from "./img/manu-playlist-thumb/playlist_fede_thumb.png";
+import simo_thumb from "./img/manu-playlist-thumb/playlist_simo_thumb.png";
 import thumb from "./img/manu-playlist-thumb/playlist_thumb.png";
 
 // Da S assets
@@ -76,6 +78,42 @@ import unonoveottoquattro_thumb from "./img/manu-songs-thumb/1984_salmo.png";
 import fuoricontrollo_thumb from "./img/manu-songs-thumb/fuori_controllo_salmo.png";
 import nientepanico_thumb from "./img/manu-songs-thumb/niente_panico_ghali.png";
 import laureaadhonorem_thumb from "./img/manu-songs-thumb/laurea_ad_honorem_marracash.png";
+
+// Fede songs
+import arsenico_mp3 from "./fede/arsenico_aiello/arsenico_aiello.mp3";
+import blu_celeste_mp3 from "./fede/blu_celeste_blanco/blu_celeste_blanco.mp3";
+import italodisco_mp3 from "./fede/italodisco_the_kolors/italodisco_thekolors.mp3";
+import fuoco_di_paglia_mp3 from "./fede/fuoco_di_paglia_mace/fuoco_di_paglia_mace.mp3";
+import sadico_mp3 from "./fede/sadico_salmo/sadico_salmo.mp3";
+import tutti_mp3 from "./fede/tutti_calcutta/tutti_calcutta.mp3";
+import paradiso_mp3 from "./fede/paradiso_aiello/paradiso_aiello.mp3";
+import rubami_la_notte_mp3 from "./fede/rubami_la_notte_pinguini/rubami_la_notte_pinguini.mp3";
+import ora_che_non_ho_piu_te_mp3 from "./fede/ora_che_non_ho_piu_te_cremonini/ora_che_non_ho_piu_te_cremonini.mp3";
+import waiting_for_the_end_mp3 from "./fede/waiting_for_the_end_linkin_park/waiting_for_the_end_linkin_park.mp3";
+
+// Fede videos
+import arsenico_mp4 from "./fede/arsenico_aiello/arsenico_aiello.mp4";
+import blu_celeste_mp4 from "./fede/blu_celeste_blanco/blu_celeste_blanco.mp4";
+import italodisco_mp4 from "./fede/italodisco_the_kolors/italodisco_thekolors.mp4";
+import fuoco_di_paglia_mp4 from "./fede/fuoco_di_paglia_mace/fuoco_di_paglia_mace.mp4";
+import sadico_mp4 from "./fede/sadico_salmo/sadico_salmo.mp4";
+import tutti_mp4 from "./fede/tutti_calcutta/tutti_calcutta.mp4";
+import paradiso_mp4 from "./fede/paradiso_aiello/paradiso_aiello.mp4";
+import rubami_la_notte_mp4 from "./fede/rubami_la_notte_pinguini/rubami_la_notte_pinguini.mp4";
+import ora_che_non_ho_piu_te_mp4 from "./fede/ora_che_non_ho_piu_te_cremonini/ora_che_non_ho_piu_te_cremonini.mp4";
+import waiting_for_the_end_mp4 from "./fede/waiting_for_the_end_linkin_park/waiting_for_the_end_linkin_park.mp4";
+
+// Fede songs thumb
+import arsenico_thumb from "./fede/arsenico_aiello/arsenico_aiello.jpg";
+import blu_celeste_thumb from "./fede/blu_celeste_blanco/blu_celeste_blanco.png";
+import italodisco_thumb from "./fede/italodisco_the_kolors/italodisco_thekolors.jpg";
+import fuoco_di_paglia_thumb from "./fede/fuoco_di_paglia_mace/fuoco_di_paglia_mace.png";
+import sadico_thumb from "./fede/sadico_salmo/sadico_salmo.jpg";
+import tutti_thumb from "./fede/tutti_calcutta/tutti_calcutta.png";
+import paradiso_thumb from "./fede/paradiso_aiello/paradiso_aiello.png";
+import rubami_la_notte_thumb from "./fede/rubami_la_notte_pinguini/rubami_la_notte_pinguini.png";
+import ora_che_non_ho_piu_te_thumb from "./fede/ora_che_non_ho_piu_te_cremonini/ora_che_non_ho_piu_te_cremonini.jpg";
+import waiting_for_the_end_thumb from "./fede/waiting_for_the_end_linkin_park/waiting_for_the_end_linkin_park.png";
 
 export const assets = {
   bell_icon,
@@ -115,31 +153,31 @@ export const albumsData = [
   },
   {
     id: 1,
-    name: "This is ?",
-    image: thumb,
+    name: "This is Fede",
+    image: fede_thumb,
     desc: "Your weekly update of the most played tracks",
-    bgColor: "##632043",
+    bgColor: "#fe0000",
   },
   {
     id: 2,
-    name: "This is ?",
-    image: thumb,
-    desc: "Your weekly update of the most played tracks",
-    bgColor: "##632043",
+    name: "This is Simo",
+    image: simo_thumb,
+    desc: "No depression",
+    bgColor: "#ff328a",
   },
   {
     id: 3,
     name: "This is ?",
     image: thumb,
     desc: "Your weekly update of the most played tracks",
-    bgColor: "##632043",
+    bgColor: "#632043",
   },
   {
     id: 4,
     name: "This is ?",
     image: thumb,
     desc: "Your weekly update of the most played tracks",
-    bgColor: "##632043",
+    bgColor: "#632043",
   },
   /*
   {
@@ -308,4 +346,190 @@ export const songsManuData = [
     duration: "4:17",
   },
   */
+];
+
+export const songsFedeData = [
+  {
+    id: 0,
+    name: "Blu Celeste",
+    image: blu_celeste_thumb,
+    file: blu_celeste_mp3,
+    video: blu_celeste_mp4,
+    desc: "Blanco, 2021",
+    duration: "3:45",
+  },
+  {
+    id: 1,
+    name: "Italodisco",
+    image: italodisco_thumb,
+    file: italodisco_mp3,
+    video: italodisco_mp4,
+    desc: "The Kolors, 2023",
+    duration: "3:20",
+  },
+  {
+    id: 2,
+    name: "Fuoco di Paglia",
+    image: fuoco_di_paglia_thumb,
+    file: fuoco_di_paglia_mp3,
+    video: fuoco_di_paglia_mp4,
+    desc: "Mace, 2024",
+    duration: "3:23",
+  },
+  {
+    id: 3,
+    name: "Sadico",
+    image: sadico_thumb,
+    file: sadico_mp3,
+    video: sadico_mp4,
+    desc: "Salmo, 2013",
+    duration: "3:06",
+  },
+  {
+    id: 4,
+    name: "Tutti",
+    image: tutti_thumb,
+    file: tutti_mp3,
+    video: tutti_mp4,
+    desc: "Calcutta, 2023",
+    duration: "4:12",
+  },
+  {
+    id: 5,
+    name: "Paradiso",
+    image: paradiso_thumb,
+    file: paradiso_mp3,
+    video: paradiso_mp4,
+    desc: "Aiello, 2022",
+    duration: "2:48",
+  },
+  {
+    id: 6,
+    name: "Rubami la notte",
+    image: rubami_la_notte_thumb,
+    file: rubami_la_notte_mp3,
+    video: rubami_la_notte_mp4,
+    desc: "Pinguini Tattici Nucleari, 2023",
+    duration: "3:11",
+  },
+  {
+    id: 7,
+    name: "Ora che non ho più te",
+    image: ora_che_non_ho_piu_te_thumb,
+    file: ora_che_non_ho_piu_te_mp3,
+    video: ora_che_non_ho_piu_te_mp4,
+    desc: "Cremonini, 2024",
+    duration: "5:03",
+  },
+  {
+    id: 8,
+    name: "Waiting for the End",
+    image: waiting_for_the_end_thumb,
+    file: waiting_for_the_end_mp3,
+    video: waiting_for_the_end_mp4,
+    desc: "Linkin park, 2010",
+    duration: "3:51",
+  },
+  {
+    id: 9,
+    name: "Arsenico",
+    image: arsenico_thumb,
+    file: arsenico_mp3,
+    video: arsenico_mp4,
+    desc: "Aiello, 2019",
+    duration: "2:58",
+  },
+];
+
+export const songsSimoData = [
+  {
+    id: 0,
+    name: "You Spin Me Round",
+    image: blu_celeste_thumb,
+    file: blu_celeste_mp3,
+    video: blu_celeste_mp4,
+    desc: "Dead or Alive, 1984",
+    duration: "3:45",
+  },
+  {
+    id: 1,
+    name: "Up & down",
+    image: italodisco_thumb,
+    file: italodisco_mp3,
+    video: italodisco_mp4,
+    desc: "Billy more, 2000",
+    duration: "3:20",
+  },
+  {
+    id: 2,
+    name: "Boom, Boom, Boom",
+    image: fuoco_di_paglia_thumb,
+    file: fuoco_di_paglia_mp3,
+    video: fuoco_di_paglia_mp4,
+    desc: "Vengaboys, 1999",
+    duration: "3:23",
+  },
+  {
+    id: 3,
+    name: "Sexy",
+    image: sadico_thumb,
+    file: sadico_mp3,
+    video: sadico_mp4,
+    desc: "French Affair, 2001",
+    duration: "3:06",
+  },
+  {
+    id: 4,
+    name: "Ding Dong Song",
+    image: tutti_thumb,
+    file: tutti_mp3,
+    video: tutti_mp4,
+    desc: "Günther, 2004",
+    duration: "4:12",
+  },
+  {
+    id: 5,
+    name: "Shut Up (And Sleep With Me)",
+    image: paradiso_thumb,
+    file: paradiso_mp3,
+    video: paradiso_mp4,
+    desc: "Sin With Sebastian, 1995",
+    duration: "2:48",
+  },
+  {
+    id: 6,
+    name: "Dolce marmellata",
+    image: rubami_la_notte_thumb,
+    file: rubami_la_notte_mp3,
+    video: rubami_la_notte_mp4,
+    desc: "Doemnicer, 2006",
+    duration: "3:11",
+  },
+  {
+    id: 7,
+    name: "Crash",
+    image: ora_che_non_ho_piu_te_thumb,
+    file: ora_che_non_ho_piu_te_mp3,
+    video: ora_che_non_ho_piu_te_mp4,
+    desc: "Immanuel Casto, 2010",
+    duration: "5:03",
+  },
+  {
+    id: 8,
+    name: "Boys Boys Boys",
+    image: waiting_for_the_end_thumb,
+    file: waiting_for_the_end_mp3,
+    video: waiting_for_the_end_mp4,
+    desc: "Sabrina Salerno, 1987",
+    duration: "3:51",
+  },
+  {
+    id: 9,
+    name: "Rhythm Is a Dancer",
+    image: arsenico_thumb,
+    file: arsenico_mp3,
+    video: arsenico_mp4,
+    desc: "Snap!, 1992",
+    duration: "2:58",
+  },
 ];
