@@ -36,6 +36,18 @@ const DisplayAlbum = () => {
             break;
     }
 
+    // Funzione per sommare le durate
+    const getTotalDuration = (songs) => {
+        let totalSeconds = 0;
+        songs.forEach(song => {
+            const [min, sec] = song.duration.split(':').map(Number);
+            totalSeconds += min * 60 + sec;
+        });
+        const totalMin = Math.floor(totalSeconds / 60);
+        const totalSec = totalSeconds % 60;
+        return `${totalMin} min ${totalSec} sec (me)`;
+    };
+
     return (
         <>
             <Navbar />
@@ -49,9 +61,8 @@ const DisplayAlbum = () => {
                     <h4>{albumDatalocal.desc}</h4>
                     <p className='mt-2'>
                         <img className='inline-block w-5' src={assets.spotify_logo} alt="" />
-                        <b> Manufy</b> Un botto likes |
-                        <b> 10 Songs </b>| about 35 min
-                    </p>
+                        <b> Manufy</b> Un botto di likes |
+                        <b> {songsData.length} songs </b>| {getTotalDuration(songsData)}                    </p>
                 </div>
             </div>
 
@@ -98,7 +109,7 @@ const DisplayAlbum = () => {
                             <div className='flex flex-col'>
                                 <p className='text-white text-sm'>{item.name}</p>
                                 {/* Album su mobile */}
-                                <p className='text-xs text-gray-400 md:hidden'>{albumDatalocal.name}</p>
+                                <p className='text-xs text-gray-400 md:hidden'>{item.desc}</p>
                             </div>
                         </div>
 
