@@ -48,16 +48,16 @@ const DisplayAlbum = () => {
                     </p>
                 </div>
             </div>
-            <div className='grid grid-cols-3 sm:grid-cols-4 mt-10 mb-4 pl-2 text-[#a7a7a7]'>
+            <div className='grid grid-cols-[3fr_1.5fr_1.5fr_1fr] mt-10 mb-4 pl-2 text-[#a7a7a7]'>
                 <p><b className='mr-4'>#</b>Title</p>
-                <p>Album</p>
+                <p>Playlist</p>
                 <p className='hidden md:block'>Date Added</p>
                 <img className='m-auto w-4' src={assets.clock_icon} alt="" />
             </div>
             <hr />
             {
                 songsData.map((item, index) => (
-                    <div onClick={() => playWithId(item.id)} key={index} className='grid grid-cols-3 sm:grid-cols-4 gap-3 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer'>
+                    <div onClick={() => playWithId(item.id, songsData)} key={index} className='grid grid-cols-[3fr_1.5fr_1.5fr_1fr] gap-3 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer'>
                         <p className='tetx-white'>
                             <span className='inline-block w-6 text-right mr-4 text-[#a7a7a7]'>
                                 {index + 1}
@@ -65,9 +65,9 @@ const DisplayAlbum = () => {
                             <img className='inline w-10 mr-5' src={item.image} alt="" />
                             {item.name}
                         </p>
-                        <p className='text-[15px]'>{albumDatalocal.name}</p>
-                        <p className='text-[15px]'>3 days ago</p>
-                        <p className='text-[15px] text-center'>{item.duration}</p>
+                        <p className='text-[15px] ml-[0.3rem]'>{albumDatalocal.name}</p>
+                        <p className='text-[15px] ml-[0.5rem]'>3 days ago</p>
+                        <p className='text-[15px] ml-[4rem]'>{item.duration}</p>
                     </div>
                 ))
             }

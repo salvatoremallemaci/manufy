@@ -1,5 +1,5 @@
 import { createContext, useEffect, useRef, useState } from "react";
-import { songsData, songsManuData } from "../assets/assets";
+import { songsManuData } from "../assets/assets";
 
 export const PlayerContext = createContext();
 
@@ -8,7 +8,9 @@ const PlayerContextProvider = (props) => {
   const seekBg = useRef();
   const seekBar = useRef();
 
-  const [track, setTrack] = useState(songsManuData[4]);
+  // Stato per la playlist attiva
+  const [playlist, setPlaylist] = useState(songsManuData);
+  const [track, setTrack] = useState(songsManuData[0]);
   const [playStatus, setPlayStatus] = useState(false);
   const [time, setTime] = useState({
     currentTime: {
@@ -24,7 +26,8 @@ const PlayerContextProvider = (props) => {
   useEffect(() => {
     setTimeout(() => {
       audioRef.current.ontimeupdate = () => {
-        seekBar.current.style.width = ((audioRef.current.currentTime / audioRef.current.duration) * 100) + "%"
+        seekBar.current.style.width =
+          ((audioRef.current.currentTime / audioRef.current.duration) * 100) + "%";
         setTime({
           currentTime: {
             second: Math.floor(audioRef.current.currentTime % 60),
@@ -34,40 +37,42 @@ const PlayerContextProvider = (props) => {
             second: Math.floor(audioRef.current.duration % 60),
             minute: Math.floor(audioRef.current.duration / 60),
           },
-        })
-      }
-    }, 1000)
-  }, [audioRef])
+        });
+      };
+    }, 1000);
+  }, [audioRef]);
 
   const play = () => {
     audioRef.current.play();
     setPlayStatus(true);
-  }
+  };
   const pause = () => {
     audioRef.current.pause();
     setPlayStatus(false);
-  }
+  };
 
-  const playWithId = async (id) => {
-    await setTrack(songsManuData[id])
+  // Modificato: accetta anche la playlist
+  const playWithId = async (id, playlistArg = playlist) => {
+    setPlaylist(playlistArg);
+    await setTrack(playlistArg[id]);
     await audioRef.current.play();
     setPlayStatus(true);
-  }
+  };
 
   const before = async () => {
     if (track.id > 0) {
-      await setTrack(songsManuData[track.id - 1])
+      await setTrack(playlist[track.id - 1]);
       await audioRef.current.play();
       setPlayStatus(true);
     }
-  }
+  };
   const after = async () => {
-    if (track.id < songsManuData.length - 1) {
-      await setTrack(songsManuData[track.id + 1])
+    if (track.id < playlist.length - 1) {
+      await setTrack(playlist[track.id + 1]);
       await audioRef.current.play();
       setPlayStatus(true);
     }
-  }
+  };
 
   const seekBgClick = (e) => {
     const newTime =
@@ -82,7 +87,7 @@ const PlayerContextProvider = (props) => {
       video.currentTime = newTime;
     }
   };
-  
+
   const contextValue = {
     audioRef,
     seekBg,
@@ -98,7 +103,9 @@ const PlayerContextProvider = (props) => {
     playWithId,
     before,
     after,
-    seekBgClick
+    seekBgClick,
+    setPlaylist,
+    playlist,
   };
 
   return (
