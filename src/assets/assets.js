@@ -54,6 +54,7 @@ import bodhaikaname from "./songs/Bodhai-Kaname.mp3";
 
 // Manu playlist thumb
 import salvo_thumb from "./img/manu-playlist-thumb/playlist_salvo_thumb.png";
+import carlotta_thumb from "./img/manu-playlist-thumb/playlist_carlotta_thumb.png";
 import fede_thumb from "./img/manu-playlist-thumb/playlist_fede_thumb.png";
 import simo_thumb from "./img/manu-playlist-thumb/playlist_simo_thumb.png";
 import thumb from "./img/manu-playlist-thumb/playlist_thumb.png";
@@ -239,10 +240,11 @@ export const albumsData = [
   {
     id: 3,
     name: "This is C",
-    image: thumb,
+    image: carlotta_thumb,
     desc: "Your weekly update of the most played tracks",
-    bgColor: "#632043",
+    bgColor: "#FF69B4",
   },
+  /*
   {
     id: 4,
     name: "This is ?",
@@ -250,7 +252,6 @@ export const albumsData = [
     desc: "Your weekly update of the most played tracks",
     bgColor: "#632043",
   },
-  /*
   {
     id: 5,
     name: "This is Salvo",

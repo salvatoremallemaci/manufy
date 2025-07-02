@@ -20,7 +20,8 @@ const DisplayHome = () => {
     <>
       <Navbar />
       <div className="mb-4">
-        <h1 className="my-5 font-bold text-2xl">Chi è?<em> I chierichetti!</em></h1>
+        {/* <h1 className="my-5 font-bold text-2xl">Chi è?<em> I chierichetti!</em></h1> */}
+        <h1 className="my-5 font-bold text-2xl">✨ <em>best colleagues ever</em> ✨</h1>
         <div className="flex overflow-auto">
           {shuffledAlbums.map((item, index) => (
             <AlbumItems
@@ -34,7 +35,7 @@ const DisplayHome = () => {
         </div>
       </div>
       <div className="mb-4">
-        <h1 className="my-5 font-bold text-2xl">Da <em>S</em></h1>
+        <h1 className="my-5 font-bold text-2xl"><em>Ciao stelle suggerite titolo</em></h1>
         <div className="flex overflow-auto">
           {songsManuData.map((item, index) => (
             <SongItems
