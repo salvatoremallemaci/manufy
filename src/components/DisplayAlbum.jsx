@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import Navbar from './Navbar'
 import { useParams } from 'react-router-dom'
-import { albumsData, assets, songsData, songsManuData, songsFedeData, songsSimoData } from '../assets/assets';
+import { albumsData, assets, songsData, songsManuData, songsFedeData, songsSimoData, songsCarlottaData } from '../assets/assets';
 import { PlayerContext } from '../context/PlayerContext';
 
 const DisplayAlbum = () => {
@@ -21,6 +21,9 @@ const DisplayAlbum = () => {
             break;
         case 2:
             songsData = songsSimoData;
+            break;
+        case 3:
+            songsData = songsCarlottaData;
             break;
         default:
             songsData = songsManuData;

@@ -30,33 +30,144 @@
 
 ##  Carlotta - This is C (rosa: #f8c8dc)
 
-1.  Maledetta primavera
-2.  Islanda
-3.  Come un tuono
-4.  Grattacieli meteoriti gli angeli (gazzelle)
-5.  Rubami la notte (pinguini) 
-6.  DtMF (bad bunny) 
-7.  tutti (Calcutta) 
-8.  Torino (peter white) 
-9.  how do i say goodbye (dean lewis)
-10. del verde (Dean Lewis) 
-11. riptide (Vance Joy)
+1.  Maledetta primavera ✔️
+2.  Miu Miu ✔️
+3.  Come un tuono ✔️
+4.  Grattacieli meteoriti gli angeli (gazzelle) ✔️
+5.  Rubami la notte (pinguini) ✔️
+6.  DtMF (bad bunny) ✔️
+7.  tutti (Calcutta) ✔️
+8.  Torino (peter white) ✔️
+9.  how do i say goodbye (dean lewis) ✔️
+10. del verde (Calcutta) ✔️ 
+11. riptide (Vance Joy) ✔️
 
 ##  Vittorio - This is Vitto (: #)
 
-1.  Maledetta primavera
-2.  Islanda
-3.  Come un tuono
-4.  Grattacieli meteoriti gli angeli (gazzelle)
-5.  Rubami la notte (pinguini) 
-6.  DtMF (bad bunny) 
-7.  tutti (Calcutta) 
-8.  Torino (peter white) 
-9.  how do i say goodbye (dean lewis)
-10. del verde (Dean Lewis) 
-11. riptide (Vance Joy)
+1. sei bellissima di Loredana berte
+2. eins zwei polizei
+3. ligabue con un buonanotte all italia
+4. le radici ca tieni sound system
+5. buon viaggio cremonini
 
+## Jac - This is Jac (bordeaux : #)
 
+1.  CUORICINI – Coma_Cose  
+2.  ITALODISCO – The Kolors  
+3.  ARSENICO – Aiello  
+4.  !ly (feat. Coez) – thasup, Coez  
+5.  Banda Kawasaki – Achille Lauro, Salmo, Gemitaiz  
+6.  Rumble – Skrillex, Fred again.., Flowdan  
+7.  feelslikeimfallinginlove – Coldplay  
+8.  Vieni A Ballare In Puglia – Caparezza  
+9.  DETOX / REHAB – Marracash  
+10. Snowman – Sia  
+11. GREVE (feat. MadMan) – Bloody Vinyl, Slait, thasup, MadMan
+
+##  Cami - This is SKAM (: #)
+
+1.  feelslikeimfallinginlove - Coldplay
+2.  mi ami o è fake
+3.  home - edith whiskers
+4.  missili - frah quintale
+5.  lovebars - coez, frah
+6.  everglow - Coldplay
+7.  boa sorte/good luck - vanessa da mata/Ben Harper
+8.  le parole più grandi - coez
+9.  in luv with u - finn
+10. don raffaè - Fabrizio de andrè
+
+##  Paola - This is Pa (verde shrek: #)
+
+1.  Incanto – Tiziano  
+2.  Messy – Lola Young  
+3.  Bottiglie vuote – PTN  
+4.  Più bella cosa – Eros  
+5.  Die with a smile  
+6.  Dimenticarsi alle 7  
+7.  Desolèe – Anna  
+8.  Però – Gazzelle  
+9.  Determinate – Lemonade Mouth  
+10. You're gonna go far – Noah Kahan
+
+## Gede - This is Gede (verde: #)
+*Descrizione: spensieratezza*
+
+1.  Solo per te – Negramaro  
+2.  Estate – Negramaro  
+3.  Yellow – Coldplay  
+4.  A Sky Full of Stars – Coldplay  
+5.  Ricordi – Pinguini Tattici  
+6.  Bianca – Olly  
+7.  Travel – Kapitol *(Ascoltala durante il viaggio)*  
+8.  Buon viaggio – Cesare Cremonini  
+9.  Fiuri – Devis Muccari *(Ascoltala quando sei triste)*  
+10. September – James Arthur
+
+## Salvo - This is Salvo/S (vino: #)
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7.  
+8. 
+9. 
+10. 
+
+## Laura - This is L (: #)
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7.  
+8. 
+9. 
+10. 
+
+## Claudio - This is Claudio (: #)
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7.  
+8. 
+9. 
+10. 
+
+## Matteo - This is Matthew (: #)
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7.  
+8. 
+9. 
+10. 
+
+## Oppe - This is Oppe (: #)
+
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7.  
+8. 
+9. 
+10. 
 
 
 

@@ -147,6 +147,45 @@ import shut_up_sin_with_sebastian_thumb from "./simo/shut_up_sin_with_sebastian/
 import up_and_down_billy_more_thumb from "./simo/up_and_down_billy_more/up_and_down_billy_more.jpg";
 import you_spin_me_round_dead_or_alive_thumb from "./simo/you_spin_me_round_dead_or_alive/you_spin_me_round_dead_or_alive.jpg";
 
+// Carlotta songs
+import come_un_tuono_mp3 from "./carlotta/come_un_tuono/come_un_tuono.mp3";
+import del_verde_mp3 from "./carlotta/del_verde/del_verde.mp3";
+import dtmf_mp3 from "./carlotta/dtmf/dtmf.mp3";
+import grattacieli_meteoriti_gli_angeli_mp3 from "./carlotta/grattacieli_meteoriti_gli_angeli/grattacieli_meteoriti_gli_angeli.mp3";
+import how_do_i_say_goodbye_mp3 from "./carlotta/how_do_i_say_goodbye/how_do_i_say_goodbye.mp3";
+import maledetta_primavera_mp3 from "./carlotta/maledetta_primavera/maledetta_primavera.mp3";
+import miu_miu_mp3 from "./carlotta/miu_miu/miu_miu.mp3";
+import riptide_mp3 from "./carlotta/riptide/riptide.mp3";
+// import rubami_la_notte_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
+import torino_mp3 from "./carlotta/torino/torino.mp3";
+// import tutti_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
+
+// // Carlotta videos
+import come_un_tuono_mp4 from "./carlotta/come_un_tuono/come_un_tuono.mp4";
+import del_verde_mp4 from "./carlotta/del_verde/del_verde.mp4";
+import dtmf_mp4 from "./carlotta/dtmf/dtmf.mp4";
+import grattacieli_meteoriti_gli_angeli_mp4 from "./carlotta/grattacieli_meteoriti_gli_angeli/grattacieli_meteoriti_gli_angeli.mp4";
+import how_do_i_say_goodbye_mp4 from "./carlotta/how_do_i_say_goodbye/how_do_i_say_goodbye.mp4";
+import maledetta_primavera_mp4 from "./carlotta/maledetta_primavera/maledetta_primavera.mp4";
+import miu_miu_mp4 from "./carlotta/miu_miu/miu_miu.mp4";
+import riptide_mp4 from "./carlotta/riptide/riptide.mp4";
+// import rubami_la_notte_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
+import torino_mp4 from "./carlotta/torino/torino.mp4";
+// import tutti_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
+
+// Carlotta songs thumb
+import come_un_tuono_thumb from "./carlotta/come_un_tuono/come_un_tuono.jpg";
+import del_verde_thumb from "./carlotta/del_verde/del_verde.jpg";
+import dtmf_thumb from "./carlotta/dtmf/dtmf.png";
+import grattacieli_meteoriti_gli_angeli_thumb from "./carlotta/grattacieli_meteoriti_gli_angeli/grattacieli_meteoriti_gli_angeli.png";
+import how_do_i_say_goodbye_thumb from "./carlotta/how_do_i_say_goodbye/how_do_i_say_goodbye.png";
+import maledetta_primavera_thumb from "./carlotta/maledetta_primavera/maledetta_primavera.png";
+import miu_miu_thumb from "./carlotta/miu_miu/miu_miu.png";
+import riptide_thumb from "./carlotta/riptide/riptide.png";
+// import rubami_la_notte_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
+import torino_thumb from "./carlotta/torino/torino.jpg";
+// import tutti_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
+
 export const assets = {
   bell_icon,
   home_icon,
@@ -199,7 +238,7 @@ export const albumsData = [
   },
   {
     id: 3,
-    name: "This is ?",
+    name: "This is C",
     image: thumb,
     desc: "Your weekly update of the most played tracks",
     bgColor: "#632043",
@@ -550,8 +589,8 @@ export const songsSimoData = [
     id: 8,
     name: "Boys Boys Boys",
     image: boys_sabrina_thumb,
-    file: blu_celeste_mp3,
-    video: blu_celeste_mp4,
+    file: boys_sabrina_mp3,
+    video: boys_sabrina_mp4,
     desc: "Sabrina Salerno, 1987",
     duration: "3:47",
   },
@@ -563,5 +602,107 @@ export const songsSimoData = [
     video: rhythm_is_a_dancer_snap_mp4,
     desc: "Snap!, 1992",
     duration: "3:40",
+  },
+];
+
+export const songsCarlottaData = [
+  {
+    id: 0,
+    name: "Maledetta Primavera",
+    image: maledetta_primavera_thumb,
+    file: maledetta_primavera_mp3,
+    video: maledetta_primavera_mp4,
+    desc: "Loretta Goggi, 1981",
+    duration: "4:10",
+  },
+  {
+    id: 1,
+    name: "MIU MIU",
+    image: miu_miu_thumb,
+    file: miu_miu_mp3,
+    video: miu_miu_mp4,
+    desc: "Tony Effe, 2024",
+    duration: "2:32",
+  },
+  {
+    id: 2,
+    name: "COME UN TUONO",
+    image: come_un_tuono_thumb,
+    file: come_un_tuono_mp3,
+    video: come_un_tuono_mp4,
+    desc: "Rose Villain, 2024",
+    duration: "2:56",
+  },
+  {
+    id: 3,
+    name: "Grattacieli meteoriti gli angeli",
+    image: grattacieli_meteoriti_gli_angeli_thumb,
+    file: grattacieli_meteoriti_gli_angeli_mp3,
+    video: grattacieli_meteoriti_gli_angeli_mp4,
+    desc: "Gazzelle, 2025",
+    duration: "3:24",
+  },
+  {
+    id: 4,
+    name: "Rubami la notte",
+    image: rubami_la_notte_thumb,
+    file: rubami_la_notte_mp3,
+    video: rubami_la_notte_mp4,
+    desc: "Pinguini Tattici Nucleari, 2023",
+    duration: "3:11",
+  },
+  {
+    id: 5,
+    name: "DtMF",
+    image: dtmf_thumb,
+    file: dtmf_mp3,
+    video: dtmf_mp4,
+    desc: "Coniglio Cattivo, 2025",
+    duration: "4:00",
+  },
+  {
+    id: 6,
+    name: "Tutti",
+    image: tutti_thumb,
+    file: tutti_mp3,
+    video: tutti_mp4,
+    desc: "Calcutta, 2023",
+    duration: "4:12",
+  },
+  {
+    id: 7,
+    name: "Torino",
+    image: torino_thumb,
+    file: torino_mp3,
+    video: torino_mp4,
+    desc: "Peter White, 2019",
+    duration: "2:41",
+  },
+  {
+    id: 8,
+    name: "How Do I Say Goodbye",
+    image: how_do_i_say_goodbye_thumb,
+    file: how_do_i_say_goodbye_mp3,
+    video: how_do_i_say_goodbye_mp4,
+    desc: "Dean Lewis, 2022",
+    duration: "2:56",
+  },
+  {
+    id: 9,
+    name: "Del verde",
+    image: del_verde_thumb,
+    file: del_verde_mp3,
+    video: del_verde_mp4,
+    desc: "Calcutta, 2015",
+    duration: "3:48",
+  },
+  {
+    id: 10,
+    name: "Riptide",
+    image: riptide_thumb,
+    file: riptide_mp3,
+    video: riptide_mp4,
+    desc: "Vance Joy, 2013",
+    duration: "3:24",
   },
 ];
