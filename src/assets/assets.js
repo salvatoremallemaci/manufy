@@ -90,7 +90,6 @@ import paradiso_mp3 from "./fede/paradiso_aiello/paradiso_aiello.mp3";
 import rubami_la_notte_mp3 from "./fede/rubami_la_notte_pinguini/rubami_la_notte_pinguini.mp3";
 import ora_che_non_ho_piu_te_mp3 from "./fede/ora_che_non_ho_piu_te_cremonini/ora_che_non_ho_piu_te_cremonini.mp3";
 import waiting_for_the_end_mp3 from "./fede/waiting_for_the_end_linkin_park/waiting_for_the_end_linkin_park.mp3";
-
 // Fede videos
 import arsenico_mp4 from "./fede/arsenico_aiello/arsenico_aiello.mp4";
 import blu_celeste_mp4 from "./fede/blu_celeste_blanco/blu_celeste_blanco.mp4";
@@ -102,7 +101,6 @@ import paradiso_mp4 from "./fede/paradiso_aiello/paradiso_aiello.mp4";
 import rubami_la_notte_mp4 from "./fede/rubami_la_notte_pinguini/rubami_la_notte_pinguini.mp4";
 import ora_che_non_ho_piu_te_mp4 from "./fede/ora_che_non_ho_piu_te_cremonini/ora_che_non_ho_piu_te_cremonini.mp4";
 import waiting_for_the_end_mp4 from "./fede/waiting_for_the_end_linkin_park/waiting_for_the_end_linkin_park.mp4";
-
 // Fede songs thumb
 import arsenico_thumb from "./fede/arsenico_aiello/arsenico_aiello.jpg";
 import blu_celeste_thumb from "./fede/blu_celeste_blanco/blu_celeste_blanco.png";
@@ -114,6 +112,40 @@ import paradiso_thumb from "./fede/paradiso_aiello/paradiso_aiello.png";
 import rubami_la_notte_thumb from "./fede/rubami_la_notte_pinguini/rubami_la_notte_pinguini.png";
 import ora_che_non_ho_piu_te_thumb from "./fede/ora_che_non_ho_piu_te_cremonini/ora_che_non_ho_piu_te_cremonini.jpg";
 import waiting_for_the_end_thumb from "./fede/waiting_for_the_end_linkin_park/waiting_for_the_end_linkin_park.png";
+
+// Simo songs
+import boom_boom_boom_vengaboys_mp3 from "./simo/boom_boom_boom_vengaboys/boom_boom_boom_vengaboys.mp3";
+import boys_sabrina_mp3 from "./simo/boys_sabrina/boys_sabrina.mp3";
+import crash_immanuel_casto_mp3 from "./simo/crash_immanuel_casto/crash_immanuel_casto.mp3";
+import ding_dong_song_gunther_mp3 from "./simo/ding_dong_song_gunther/ding_dong_song_gunther.mp3";
+import dolce_marmellata_domenicer_mp3 from "./simo/dolce_marmellata_domenicer/dolce_marmellata_domenicer.mp3";
+import rhythm_is_a_dancer_snap_mp3 from "./simo/rhythm_is_a_dancer_snap/rhythm_is_a_dancer_snap.mp3";
+import sexy_french_affair_mp3 from "./simo/sexy_french_affair/sexy_french_affair.mp3";
+import shut_up_sin_with_sebastian_mp3 from "./simo/shut_up_sin_with_sebastian/shut_up_sin_with_sebastian.mp3";
+import up_and_down_billy_more_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
+import you_spin_me_round_dead_or_alive_mp3 from "./simo/you_spin_me_round_dead_or_alive/you_spin_me_round_dead_or_alive.mp3";
+// Simo videos
+import boom_boom_boom_vengaboys_mp4 from "./simo/boom_boom_boom_vengaboys/boom_boom_boom_vengaboys.mp4";
+import boys_sabrina_mp4 from "./simo/boys_sabrina/boys_sabrina.mp4";
+import crash_immanuel_casto_mp4 from "./simo/crash_immanuel_casto/crash_immanuel_casto.mp4";
+import ding_dong_song_gunther_mp4 from "./simo/ding_dong_song_gunther/ding_dong_song_gunther.mp4";
+import dolce_marmellata_domenicer_mp4 from "./simo/dolce_marmellata_domenicer/dolce_marmellata_domenicer.mp4";
+import rhythm_is_a_dancer_snap_mp4 from "./simo/rhythm_is_a_dancer_snap/rhythm_is_a_dancer_snap.mp4";
+import sexy_french_affair_mp4 from "./simo/sexy_french_affair/sexy_french_affair.mp4";
+import shut_up_sin_with_sebastian_mp4 from "./simo/shut_up_sin_with_sebastian/shut_up_sin_with_sebastian.mp4";
+import up_and_down_billy_more_mp4 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp4";
+import you_spin_me_round_dead_or_alive_mp4 from "./simo/you_spin_me_round_dead_or_alive/you_spin_me_round_dead_or_alive.mp4";
+// Simo songs thumb
+import boom_boom_boom_vengaboys_thumb from "./simo/boom_boom_boom_vengaboys/boom_boom_boom_vengaboys.jpg";
+import boys_sabrina_thumb from "./simo/boys_sabrina/boys_sabrina.png";
+import crash_immanuel_casto_thumb from "./simo/crash_immanuel_casto/crash_immanuel_casto.jpg";
+import ding_dong_song_gunther_thumb from "./simo/ding_dong_song_gunther/ding_dong_song_gunther.png";
+import dolce_marmellata_domenicer_thumb from "./simo/dolce_marmellata_domenicer/dolce_marmellata_domenicer.jpg";
+import rhythm_is_a_dancer_snap_thumb from "./simo/rhythm_is_a_dancer_snap/rhythm_is_a_dancer_snap.png";
+import sexy_french_affair_thumb from "./simo/sexy_french_affair/sexy_french_affair.png";
+import shut_up_sin_with_sebastian_thumb from "./simo/shut_up_sin_with_sebastian/shut_up_sin_with_sebastian.png";
+import up_and_down_billy_more_thumb from "./simo/up_and_down_billy_more/up_and_down_billy_more.jpg";
+import you_spin_me_round_dead_or_alive_thumb from "./simo/you_spin_me_round_dead_or_alive/you_spin_me_round_dead_or_alive.jpg";
 
 export const assets = {
   bell_icon,
@@ -445,91 +477,91 @@ export const songsSimoData = [
   {
     id: 0,
     name: "You Spin Me Round",
-    image: blu_celeste_thumb,
-    file: blu_celeste_mp3,
-    video: blu_celeste_mp4,
+    image: you_spin_me_round_dead_or_alive_thumb,
+    file: you_spin_me_round_dead_or_alive_mp3,
+    video: you_spin_me_round_dead_or_alive_mp4,
     desc: "Dead or Alive, 1984",
-    duration: "3:45",
+    duration: "3:19",
   },
   {
     id: 1,
     name: "Up & down",
-    image: italodisco_thumb,
-    file: italodisco_mp3,
-    video: italodisco_mp4,
+    image: up_and_down_billy_more_thumb,
+    file: up_and_down_billy_more_mp3,
+    video: up_and_down_billy_more_mp4,
     desc: "Billy more, 2000",
-    duration: "3:20",
+    duration: "3:22",
   },
   {
     id: 2,
     name: "Boom, Boom, Boom",
-    image: fuoco_di_paglia_thumb,
-    file: fuoco_di_paglia_mp3,
-    video: fuoco_di_paglia_mp4,
+    image: boom_boom_boom_vengaboys_thumb,
+    file: boom_boom_boom_vengaboys_mp3,
+    video: boom_boom_boom_vengaboys_mp4,
     desc: "Vengaboys, 1999",
     duration: "3:23",
   },
   {
     id: 3,
     name: "Sexy",
-    image: sadico_thumb,
-    file: sadico_mp3,
-    video: sadico_mp4,
+    image: sexy_french_affair_thumb,
+    file: sexy_french_affair_mp3,
+    video: sexy_french_affair_mp4,
     desc: "French Affair, 2001",
-    duration: "3:06",
+    duration: "3:50",
   },
   {
     id: 4,
     name: "Ding Dong Song",
-    image: tutti_thumb,
-    file: tutti_mp3,
-    video: tutti_mp4,
+    image: ding_dong_song_gunther_thumb,
+    file: ding_dong_song_gunther_mp3,
+    video: ding_dong_song_gunther_mp4,
     desc: "Günther, 2004",
-    duration: "4:12",
+    duration: "4:04",
   },
   {
     id: 5,
     name: "Shut Up (And Sleep With Me)",
-    image: paradiso_thumb,
-    file: paradiso_mp3,
-    video: paradiso_mp4,
+    image: shut_up_sin_with_sebastian_thumb,
+    file: shut_up_sin_with_sebastian_mp3,
+    video: shut_up_sin_with_sebastian_mp4,
     desc: "Sin With Sebastian, 1995",
-    duration: "2:48",
+    duration: "3:22",
   },
   {
     id: 6,
     name: "Dolce marmellata",
-    image: rubami_la_notte_thumb,
-    file: rubami_la_notte_mp3,
-    video: rubami_la_notte_mp4,
+    image: dolce_marmellata_domenicer_thumb,
+    file: dolce_marmellata_domenicer_mp3,
+    video: dolce_marmellata_domenicer_mp4,
     desc: "Doemnicer, 2006",
-    duration: "3:11",
+    duration: "3:09",
   },
   {
     id: 7,
     name: "Crash",
-    image: ora_che_non_ho_piu_te_thumb,
-    file: ora_che_non_ho_piu_te_mp3,
-    video: ora_che_non_ho_piu_te_mp4,
+    image: crash_immanuel_casto_thumb,
+    file: crash_immanuel_casto_mp3,
+    video: crash_immanuel_casto_mp4,
     desc: "Immanuel Casto, 2010",
-    duration: "5:03",
+    duration: "3:19",
   },
   {
     id: 8,
     name: "Boys Boys Boys",
-    image: waiting_for_the_end_thumb,
-    file: waiting_for_the_end_mp3,
-    video: waiting_for_the_end_mp4,
+    image: boys_sabrina_thumb,
+    file: blu_celeste_mp3,
+    video: blu_celeste_mp4,
     desc: "Sabrina Salerno, 1987",
-    duration: "3:51",
+    duration: "3:47",
   },
   {
     id: 9,
     name: "Rhythm Is a Dancer",
-    image: arsenico_thumb,
-    file: arsenico_mp3,
-    video: arsenico_mp4,
+    image: rhythm_is_a_dancer_snap_thumb,
+    file: rhythm_is_a_dancer_snap_mp3,
+    video: rhythm_is_a_dancer_snap_mp4,
     desc: "Snap!, 1992",
-    duration: "2:58",
+    duration: "3:40",
   },
 ];
