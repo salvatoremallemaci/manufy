@@ -11,9 +11,11 @@ function shuffle(array) {
 
 const DisplayHome = () => {
   const [shuffledAlbums, setShuffledAlbums] = useState([]);
+  const [shuffledSongs, setShuffledSongs] = useState([]);
 
   useEffect(() => {
     setShuffledAlbums(shuffle(albumsData));
+    setShuffledSongs(shuffle(songsManuData)); // randomizza SOLO qui
   }, []);
 
   return (
@@ -37,13 +39,14 @@ const DisplayHome = () => {
       <div className="mb-4">
         <h1 className="my-5 font-bold text-2xl"><em>Ciao stelle suggerite titolo</em></h1>
         <div className="flex overflow-auto">
-          {songsManuData.map((item, index) => (
+          {shuffledSongs.map((item, index) => (
             <SongItems
               key={index}
               name={item.name}
               desc={item.desc}
-              id={item.id}
+              id={index}
               image={item.image}
+              playlist={shuffledSongs}
             />
           ))}
         </div>

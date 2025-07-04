@@ -61,6 +61,28 @@ import fede_thumb from "./img/manu-playlist-thumb/playlist_fede_thumb.png";
 import simo_thumb from "./img/manu-playlist-thumb/playlist_simo_thumb.png";
 import thumb from "./img/manu-playlist-thumb/playlist_thumb.png";
 
+// Extra songs
+import akapisciandomi_mp3 from "./extra/extra-songs/akapisciandomi.mp3";
+import ballandomi_mp3 from "./extra/extra-songs/ballandomi.mp3";
+import blablabla_mp3 from "./extra/extra-songs/blablabla.mp3";
+import cazzoema_mp3 from "./extra/extra-songs/cazzoema.mp3";
+import oddiofototomba_mp3 from "./extra/extra-songs/oddiofototomba.mp3";
+import uuuUUUU_mp3 from "./extra/extra-songs/uuuUUUU.mp3";
+// Extra videos
+import akapisciandomi_mp4 from "./extra/extra-videos/akapisciandomi.mp4";
+import ballandomi_mp4 from "./extra/extra-videos/ballandomi.mp4";
+import blablabla_mp4 from "./extra/extra-videos/blablabla.mp4";
+import cazzoema_mp4 from "./extra/extra-videos/cazzoema.mp4";
+import oddiofototomba_mp4 from "./extra/extra-videos/oddiofototomba.mp4";
+import uuuUUUU_mp4 from "./extra/extra-videos/uuuUUUU.mp4";
+// Extra thumb
+import akapisciandomi_thumb from "./extra/extra-thumb/akapisciandomi.png";
+import ballandomi_thumb from "./extra/extra-thumb/ballandomi.png";
+import blablabla_thumb from "./extra/extra-thumb/blablabla.png";
+import cazzoema_thumb from "./extra/extra-thumb/cazzoema.png";
+import oddiofototomba_thumb from "./extra/extra-thumb/oddiofototomba.png";
+import uuuUUUU_thumb from "./extra/extra-thumb/uuuUUUU.png";
+
 // Da S assets
 import da_s_thumb from "./da-s/da_s_thumb.jpg";
 import da_s_mp3 from "./da-s/da_s.mp3";
@@ -419,48 +441,66 @@ export const songsData = [
 export const songsManuData = [
   {
     id: 0,
-    name: "uNa DiReZioNe giUsTa",
+    name: "checosafarooo",
     image: da_s_thumb,
     file: da_s_mp3,
     video: da_s_mp4,
-    desc: "Manu feat. S, 2024",
+    desc: "2024",
     duration: "0:30",
   },
   {
     id: 1,
-    name: "Niente Panico",
-    image: nientepanico_thumb,
-    file: nientepanico_mp3,
-    video: nientepanico_mp4,
-    desc: "Ghali, 2024",
-    duration: "3:09",
+    name: "AKA pisciandomi",
+    image: akapisciandomi_thumb,
+    file: akapisciandomi_mp3,
+    video: akapisciandomi_mp4,
+    desc: "2024",
+    duration: "0:09",
   },
   {
     id: 2,
-    name: "1984",
-    image: unonoveottoquattro_thumb,
-    file: unonoveottoquattro_mp3,
-    video: unonoveottoquattro_mp4,
-    desc: "Salmo, 2015",
-    duration: "4:17",
+    name: "Ballandomi",
+    image: ballandomi_thumb,
+    file: ballandomi_mp3,
+    video: ballandomi_mp4,
+    desc: "2025",
+    duration: "0:28",
   },
   {
     id: 3,
-    name: "FUORI CONTROLLO",
-    image: fuoricontrollo_thumb,
-    file: fuoricontrollo_mp3,
-    video: fuoricontrollo_mp4,
-    desc: "Salmo, 2025",
-    duration: "3:38",
+    name: "blablabla",
+    image: blablabla_thumb,
+    file: blablabla_mp3,
+    video: blablabla_mp4,
+    desc: "2024",
+    duration: "0:14",
   },
   {
     id: 4,
-    name: "LAUREA AD HONOREM",
-    image: laureaadhonorem_thumb,
-    file: laureaadhonorem_mp3,
-    video: laureaadhonorem_mp4,
-    desc: "Marracash feat. Calcutta, 2021",
-    duration: "3:15",
+    name: "cazzoema",
+    image: cazzoema_thumb,
+    file: cazzoema_mp3,
+    video: cazzoema_mp4,
+    desc: "2024",
+    duration: "0:21",
+  },
+  {
+    id: 5,
+    name: "oddiofototomba",
+    image: oddiofototomba_thumb,
+    file: oddiofototomba_mp3,
+    video: oddiofototomba_mp4,
+    desc: "2024",
+    duration: "0:08",
+  },
+  {
+    id: 6,
+    name: "uuuUUUU",
+    image: uuuUUUU_thumb,
+    file: uuuUUUU_mp3,
+    video: unonoveottoquattro_mp4,
+    desc: "2024",
+    duration: "0:18",
   },
   /*
   {
