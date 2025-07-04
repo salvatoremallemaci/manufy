@@ -239,7 +239,7 @@ export const albumsData = [
   },
   {
     id: 3,
-    name: "This is C",
+    name: "This is CC",
     image: carlotta_thumb,
     desc: "Your weekly update of the most played tracks",
     bgColor: "#FF69B4",

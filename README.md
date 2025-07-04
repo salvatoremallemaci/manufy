@@ -28,7 +28,7 @@
 9.  sabrina - boys ✔️
 10. snap! - rhythm is a dancer ✔️
 
-##  Carlotta - This is C (rosa: #FF69B4)
+##  Carlotta - This is CC (rosa: #FF69B4)
 
 1.  Maledetta primavera ✔️
 2.  Miu Miu ✔️
@@ -117,7 +117,7 @@
 9. 
 10. 
 
-## Laura - This is L (: #)
+## Laura - This is L (rosso: #)
 
 1. 
 2. 
@@ -130,7 +130,7 @@
 9. 
 10. 
 
-## Claudio - This is Claudio (: #)
+## Claudio - This is Claudio (blu celeste: #)
 
 1. 
 2. 
