@@ -477,7 +477,7 @@ export const songsManuData = [
   },
   {
     id: 4,
-    name: "cazzoema",
+    name: "bruzzopezzodimerda",
     image: cazzoema_thumb,
     file: cazzoema_mp3,
     video: cazzoema_mp4,
@@ -498,7 +498,7 @@ export const songsManuData = [
     name: "uuuUUUU",
     image: uuuUUUU_thumb,
     file: uuuUUUU_mp3,
-    video: unonoveottoquattro_mp4,
+    video: uuuUUUU_mp4,
     desc: "2024",
     duration: "0:18",
   },
