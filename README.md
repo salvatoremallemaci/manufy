@@ -2,7 +2,7 @@
 
 ## URL: https://salvatoremallemaci.github.io/manufy/
 
-##  Federico - This is Fede (rosso: #fe0000)
+##  Federico - This is Fede (rosso: #fe0000) ✔️
 
 1.  Blanco - Blu celeste ✔️
 2.  The Kolors - Italodisco ✔️
@@ -15,7 +15,7 @@
 9.  Linkin park- Waiting for the end  ✔️
 10. Aiello- Arsenico ✔️
 
-##  Simone - This is Simo (fucsia: #ff328a)
+##  Simone - This is Simo (fucsia: #ff328a) ✔️
 
 1.  Dead or Alive - Yoy Spin me round ✔️
 2.  Billy more - Up & down ✔️
@@ -28,7 +28,7 @@
 9.  sabrina - boys ✔️
 10. snap! - rhythm is a dancer ✔️
 
-##  Carlotta - This is CC (rosa: #FF69B4)
+##  Carlotta - This is CC (rosa: #FF69B4) ✔️
 
 1.  Maledetta primavera ✔️
 2.  Miu Miu ✔️
@@ -49,20 +49,21 @@
 3. ligabue con un buonanotte all italia
 4. le radici ca tieni sound system
 5. buon viaggio cremonini
+6. Luca toni sei per me numero uno
 
-## Jac - This is Jac (bordeaux : #)
+## Jac - This is Jac (bordeaux : #821740) ✔️
 
-1.  CUORICINI – Coma_Cose  
-2.  ITALODISCO – The Kolors  
-3.  ARSENICO – Aiello  
-4.  !ly (feat. Coez) – thasup, Coez  
-5.  Banda Kawasaki – Achille Lauro, Salmo, Gemitaiz  
-6.  Rumble – Skrillex, Fred again.., Flowdan  
-7.  feelslikeimfallinginlove – Coldplay  
-8.  Vieni A Ballare In Puglia – Caparezza  
-9.  DETOX / REHAB – Marracash  
-10. Snowman – Sia  
-11. GREVE (feat. MadMan) – Bloody Vinyl, Slait, thasup, MadMan
+1.  CUORICINI – Coma_Cose ✔️
+2.  ITALODISCO – The Kolors ✔️  
+3.  ARSENICO – Aiello ✔️  
+4.  !ly (feat. Coez) – thasup, Coez ✔️  
+5.  Banda Kawasaki – Achille Lauro, Salmo, Gemitaiz ✔️   
+6.  Rumble – Skrillex, Fred again.., Flowdan ✔️  
+7.  feelslikeimfallinginlove – Coldplay ✔️  
+8.  Vieni A Ballare In Puglia – Caparezza ✔️  
+9.  DETOX / REHAB – Marracash ✔️  
+10. Snowman – Sia ✔️  
+11. GREVE (feat. MadMan) – Bloody Vinyl, Slait, thasup, MadMan ✔️
 
 ##  Cami - This is SKAM (: #)
 

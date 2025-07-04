@@ -55,6 +55,7 @@ import bodhaikaname from "./songs/Bodhai-Kaname.mp3";
 // Manu playlist thumb
 import salvo_thumb from "./img/manu-playlist-thumb/playlist_salvo_thumb.png";
 import carlotta_thumb from "./img/manu-playlist-thumb/playlist_carlotta_thumb.png";
+import jac_thumb from "./img/manu-playlist-thumb/playlist_jac_thumb.png";
 import fede_thumb from "./img/manu-playlist-thumb/playlist_fede_thumb.png";
 import simo_thumb from "./img/manu-playlist-thumb/playlist_simo_thumb.png";
 import thumb from "./img/manu-playlist-thumb/playlist_thumb.png";
@@ -161,7 +162,7 @@ import riptide_mp3 from "./carlotta/riptide/riptide.mp3";
 import torino_mp3 from "./carlotta/torino/torino.mp3";
 // import tutti_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
 
-// // Carlotta videos
+// Carlotta videos
 import come_un_tuono_mp4 from "./carlotta/come_un_tuono/come_un_tuono.mp4";
 import del_verde_mp4 from "./carlotta/del_verde/del_verde.mp4";
 import dtmf_mp4 from "./carlotta/dtmf/dtmf.mp4";
@@ -186,6 +187,39 @@ import riptide_thumb from "./carlotta/riptide/riptide.png";
 // import rubami_la_notte_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
 import torino_thumb from "./carlotta/torino/torino.jpg";
 // import tutti_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
+
+// Jac songs
+import greve_mp3 from "./jac/greve/greve.mp3";
+import snowman_mp3 from "./jac/snowman/snowman.mp3";
+import detox_mp3 from "./jac/detox/detox.mp3";
+import vieni_a_ballare_in_puglia_mp3 from "./jac/vieni_a_ballare_in_puglia/vieni_a_ballare_in_puglia.mp3";
+import feelslikeimfallinginlove_mp3 from "./jac/feelslikeimfallinginlove/feelslikeimfallinginlove.mp3";
+import rumble_mp3 from "./jac/rumble/rumble.mp3";
+import banda_kawasaki_mp3 from "./jac/banda_kawasaki/banda_kawasaki.mp3";
+import ily_mp3 from "./jac/ily/ily.mp3";
+import cuoricini_mp3 from "./jac/cuoricini/cuoricini.mp3";
+
+// Jac videos
+import greve_mp4 from "./jac/greve/greve.mp4";
+import snowman_mp4 from "./jac/snowman/snowman.mp4";
+import detox_mp4 from "./jac/detox/detox.mp4";
+import vieni_a_ballare_in_puglia_mp4 from "./jac/vieni_a_ballare_in_puglia/vieni_a_ballare_in_puglia.mp4";
+import feelslikeimfallinginlove_mp4 from "./jac/feelslikeimfallinginlove/feelslikeimfallinginlove.mp4";
+import rumble_mp4 from "./jac/rumble/rumble.mp4";
+import banda_kawasaki_mp4 from "./jac/banda_kawasaki/banda_kawasaki.mp4";
+import ily_mp4 from "./jac/ily/ily.mp4";
+import cuoricini_mp4 from "./jac/cuoricini/cuoricini.mp4";
+
+// Jac songs thumb
+import greve_thumb from "./jac/greve/greve.png";
+import snowman_thumb from "./jac/snowman/snowman.png";
+import detox_thumb from "./jac/detox/detox.jpg";
+import vieni_a_ballare_in_puglia_thumb from "./jac/vieni_a_ballare_in_puglia/vieni_a_ballare_in_puglia.jpg";
+import feelslikeimfallinginlove_thumb from "./jac/feelslikeimfallinginlove/feelslikeimfallinginlove.png";
+import rumble_thumb from "./jac/rumble/rumble.jpg";
+import banda_kawasaki_thumb from "./jac/banda_kawasaki/banda_kawasaki.png";
+import ily_thumb from "./jac/ily/ily.jpg";
+import cuoricini_thumb from "./jac/cuoricini/cuoricini.png";
 
 export const assets = {
   bell_icon,
@@ -243,6 +277,13 @@ export const albumsData = [
     image: carlotta_thumb,
     desc: "Your weekly update of the most played tracks",
     bgColor: "#FF69B4",
+  },
+  {
+    id: 4,
+    name: "This is Jac",
+    image: jac_thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "#821740",
   },
   /*
   {
@@ -705,5 +746,107 @@ export const songsCarlottaData = [
     video: riptide_mp4,
     desc: "Vance Joy, 2013",
     duration: "3:24",
+  },
+];
+
+export const songsJacData = [
+  {
+    id: 0,
+    name: "CUORICINI",
+    image: cuoricini_thumb,
+    file: cuoricini_mp3,
+    video: cuoricini_mp4,
+    desc: "Coma_Cose, 2025",
+    duration: "3:32",
+  },
+  {
+    id: 1,
+    name: "Italodisco",
+    image: italodisco_thumb,
+    file: italodisco_mp3,
+    video: italodisco_mp4,
+    desc: "The Kolors, 2023",
+    duration: "3:20",
+  },
+  {
+    id: 2,
+    name: "Arsenico",
+    image: arsenico_thumb,
+    file: arsenico_mp3,
+    video: arsenico_mp4,
+    desc: "Aiello, 2019",
+    duration: "2:58",
+  },
+  {
+    id: 3,
+    name: "!ly",
+    image: ily_thumb,
+    file: ily_mp3,
+    video: ily_mp4,
+    desc: "thasup, 2022",
+    duration: "3:25",
+  },
+  {
+    id: 4,
+    name: "Banda Kawasaki",
+    image: banda_kawasaki_thumb,
+    file: banda_kawasaki_mp3,
+    video: banda_kawasaki_mp4,
+    desc: "Achille Lauro, 2024",
+    duration: "5:34",
+  },
+  {
+    id: 5,
+    name: "Rumble",
+    image: rumble_thumb,
+    file: rumble_mp3,
+    video: rumble_mp4,
+    desc: "Skrillex, 2023",
+    duration: "2:26",
+  },
+  {
+    id: 6,
+    name: "feelslikeimfallinginlove",
+    image: feelslikeimfallinginlove_thumb,
+    file: feelslikeimfallinginlove_mp3,
+    video: feelslikeimfallinginlove_mp4,
+    desc: "Coldplay, 2024",
+    duration: "4:20",
+  },
+  {
+    id: 7,
+    name: "Vieni A Ballare In Puglia",
+    image: vieni_a_ballare_in_puglia_thumb,
+    file: vieni_a_ballare_in_puglia_mp3,
+    video: vieni_a_ballare_in_puglia_mp4,
+    desc: "Caparezza, 2008",
+    duration: "4:04",
+  },
+  {
+    id: 8,
+    name: "DETOX / REHAB",
+    image: detox_thumb,
+    file: detox_mp3,
+    video: detox_mp4,
+    desc: "Marracash, 2024",
+    duration: "3:56",
+  },
+  {
+    id: 9,
+    name: "Snowman",
+    image: snowman_thumb,
+    file: snowman_mp3,
+    video: snowman_mp4,
+    desc: "Sia, 2017",
+    duration: "2:52",
+  },
+  {
+    id: 10,
+    name: "GREVE",
+    image: greve_thumb,
+    file: greve_mp3,
+    video: greve_mp4,
+    desc: "Slait, thasup & MILES, 2020",
+    duration: "2:24",
   },
 ];
