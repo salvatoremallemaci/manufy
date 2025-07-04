@@ -56,6 +56,7 @@ import bodhaikaname from "./songs/Bodhai-Kaname.mp3";
 import salvo_thumb from "./img/manu-playlist-thumb/playlist_salvo_thumb.png";
 import carlotta_thumb from "./img/manu-playlist-thumb/playlist_carlotta_thumb.png";
 import jac_thumb from "./img/manu-playlist-thumb/playlist_jac_thumb.png";
+import pa_thumb from "./img/manu-playlist-thumb/playlist_pa_thumb.png";
 import fede_thumb from "./img/manu-playlist-thumb/playlist_fede_thumb.png";
 import simo_thumb from "./img/manu-playlist-thumb/playlist_simo_thumb.png";
 import thumb from "./img/manu-playlist-thumb/playlist_thumb.png";
@@ -158,10 +159,7 @@ import how_do_i_say_goodbye_mp3 from "./carlotta/how_do_i_say_goodbye/how_do_i_s
 import maledetta_primavera_mp3 from "./carlotta/maledetta_primavera/maledetta_primavera.mp3";
 import miu_miu_mp3 from "./carlotta/miu_miu/miu_miu.mp3";
 import riptide_mp3 from "./carlotta/riptide/riptide.mp3";
-// import rubami_la_notte_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
 import torino_mp3 from "./carlotta/torino/torino.mp3";
-// import tutti_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
-
 // Carlotta videos
 import come_un_tuono_mp4 from "./carlotta/come_un_tuono/come_un_tuono.mp4";
 import del_verde_mp4 from "./carlotta/del_verde/del_verde.mp4";
@@ -171,10 +169,7 @@ import how_do_i_say_goodbye_mp4 from "./carlotta/how_do_i_say_goodbye/how_do_i_s
 import maledetta_primavera_mp4 from "./carlotta/maledetta_primavera/maledetta_primavera.mp4";
 import miu_miu_mp4 from "./carlotta/miu_miu/miu_miu.mp4";
 import riptide_mp4 from "./carlotta/riptide/riptide.mp4";
-// import rubami_la_notte_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
 import torino_mp4 from "./carlotta/torino/torino.mp4";
-// import tutti_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
-
 // Carlotta songs thumb
 import come_un_tuono_thumb from "./carlotta/come_un_tuono/come_un_tuono.jpg";
 import del_verde_thumb from "./carlotta/del_verde/del_verde.jpg";
@@ -184,9 +179,7 @@ import how_do_i_say_goodbye_thumb from "./carlotta/how_do_i_say_goodbye/how_do_i
 import maledetta_primavera_thumb from "./carlotta/maledetta_primavera/maledetta_primavera.png";
 import miu_miu_thumb from "./carlotta/miu_miu/miu_miu.png";
 import riptide_thumb from "./carlotta/riptide/riptide.png";
-// import rubami_la_notte_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
 import torino_thumb from "./carlotta/torino/torino.jpg";
-// import tutti_mp3 from "./simo/up_and_down_billy_more/up_and_down_billy_more.mp3";
 
 // Jac songs
 import greve_mp3 from "./jac/greve/greve.mp3";
@@ -198,7 +191,6 @@ import rumble_mp3 from "./jac/rumble/rumble.mp3";
 import banda_kawasaki_mp3 from "./jac/banda_kawasaki/banda_kawasaki.mp3";
 import ily_mp3 from "./jac/ily/ily.mp3";
 import cuoricini_mp3 from "./jac/cuoricini/cuoricini.mp3";
-
 // Jac videos
 import greve_mp4 from "./jac/greve/greve.mp4";
 import snowman_mp4 from "./jac/snowman/snowman.mp4";
@@ -209,7 +201,6 @@ import rumble_mp4 from "./jac/rumble/rumble.mp4";
 import banda_kawasaki_mp4 from "./jac/banda_kawasaki/banda_kawasaki.mp4";
 import ily_mp4 from "./jac/ily/ily.mp4";
 import cuoricini_mp4 from "./jac/cuoricini/cuoricini.mp4";
-
 // Jac songs thumb
 import greve_thumb from "./jac/greve/greve.png";
 import snowman_thumb from "./jac/snowman/snowman.png";
@@ -220,6 +211,40 @@ import rumble_thumb from "./jac/rumble/rumble.jpg";
 import banda_kawasaki_thumb from "./jac/banda_kawasaki/banda_kawasaki.png";
 import ily_thumb from "./jac/ily/ily.jpg";
 import cuoricini_thumb from "./jac/cuoricini/cuoricini.png";
+
+// Pa songs
+import incanto_mp3 from "./paola/incanto/incanto.mp3";
+import messy_mp3 from "./paola/messy/messy.mp3";
+import bottiglie_vuote_mp3 from "./paola/bottiglie_vuote/bottiglie_vuote.mp3";
+import piu_bella_cosa_mp3 from "./paola/piu_bella_cosa/piu_bella_cosa.mp3";
+import die_with_a_smile_mp3 from "./paola/die_with_a_smile/die_with_a_smile.mp3";
+import dimenticarsi_alle_sette_mp3 from "./paola/dimenticarsi_alle_sette/dimenticarsi_alle_sette.mp3";
+import desolee_mp3 from "./paola/desolee/desolee.mp3";
+import pero_mp3 from "./paola/pero/pero.mp3";
+import determinate_mp3 from "./paola/determinate/determinate.mp3";
+import you_re_gonna_go_far_mp3 from "./paola/you_re_gonna_go_far/you_re_gonna_far.mp3";
+// Pa videos
+import incanto_mp4 from "./paola/incanto/incanto.mp4";
+import messy_mp4 from "./paola/messy/messy.mp4";
+import bottiglie_vuote_mp4 from "./paola/bottiglie_vuote/bottiglie_vuote.mp4";
+import piu_bella_cosa_mp4 from "./paola/piu_bella_cosa/piu_bella_cosa.mp4";
+import die_with_a_smile_mp4 from "./paola/die_with_a_smile/die_with_a_smile.mp4";
+import dimenticarsi_alle_sette_mp4 from "./paola/dimenticarsi_alle_sette/dimenticarsi_alle_sette.mp4";
+import desolee_mp4 from "./paola/desolee/desolee.mp4";
+import pero_mp4 from "./paola/pero/pero.mp4";
+import determinate_mp4 from "./paola/determinate/determinate.mp4";
+import you_re_gonna_go_far_mp4 from "./paola/you_re_gonna_go_far/you_re_gonna_far.mp4";
+// Pa songs thumb
+import incanto_thumb from "./paola/incanto/incanto.png";
+import messy_thumb from "./paola/messy/messy.png";
+import bottiglie_vuote_thumb from "./paola/bottiglie_vuote/bottiglie_vuote.jpg";
+import piu_bella_cosa_thumb from "./paola/piu_bella_cosa/piu_bella_cosa.jpg";
+import die_with_a_smile_thumb from "./paola/die_with_a_smile/die_with_a_smile.png";
+import dimenticarsi_alle_sette_thumb from "./paola/dimenticarsi_alle_sette/dimenticarsi_alle_sette.png";
+import desolee_thumb from "./paola/desolee/desolee.png";
+import pero_thumb from "./paola/pero/pero.png";
+import determinate_thumb from "./paola/determinate/determinate.png";
+import you_re_gonna_go_far_thumb from "./paola/you_re_gonna_go_far/you_re_gonna_far.png";
 
 export const assets = {
   bell_icon,
@@ -284,6 +309,13 @@ export const albumsData = [
     image: jac_thumb,
     desc: "Your weekly update of the most played tracks",
     bgColor: "#821740",
+  },
+  {
+    id: 5,
+    name: "This is Pa",
+    image: pa_thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "#B0C400",
   },
   /*
   {
@@ -849,4 +881,97 @@ export const songsJacData = [
     desc: "Slait, thasup & MILES, 2020",
     duration: "2:24",
   },
+];
+
+export const songsPaData = [
+  {
+    id: 0,
+    name: "Incanto",
+    image: incanto_thumb,
+    file: incanto_mp3,
+    video: incanto_mp4,
+    desc: "Tiziano Ferro, 2015",
+    duration: "3:57",
+  },
+  {
+    id: 1,
+    name: "Messy",
+    image: messy_thumb,
+    file: messy_mp3,
+    video: messy_mp4,
+    desc: "Lola Young, 2024",
+    duration: "4:44",
+  },
+  {
+    id: 2,
+    name: "Bottiglie Vuote",
+    image: bottiglie_vuote_thumb,
+    file: bottiglie_vuote_mp3,
+    video: bottiglie_vuote_mp4,
+    desc: "Pinguini Tattici Nucleari, 2024",
+    duration: "3:27",
+  },
+  {
+    id: 3,
+    name: "Più bella cosa",
+    image: piu_bella_cosa_thumb,
+    file: piu_bella_cosa_mp3,
+    video: piu_bella_cosa_mp4,
+    desc: "Eros Ramazzotti, 1996",
+    duration: "4:26",
+  },
+  {
+    id: 4,
+    name: "Die With A Smile",
+    image: die_with_a_smile_thumb,
+    file: die_with_a_smile_mp3,
+    video: die_with_a_smile_mp4,
+    desc: "Lady Gaga & Bruno Mars, 2024",
+    duration: "4:12",
+  },
+  {
+    id: 5,
+    name: "Dimenticarsi alle 7",
+    image: dimenticarsi_alle_sette_thumb,
+    file: dimenticarsi_alle_sette_mp3,
+    video: dimenticarsi_alle_sette_mp4,
+    desc: "Elodie, 2025",
+    duration: "3:53",
+  },
+  {
+    id: 6,
+    name: "DÉSOLÉE",
+    image: desolee_thumb,
+    file: desolee_mp3,
+    video: desolee_mp4,
+    desc: "ANNA, 2025",
+    duration: "2:39",
+  },
+  {
+    id: 7,
+    name: "Però",
+    image: pero_thumb,
+    file: pero_mp3,
+    video: pero_mp4,
+    desc: "Gazzelle, 2021",
+    duration: "2:49",
+  },
+  {
+    id: 8,
+    name: "Determinate",
+    image: determinate_thumb,
+    file: determinate_mp3,
+    video: determinate_mp4,
+    desc: "Lemonade Mouth, 2011",
+    duration: "3:29",
+  },
+  {
+    id: 9,
+    name: "You’re Gonna Go Far",
+    image: you_re_gonna_go_far_thumb,
+    file: you_re_gonna_go_far_mp3,
+    video: you_re_gonna_go_far_mp4,
+    desc: "Noah Kahan, 2023",
+    duration: "4:46",
+  }
 ];

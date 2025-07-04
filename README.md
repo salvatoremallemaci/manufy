@@ -78,18 +78,18 @@
 9.  in luv with u - finn
 10. don raffaè - Fabrizio de andrè
 
-##  Paola - This is Pa (verde shrek: #)
+##  Paola - This is Pa (verde shrek: #B0C400) ✔️ 
 
-1.  Incanto – Tiziano  
-2.  Messy – Lola Young  
-3.  Bottiglie vuote – PTN  
-4.  Più bella cosa – Eros  
-5.  Die with a smile  
-6.  Dimenticarsi alle 7  
-7.  Desolèe – Anna  
-8.  Però – Gazzelle  
-9.  Determinate – Lemonade Mouth  
-10. You're gonna go far – Noah Kahan
+1.  Incanto – Tiziano ✔️  
+2.  Messy – Lola Young ✔️  
+3.  Bottiglie vuote – PTN ✔️  
+4.  Più bella cosa – Eros ✔️  
+5.  Die with a smile ✔️  
+6.  Dimenticarsi alle 7 ✔️  
+7.  Desolèe – Anna ✔️  
+8.  Però – Gazzelle ✔️  
+9.  Determinate – Lemonade Mouth ✔️  
+10. You're gonna go far – Noah Kahan ✔️
 
 ## Gede - This is Gede (verde: #)
 *Descrizione: spensieratezza*
