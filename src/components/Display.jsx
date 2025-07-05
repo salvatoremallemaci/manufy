@@ -8,18 +8,17 @@ function Display() {
   const displayref = useRef();
   const loc = useLocation();
   const isAlbum = loc.pathname.includes("album");
-  const albumID = isAlbum?loc.pathname.slice(-1):"";
-  const bgclr = albumsData[Number(albumID)].bgColor;
+  const albumID = isAlbum ? loc.pathname.split("/").pop() : "";
+  const bgclr = albumsData[Number(albumID)]?.bgColor;
 
-     useEffect(()=>{
-      if(isAlbum)
-      {
-        displayref.current.style.background = `linear-gradient(${bgclr},#121212)`;
-      }
-      else{
-        displayref.current.style.background = "#121212";
-      }
-     })
+  useEffect(() => {
+    if (isAlbum) {
+      displayref.current.style.background = `linear-gradient(${bgclr},#121212)`;
+    }
+    else {
+      displayref.current.style.background = "#121212";
+    }
+  })
   return (
     <div
       ref={displayref}

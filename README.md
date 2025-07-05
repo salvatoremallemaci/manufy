@@ -42,18 +42,18 @@
 10. del verde (Calcutta) ✔️ 
 11. riptide (Vance Joy) ✔️
 
-##  Vittorio - This is Vitto (blu come i suoi occhi: #)
+##  Vittorio - This is Vitto (blu come i suoi occhi: #8eb3bb) ✔️
 
-1.  sei bellissima di Loredana berte
-2.  eins zwei polizei
-3.  ligabue con un buonanotte all italia
-4.  le radici ca tieni sound system
-5.  buon viaggio cremonini
-6.  Luca toni sei per me numero uno
-7.  Balorda nostalgia
-8.  Non avere paura
-9.  Casa mia
-10. Ci pensiamo domani
+1.  sei bellissima di Loredana berte ✔️
+2.  eins zwei polizei ✔️
+3.  ligabue con un buonanotte all italia ✔️
+4.  le radici ca tieni sud sound system ✔️
+5.  buon viaggio cremonini ✔️
+6.  Numero Uno ✔️
+7.  Balorda nostalgia ✔️
+8.  Non avere paura ✔️
+9.  Casa mia ✔️
+10. Ci pensiamo domani ✔️
 
 ## Jac - This is Jac (bordeaux : #821740) ✔️
 

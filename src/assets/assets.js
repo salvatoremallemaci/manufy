@@ -63,6 +63,7 @@ import cami_thumb from "./img/manu-playlist-thumb/playlist_cami_thumb.png";
 import gede_thumb from "./img/manu-playlist-thumb/playlist_gede_thumb.png";
 import fede_thumb from "./img/manu-playlist-thumb/playlist_fede_thumb.png";
 import simo_thumb from "./img/manu-playlist-thumb/playlist_simo_thumb.png";
+import vitto_thumb from "./img/manu-playlist-thumb/playlist_vitto_thumb.png";
 import thumb from "./img/manu-playlist-thumb/playlist_thumb.png";
 
 // Extra songs
@@ -405,6 +406,37 @@ import lovebars_thumb from "./camilla/lovebars/lovebars.png";
 import mi_ami_o_e_fake_thumb from "./camilla/mi_ami_o_e_fake/mi_ami_o_e_fake.jpg";
 import missili_thumb from "./camilla/missili/missili.png";
 
+// Vitto songs
+import balorda_nostalgia_mp3 from "./vitto/balorda_nostalgia/balorda_nostalgia.mp3";
+import buonanotte_all_italia_mp3 from "./vitto/buonanotte_all_italia/buonanotte_all_italia.mp3";
+import casa_mia_mp3 from "./vitto/casa_mia/casa_mia.mp3";
+import ci_pensiamo_domani_mp3 from "./vitto/ci_pensiamo_domani/ci_pensiamo_domani.mp3";
+import eins_zwei_polizei_mp3 from "./vitto/eins_zwei_polizei/eins_zwei_polizei.mp3";
+import le_radici_ca_tieni_mp3 from "./vitto/le_radici_ca_tieni/le_radici_ca_tieni.mp3";
+import non_avere_paura_mp3 from "./vitto/non_avere_paura/non_avere_paura.mp3";
+import numero_uno_mp3 from "./vitto/numero_uno/numero_uno.mp3";
+import sei_bellissima_mp3 from "./vitto/sei_bellissima/sei_bellissima.mp3";
+// Vitto videos
+import balorda_nostalgia_mp4 from "./vitto/balorda_nostalgia/balorda_nostalgia.mp4";
+import buonanotte_all_italia_mp4 from "./vitto/buonanotte_all_italia/buonanotte_all_italia.mp4";
+import casa_mia_mp4 from "./vitto/casa_mia/casa_mia.mp4";
+import ci_pensiamo_domani_mp4 from "./vitto/ci_pensiamo_domani/ci_pensiamo_domani.mp4";
+import eins_zwei_polizei_mp4 from "./vitto/eins_zwei_polizei/eins_zwei_polizei.mp4";
+import le_radici_ca_tieni_mp4 from "./vitto/le_radici_ca_tieni/le_radici_ca_tieni.mp4";
+import non_avere_paura_mp4 from "./vitto/non_avere_paura/non_avere_paura.mp4";
+import numero_uno_mp4 from "./vitto/numero_uno/numero_uno.mp4";
+import sei_bellissima_mp4 from "./vitto/sei_bellissima/sei_bellissima.mp4";
+// Vitto songs thumb
+import balorda_nostalgia_thumb from "./vitto/balorda_nostalgia/balorda_nostalgia.png";
+import buonanotte_all_italia_thumb from "./vitto/buonanotte_all_italia/buonanotte_all_italia.jpg";
+import casa_mia_thumb from "./vitto/casa_mia/casa_mia.png";
+import ci_pensiamo_domani_thumb from "./vitto/ci_pensiamo_domani/ci_pensiamo_domani.jpg";
+import eins_zwei_polizei_thumb from "./vitto/eins_zwei_polizei/eins_zwei_polizei.png";
+import le_radici_ca_tieni_thumb from "./vitto/le_radici_ca_tieni/le_radici_ca_tieni.jpg";
+import non_avere_paura_thumb from "./vitto/non_avere_paura/non_avere_paura.png";
+import numero_uno_thumb from "./vitto/numero_uno/numero_uno.jpg";
+import sei_bellissima_thumb from "./vitto/sei_bellissima/sei_bellissima.jpg";
+
 export const assets = {
   bell_icon,
   home_icon,
@@ -503,6 +535,13 @@ export const albumsData = [
     image: cami_thumb,
     desc: "Your weekly update of the most played tracks",
     bgColor: "#446743",
+  },
+  {
+    id: 10,
+    name: "This is Vitto",
+    image: vitto_thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "#8eb3bb",
   },
 ];
 
@@ -1520,5 +1559,98 @@ export const songsCamiData = [
     video: don_raffae_mp4,
     desc: "Fabrizio De André, 1990",
     duration: "4:08",
+  }
+];
+
+export const songsVittoData = [
+  {
+    id: 0,
+    name: "Sei Bellissima",
+    image: sei_bellissima_thumb,
+    file: sei_bellissima_mp3,
+    video: sei_bellissima_mp4,
+    desc: "Loredana Bertè, 1975",
+    duration: "4:55",
+  },
+  {
+    id: 1,
+    name: "Eins, Zwei, Polizei",
+    image: eins_zwei_polizei_thumb,
+    file: eins_zwei_polizei_mp3,
+    video: eins_zwei_polizei_mp4,
+    desc: "Mo-Do, 1994",
+    duration: "3:24",
+  },
+  {
+    id: 2,
+    name: "Buonanotte all'Italia",
+    image: buonanotte_all_italia_thumb,
+    file: buonanotte_all_italia_mp3,
+    video: buonanotte_all_italia_mp4,
+    desc: "Ligabue, 2007",
+    duration: "5:25",
+  },
+  {
+    id: 3,
+    name: "Le Radici Ca Tieni",
+    image: le_radici_ca_tieni_thumb,
+    file: le_radici_ca_tieni_mp3,
+    video: le_radici_ca_tieni_mp4,
+    desc: "Sud Sound System, 2003",
+    duration: "4:10",
+  },
+  {
+    id: 4,
+    name: "Buon viaggio",
+    image: buon_viaggio_thumb,
+    file: buon_viaggio_mp3,
+    video: buon_viaggio_mp4,
+    desc: "Cesare Cremonini, 2015",
+    duration: "3:39",
+  },
+  {
+    id: 5,
+    name: "Numero Uno",
+    image: numero_uno_thumb,
+    file: numero_uno_mp3,
+    video: numero_uno_mp4,
+    desc: "Matze Knop, 2009",
+    duration: "3:17",
+  },
+  {
+    id: 6,
+    name: "Balorda nostalgia",
+    image: balorda_nostalgia_thumb,
+    file: balorda_nostalgia_mp3,
+    video: balorda_nostalgia_mp4,
+    desc: "Olly, 2025",
+    duration: "3:23",
+  },
+  {
+    id: 7,
+    name: "Non avere paura",
+    image: non_avere_paura_thumb,
+    file: non_avere_paura_mp3,
+    video: non_avere_paura_mp4,
+    desc: "Tommaso Paradiso, 2019",
+    duration: "4:12",
+  },
+  {
+    id: 8,
+    name: "Casa mia",
+    image: casa_mia_thumb,
+    file: casa_mia_mp3,
+    video: casa_mia_mp4,
+    desc: "Ghali, 2024",
+    duration: "3:35",
+  },
+  {
+    id: 9,
+    name: "Ci pensiamo domani",
+    image: ci_pensiamo_domani_thumb,
+    file: ci_pensiamo_domani_mp3,
+    video: ci_pensiamo_domani_mp4,
+    desc: "Angelina Mango, 2023",
+    duration: "3:11",
   }
 ];
