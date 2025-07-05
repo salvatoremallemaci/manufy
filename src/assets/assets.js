@@ -58,6 +58,7 @@ import carlotta_thumb from "./img/manu-playlist-thumb/playlist_carlotta_thumb.pn
 import jac_thumb from "./img/manu-playlist-thumb/playlist_jac_thumb.png";
 import pa_thumb from "./img/manu-playlist-thumb/playlist_pa_thumb.png";
 import laura_thumb from "./img/manu-playlist-thumb/playlist_laura_thumb.png";
+import claudio_thumb from "./img/manu-playlist-thumb/playlist_claudio_thumb.png";
 import gede_thumb from "./img/manu-playlist-thumb/playlist_gede_thumb.png";
 import fede_thumb from "./img/manu-playlist-thumb/playlist_fede_thumb.png";
 import simo_thumb from "./img/manu-playlist-thumb/playlist_simo_thumb.png";
@@ -338,6 +339,40 @@ import paranoie_thumb from "./laura/paranoie/paranoie.jpg";
 import sincero_thumb from "./laura/sincero/sincero.png";
 import under_the_bridge_thumb from "./laura/under_the_bridge/under_the_bridge.jpg";
 
+// Claudio songs
+import devastante_mp3 from "./claudio/devastante/devastante.mp3";
+import lose_yourself_mp3 from "./claudio/lose_yourself/lose_yourself.mp3";
+import ma_che_idea_mp3 from "./claudio/ma_che_idea/ma_che_idea.mp3";
+import mockingbird_mp3 from "./claudio/mockingbird/mockingbird.mp3";
+import overdose_damore_mp3 from "./claudio/overdose_damore/overdose_damore.mp3";
+import pistorius_mp3 from "./claudio/pistorius/pistorius.mp3";
+import rap_doom_mp3 from "./claudio/rap_doom/rap_doom.mp3";
+import ricchi_x_sempre_mp3 from "./claudio/ricchi_x_sempre/ricchi_x_sempre.mp3";
+import tran_tran_mp3 from "./claudio/tran_tran/tran_tran.mp3";
+import veleno_sette_mp3 from "./claudio/veleno_sette/veleno_sette.mp3";
+// Claudio videos
+import devastante_mp4 from "./claudio/devastante/devastante.mp4";
+import lose_yourself_mp4 from "./claudio/lose_yourself/lose_yourself.mp4";
+import ma_che_idea_mp4 from "./claudio/ma_che_idea/ma_che_idea.mp4";
+import mockingbird_mp4 from "./claudio/mockingbird/mockingbird.mp4";
+import overdose_damore_mp4 from "./claudio/overdose_damore/overdose_damore.mp4";
+import pistorius_mp4 from "./claudio/pistorius/pistorius.mp4";
+import rap_doom_mp4 from "./claudio/rap_doom/rap_doom.mp4";
+import ricchi_x_sempre_mp4 from "./claudio/ricchi_x_sempre/ricchi_x_sempre.mp4";
+import tran_tran_mp4 from "./claudio/tran_tran/tran_tran.mp4";
+import veleno_sette_mp4 from "./claudio/veleno_sette/veleno_sette.mp4";
+// Claudio songs thumb
+import devastante_thumb from "./claudio/devastante/devastante.jpg";
+import lose_yourself_thumb from "./claudio/lose_yourself/lose_yourself.png";
+import ma_che_idea_thumb from "./claudio/ma_che_idea/ma_che_idea.png";
+import mockingbird_thumb from "./claudio/mockingbird/mockingbird.png";
+import overdose_damore_thumb from "./claudio/overdose_damore/overdose_damore.png";
+import pistorius_thumb from "./claudio/pistorius/pistorius.jpg";
+import rap_doom_thumb from "./claudio/rap_doom/rap_doom.jpg";
+import ricchi_x_sempre_thumb from "./claudio/ricchi_x_sempre/ricchi_x_sempre.jpg";
+import tran_tran_thumb from "./claudio/tran_tran/tran_tran.jpg";
+import veleno_sette_thumb from "./claudio/veleno_sette/veleno_sette.jpg";
+
 export const assets = {
   bell_icon,
   home_icon,
@@ -423,36 +458,13 @@ export const albumsData = [
     desc: "Your weekly update of the most played tracks",
     bgColor: "#d90b0a",
   },
-  /*
   {
-    id: 4,
-    name: "This is ?",
-    image: thumb,
+    id: 8,
+    name: "This is Claudio",
+    image: claudio_thumb,
     desc: "Your weekly update of the most played tracks",
-    bgColor: "#632043",
+    bgColor: "#25b2d0",
   },
-  {
-    id: 5,
-    name: "This is Salvo",
-    image: salvo_thumb,
-    desc: "Your weekly update of the most played tracks",
-    bgColor: "#800020",
-  },
-  {
-    id: 6,
-    name: "This is Salvo",
-    image: salvo_thumb,
-    desc: "Your weekly update of the most played tracks",
-    bgColor: "#800020",
-  },
-  {
-    id: 7,
-    name: "This is Salvo",
-    image: salvo_thumb,
-    desc: "Your weekly update of the most played tracks",
-    bgColor: "#800020",
-  },
-  */
 ];
 
 export const songsData = [
@@ -1283,5 +1295,98 @@ export const songsLauraData = [
     video: i_miss_you_mp4,
     desc: "blink-182, 2003",
     duration: "3:49",
+  }
+];
+
+export const songsClaudioData = [
+  {
+    id: 0,
+    name: "Devastante",
+    image: devastante_thumb,
+    file: devastante_mp3,
+    video: devastante_mp4,
+    desc: "Olly, 2024",
+    duration: "3:10",
+  },
+  {
+    id: 1,
+    name: "Lose Yourself",
+    image: lose_yourself_thumb,
+    file: lose_yourself_mp3,
+    video: lose_yourself_mp4,
+    desc: "Eminem, 2002",
+    duration: "5:27",
+  },
+  {
+    id: 2,
+    name: "Ma che idea",
+    image: ma_che_idea_thumb,
+    file: ma_che_idea_mp3,
+    video: ma_che_idea_mp4,
+    desc: "​bnkr44, 2024",
+    duration: "3:44",
+  },
+  {
+    id: 3,
+    name: "Mockingbird",
+    image: mockingbird_thumb,
+    file: mockingbird_mp3,
+    video: mockingbird_mp4,
+    desc: "Eminem, 2004",
+    duration: "4:17",
+  },
+  {
+    id: 4,
+    name: "Overdose D’Amore 2024",
+    image: overdose_damore_thumb,
+    file: overdose_damore_mp3,
+    video: overdose_damore_mp4,
+    desc: "Zucchero & Salmo, 2024",
+    duration: "2:56",
+  },
+  {
+    id: 5,
+    name: "Pistorius",
+    image: pistorius_thumb,
+    file: pistorius_mp3,
+    video: pistorius_mp4,
+    desc: "Pistorius, 2013",
+    duration: "3:39",
+  },
+  {
+    id: 6,
+    name: "Ricchi x Sempre",
+    image: ricchi_x_sempre_thumb,
+    file: ricchi_x_sempre_mp3,
+    video: ricchi_x_sempre_mp4,
+    desc: "Sfera Ebbasta, 2018",
+    duration: "3:43",
+  },
+  {
+    id: 7,
+    name: "Rap Doom",
+    image: rap_doom_thumb,
+    file: rap_doom_mp3,
+    video: rap_doom_mp4,
+    desc: "Gemitaiz, 2014",
+    duration: "2:29",
+  },
+  {
+    id: 8,
+    name: "Tran Tran",
+    image: tran_tran_thumb,
+    file: tran_tran_mp3,
+    video: tran_tran_mp4,
+    desc: "Sfera Ebbasta, 2018",
+    duration: "3:50",
+  },
+  {
+    id: 9,
+    name: "Veleno 7",
+    image: veleno_sette_thumb,
+    file: veleno_sette_mp3,
+    video: veleno_sette_mp4,
+    desc: "MadMan & Gemitaiz, 2019",
+    duration: "3:08",
   }
 ];

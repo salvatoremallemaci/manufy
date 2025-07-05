@@ -133,16 +133,16 @@
 
 ## Claudio - This is Claudio (blu celeste: #25b2d0)
 
-1.  Overdose D'Amore - Zucchero, Salmo
-2.  Lose Yourself - Eminem
-3.  Mockingbird - Eminem
-4.  Veleno 7 - Gemitaiz
-5.  Rap Doom - Gemitaiz
-6.  Tran Tran - Sfera Ebbasta
-7.  Ricchi x Sempre - Sfera Ebbasta
-8.  MA CHE IDEA - bnrk44
-9.  Devastante - Olly
-10. Pistorius - Gemitaiz, Madman
+1.  Overdose D’Amore 2024 - Zucchero, Salmo ✔️
+2.  Lose Yourself - Eminem ✔️
+3.  Mockingbird - Eminem ✔️
+4.  Veleno 7 - Gemitaiz ✔️
+5.  Rap Doom - Gemitaiz ✔️
+6.  Tran Tran - Sfera Ebbasta ✔️
+7.  Ricchi x Sempre - Sfera Ebbasta ✔️
+8.  MA CHE IDEA - bnrk44 ✔️
+9.  Devastante - Olly ✔️
+10. Pistorius - Gemitaiz, Madman ✔️
 
 ## Matteo - This is Matthew (: #)
 
