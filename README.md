@@ -42,14 +42,18 @@
 10. del verde (Calcutta) ✔️ 
 11. riptide (Vance Joy) ✔️
 
-##  Vittorio - This is Vitto (: #)
+##  Vittorio - This is Vitto (blu come i suoi occhi: #)
 
-1. sei bellissima di Loredana berte
-2. eins zwei polizei
-3. ligabue con un buonanotte all italia
-4. le radici ca tieni sound system
-5. buon viaggio cremonini
-6. Luca toni sei per me numero uno
+1.  sei bellissima di Loredana berte
+2.  eins zwei polizei
+3.  ligabue con un buonanotte all italia
+4.  le radici ca tieni sound system
+5.  buon viaggio cremonini
+6.  Luca toni sei per me numero uno
+7.  Balorda nostalgia
+8.  Non avere paura
+9.  Casa mia
+10. Ci pensiamo domani
 
 ## Jac - This is Jac (bordeaux : #821740) ✔️
 
@@ -65,18 +69,18 @@
 10. Snowman – Sia ✔️  
 11. GREVE (feat. MadMan) – Bloody Vinyl, Slait, thasup, MadMan ✔️
 
-##  Cami - This is SKAM (: #)
+##  Cami - This is SKAM (verde bosco: #446743) ✔️
 
-1.  feelslikeimfallinginlove - Coldplay
-2.  mi ami o è fake
-3.  home - edith whiskers
-4.  missili - frah quintale
-5.  lovebars - coez, frah
-6.  everglow - Coldplay
-7.  boa sorte/good luck - vanessa da mata/Ben Harper
-8.  le parole più grandi - coez
-9.  in luv with u - finn
-10. don raffaè - Fabrizio de andrè
+1.  feelslikeimfallinginlove - Coldplay ✔️
+2.  mi ami o è fake ✔️
+3.  home - edith whiskers ✔️
+4.  missili - frah quintale ✔️
+5.  lovebars - coez, frah ✔️
+6.  everglow - Coldplay ✔️
+7.  boa sorte/good luck - vanessa da mata/Ben Harper ✔️
+8.  le parole più grandi - coez ✔️
+9.  in luv with u - finn ✔️
+10. don raffaè - Fabrizio de andrè ✔️
 
 ##  Paola - This is Pa (verde shrek: #B0C400) ✔️ 
 
@@ -131,7 +135,7 @@
 9.  Under the Bridge - Red Hot Chilli Peppers ✔️
 10. I Miss You - blink-182 ✔️
 
-## Claudio - This is Claudio (blu celeste: #25b2d0)
+## Claudio - This is Claudio (blu celeste: #25b2d0) ✔️
 
 1.  Overdose D’Amore 2024 - Zucchero, Salmo ✔️
 2.  Lose Yourself - Eminem ✔️

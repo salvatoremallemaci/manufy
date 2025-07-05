@@ -59,6 +59,7 @@ import jac_thumb from "./img/manu-playlist-thumb/playlist_jac_thumb.png";
 import pa_thumb from "./img/manu-playlist-thumb/playlist_pa_thumb.png";
 import laura_thumb from "./img/manu-playlist-thumb/playlist_laura_thumb.png";
 import claudio_thumb from "./img/manu-playlist-thumb/playlist_claudio_thumb.png";
+import cami_thumb from "./img/manu-playlist-thumb/playlist_cami_thumb.png";
 import gede_thumb from "./img/manu-playlist-thumb/playlist_gede_thumb.png";
 import fede_thumb from "./img/manu-playlist-thumb/playlist_fede_thumb.png";
 import simo_thumb from "./img/manu-playlist-thumb/playlist_simo_thumb.png";
@@ -373,6 +374,37 @@ import ricchi_x_sempre_thumb from "./claudio/ricchi_x_sempre/ricchi_x_sempre.jpg
 import tran_tran_thumb from "./claudio/tran_tran/tran_tran.jpg";
 import veleno_sette_thumb from "./claudio/veleno_sette/veleno_sette.jpg";
 
+// Camilla songs
+import boasorte_goodluck_mp3 from "./camilla/boasorte_goodluck/boasorte_goodluck.mp3";
+import don_raffae_mp3 from "./camilla/don_raffae/don_raffae.mp3";
+import everglow_mp3 from "./camilla/everglow/everglow.mp3";
+import home_mp3 from "./camilla/home/home.mp3";
+import in_luv_with_u_mp3 from "./camilla/in_luv_with_u/in_luv_with_u.mp3";
+import le_parole_piu_grandi_mp3 from "./camilla/le_parole_piu_grandi/le_parole_piu_grandi.mp3";
+import lovebars_mp3 from "./camilla/lovebars/lovebars.mp3";
+import mi_ami_o_e_fake_mp3 from "./camilla/mi_ami_o_e_fake/mi_ami_o_e_fake.mp3";
+import missili_mp3 from "./camilla/missili/missili.mp3";
+// Camilla videos
+import boasorte_goodluck_mp4 from "./camilla/boasorte_goodluck/boasorte_goodluck.mp4";
+import don_raffae_mp4 from "./camilla/don_raffae/don_raffae.mp4";
+import everglow_mp4 from "./camilla/everglow/everglow.mp4";
+import home_mp4 from "./camilla/home/home.mp4";
+import in_luv_with_u_mp4 from "./camilla/in_luv_with_u/in_luv_with_u.mp4";
+import le_parole_piu_grandi_mp4 from "./camilla/le_parole_piu_grandi/le_parole_piu_grandi.mp4";
+import lovebars_mp4 from "./camilla/lovebars/lovebars.mp4";
+import mi_ami_o_e_fake_mp4 from "./camilla/mi_ami_o_e_fake/mi_ami_o_e_fake.mp4";
+import missili_mp4 from "./camilla/missili/missili.mp4";
+// Camilla songs thumb
+import boasorte_goodluck_thumb from "./camilla/boasorte_goodluck/boasorte_goodluck.jpg";
+import don_raffae_thumb from "./camilla/don_raffae/don_raffae.jpg";
+import everglow_thumb from "./camilla/everglow/everglow.png";
+import home_thumb from "./camilla/home/home.jpg";
+import in_luv_with_u_thumb from "./camilla/in_luv_with_u/in_luv_with_u.jpg";
+import le_parole_piu_grandi_thumb from "./camilla/le_parole_piu_grandi/le_parole_piu_grandi.png";
+import lovebars_thumb from "./camilla/lovebars/lovebars.png";
+import mi_ami_o_e_fake_thumb from "./camilla/mi_ami_o_e_fake/mi_ami_o_e_fake.jpg";
+import missili_thumb from "./camilla/missili/missili.png";
+
 export const assets = {
   bell_icon,
   home_icon,
@@ -464,6 +496,13 @@ export const albumsData = [
     image: claudio_thumb,
     desc: "Your weekly update of the most played tracks",
     bgColor: "#25b2d0",
+  },
+  {
+    id: 9,
+    name: "This is SKAM",
+    image: cami_thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "#446743",
   },
 ];
 
@@ -1388,5 +1427,98 @@ export const songsClaudioData = [
     video: veleno_sette_mp4,
     desc: "MadMan & Gemitaiz, 2019",
     duration: "3:08",
+  }
+];
+
+export const songsCamiData = [
+  {
+    id: 0,
+    name: "feelslikeimfallinginlove",
+    image: feelslikeimfallinginlove_thumb,
+    file: feelslikeimfallinginlove_mp3,
+    video: feelslikeimfallinginlove_mp4,
+    desc: "Coldplay, 2024",
+    duration: "4:20",
+  },
+  {
+    id: 1,
+    name: "​mi @mi o è f@ke",
+    image: mi_ami_o_e_fake_thumb,
+    file: mi_ami_o_e_fake_mp3,
+    video: mi_ami_o_e_fake_mp4,
+    desc: "thasup, 2022",
+    duration: "2:07",
+  },
+  {
+    id: 2,
+    name: "Home",
+    image: home_thumb,
+    file: home_mp3,
+    video: home_mp4,
+    desc: "Edith Whiskers, 2020",
+    duration: "3:32",
+  },
+  {
+    id: 3,
+    name: "Missili",
+    image: missili_thumb,
+    file: missili_mp3,
+    video: missili_mp4,
+    desc: "Fra Quintale & Giorgio Poi, 2018",
+    duration: "3:45",
+  },
+  {
+    id: 4,
+    name: "Lovebars",
+    image: lovebars_thumb,
+    file: lovebars_mp3,
+    video: lovebars_mp4,
+    desc: "Coez & Frah Quintale, 2023",
+    duration: "2:44",
+  },
+  {
+    id: 5,
+    name: "Everglow",
+    image: everglow_thumb,
+    file: everglow_mp3,
+    video: everglow_mp4,
+    desc: "Coldplay, 2015",
+    duration: "5:05",
+  },
+  {
+    id: 6,
+    name: "Boa Sorte / Good Luck",
+    image: boasorte_goodluck_thumb,
+    file: boasorte_goodluck_mp3,
+    video: boasorte_goodluck_mp4,
+    desc: "Vanessa da Mata & Ben Harper, 2007",
+    duration: "3:46",
+  },
+  {
+    id: 7,
+    name: "Le parole più grandi",
+    image: le_parole_piu_grandi_thumb,
+    file: le_parole_piu_grandi_mp3,
+    video: le_parole_piu_grandi_mp4,
+    desc: "Coez, 2015",
+    duration: "3:41",
+  },
+  {
+    id: 8,
+    name: "in luv with u",
+    image: in_luv_with_u_thumb,
+    file: in_luv_with_u_mp3,
+    video: in_luv_with_u_mp4,
+    desc: "Finn, 2017",
+    duration: "3:10",
+  },
+  {
+    id: 9,
+    name: "Don Raffaè",
+    image: don_raffae_thumb,
+    file: don_raffae_mp3,
+    video: don_raffae_mp4,
+    desc: "Fabrizio De André, 1990",
+    duration: "4:08",
   }
 ];
