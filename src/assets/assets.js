@@ -471,7 +471,7 @@ export const albumsData = [
     name: "This is Salvo",
     image: salvo_thumb,
     desc: "Your weekly update of the most played tracks",
-    bgColor: "#800020",
+    bgColor: "#970a44",
   },
   {
     id: 1,
@@ -534,7 +534,7 @@ export const albumsData = [
     name: "This is SKAM",
     image: cami_thumb,
     desc: "Your weekly update of the most played tracks",
-    bgColor: "#446743",
+    bgColor: "#fbec9c",
   },
   {
     id: 10,

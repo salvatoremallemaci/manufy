@@ -69,7 +69,7 @@
 10. Snowman – Sia ✔️  
 11. GREVE (feat. MadMan) – Bloody Vinyl, Slait, thasup, MadMan ✔️
 
-##  Cami - This is SKAM (verde bosco: #446743) ✔️
+##  Cami - This is SKAM (giallo chiaro: #fbec9c) ✔️
 
 1.  feelslikeimfallinginlove - Coldplay ✔️
 2.  mi ami o è fake ✔️
