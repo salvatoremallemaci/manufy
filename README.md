@@ -118,31 +118,31 @@
 9. 
 10. 
 
-## Laura - This is L (rosso: #)
+## Laura - This is L (rosso: #d90b0a) ✔️
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7.  
-8. 
-9. 
-10. 
+1.  Niente Panico - Ghali ✔️
+2.  Lunedì - Salmo ✔️
+3.  Depresso fortunato - Olly ✔️
+4.  SINCERO - Salmo ✔️
+5.  It's Ok - Imagine Dragons ✔️
+6.  Gioventù Bruciata - Mahmood ✔️
+7.  Paranoie - Olly ✔️
+8.  Not Alike - Eminem ✔️
+9.  Under the Bridge - Red Hot Chilli Peppers ✔️
+10. I Miss You - blink-182 ✔️
 
-## Claudio - This is Claudio (blu celeste: #)
+## Claudio - This is Claudio (blu celeste: #25b2d0)
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7.  
-8. 
-9. 
-10. 
+1.  Overdose D'Amore - Zucchero, Salmo
+2.  Lose Yourself - Eminem
+3.  Mockingbird - Eminem
+4.  Veleno 7 - Gemitaiz
+5.  Rap Doom - Gemitaiz
+6.  Tran Tran - Sfera Ebbasta
+7.  Ricchi x Sempre - Sfera Ebbasta
+8.  MA CHE IDEA - bnrk44
+9.  Devastante - Olly
+10. Pistorius - Gemitaiz, Madman
 
 ## Matteo - This is Matthew (: #)
 

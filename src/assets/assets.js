@@ -57,6 +57,7 @@ import salvo_thumb from "./img/manu-playlist-thumb/playlist_salvo_thumb.png";
 import carlotta_thumb from "./img/manu-playlist-thumb/playlist_carlotta_thumb.png";
 import jac_thumb from "./img/manu-playlist-thumb/playlist_jac_thumb.png";
 import pa_thumb from "./img/manu-playlist-thumb/playlist_pa_thumb.png";
+import laura_thumb from "./img/manu-playlist-thumb/playlist_laura_thumb.png";
 import gede_thumb from "./img/manu-playlist-thumb/playlist_gede_thumb.png";
 import fede_thumb from "./img/manu-playlist-thumb/playlist_fede_thumb.png";
 import simo_thumb from "./img/manu-playlist-thumb/playlist_simo_thumb.png";
@@ -303,6 +304,40 @@ import solo_per_te_thumb from "./gede/solo_per_te/solo_per_te.jpg";
 import travel_thumb from "./gede/travel/travel.jpg";
 import yellow_thumb from "./gede/yellow/yellow.png";
 
+// Laura songs
+import depresso_fortunato_mp3 from "./laura/depresso_fortunato/depresso_fortunato.mp3";
+import gioventu_bruciata_mp3 from "./laura/gioventu_bruciata/gioventu_bruciata.mp3";
+import i_miss_you_mp3 from "./laura/i_miss_you/i_miss_you.mp3";
+import its_ok_mp3 from "./laura/its_ok/its_ok.mp3";
+import lunedi_mp3 from "./laura/lunedi/lunedi.mp3";
+import niente_panico_mp3 from "./laura/niente_panico/niente_panico.mp3";
+import not_alike_mp3 from "./laura/not_alike/not_alike.mp3";
+import paranoie_mp3 from "./laura/paranoie/paranoie.mp3";
+import sincero_mp3 from "./laura/sincero/sincero.mp3";
+import under_the_bridge_mp3 from "./laura/under_the_bridge/under_the_bridge.mp3";
+// Laura videos
+import depresso_fortunato_mp4 from "./laura/depresso_fortunato/depresso_fortunato.mp4";
+import gioventu_bruciata_mp4 from "./laura/gioventu_bruciata/gioventu_bruciata.mp4";
+import i_miss_you_mp4 from "./laura/i_miss_you/i_miss_you.mp4";
+import its_ok_mp4 from "./laura/its_ok/its_ok.mp4";
+import lunedi_mp4 from "./laura/lunedi/lunedi.mp4";
+import niente_panico_mp4 from "./laura/niente_panico/niente_panico.mp4";
+import not_alike_mp4 from "./laura/not_alike/not_alike.mp4";
+import paranoie_mp4 from "./laura/paranoie/paranoie.mp4";
+import sincero_mp4 from "./laura/sincero/sincero.mp4";
+import under_the_bridge_mp4 from "./laura/under_the_bridge/under_the_bridge.mp4";
+// Laura songs thumb
+import depresso_fortunato_thumb from "./laura/depresso_fortunato/depresso_fortunato.png";
+import gioventu_bruciata_thumb from "./laura/gioventu_bruciata/gioventu_bruciata.png";
+import i_miss_you_thumb from "./laura/i_miss_you/i_miss_you.jpg";
+import its_ok_thumb from "./laura/its_ok/its_ok.jpg";
+import lunedi_thumb from "./laura/lunedi/lunedi.png";
+import niente_panico_thumb from "./laura/niente_panico/niente_panico.png";
+import not_alike_thumb from "./laura/not_alike/not_alike.png";
+import paranoie_thumb from "./laura/paranoie/paranoie.jpg";
+import sincero_thumb from "./laura/sincero/sincero.png";
+import under_the_bridge_thumb from "./laura/under_the_bridge/under_the_bridge.jpg";
+
 export const assets = {
   bell_icon,
   home_icon,
@@ -380,6 +415,13 @@ export const albumsData = [
     image: gede_thumb,
     desc: "Spensieratezza",
     bgColor: "#1a8147",
+  },
+  {
+    id: 7,
+    name: "This is L",
+    image: laura_thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "#d90b0a",
   },
   /*
   {
@@ -1148,5 +1190,98 @@ export const songsGedeData = [
     video: september_mp4,
     desc: "James Arthur, 2021",
     duration: "3:43",
+  }
+];
+
+export const songsLauraData = [
+  {
+    id: 0,
+    name: "Niente Panico",
+    image: niente_panico_thumb,
+    file: niente_panico_mp3,
+    video: niente_panico_mp4,
+    desc: "Ghali, 2024",
+    duration: "3:09",
+  },
+  {
+    id: 1,
+    name: "Lunedì",
+    image: lunedi_thumb,
+    file: lunedi_mp3,
+    video: lunedi_mp4,
+    desc: "Salmo, 2018",
+    duration: "3:25",
+  },
+  {
+    id: 2,
+    name: "Depresso fortunato",
+    image: depresso_fortunato_thumb,
+    file: depresso_fortunato_mp3,
+    video: depresso_fortunato_mp4,
+    desc: "Olly, 2025",
+    duration: "3:32",
+  },
+  {
+    id: 3,
+    name: "SINCERO",
+    image: sincero_thumb,
+    file: sincero_mp3,
+    video: sincero_mp4,
+    desc: "Salmo, 2025",
+    duration: "3:16",
+  },
+  {
+    id: 4,
+    name: "It's Ok",
+    image: its_ok_thumb,
+    file: its_ok_mp3,
+    video: its_ok_mp4,
+    desc: "Imagine Dragons, 2021",
+    duration: "3:22",
+  },
+  {
+    id: 5,
+    name: "Gioventù Bruciata",
+    image: gioventu_bruciata_thumb,
+    file: gioventu_bruciata_mp3,
+    video: gioventu_bruciata_mp4,
+    desc: "Mahmood, 2019",
+    duration: "3:17",
+  },
+  {
+    id: 6,
+    name: "Paranoie",
+    image: paranoie_thumb,
+    file: paranoie_mp3,
+    video: paranoie_mp4,
+    desc: "Olly, 2020",
+    duration: "2:52",
+  },
+  {
+    id: 7,
+    name: "Not Alike",
+    image: not_alike_thumb,
+    file: not_alike_mp3,
+    video: not_alike_mp4,
+    desc: "Eminem, 2018",
+    duration: "4:48",
+  },
+  {
+    id: 8,
+    name: "Under the Bridge",
+    image: under_the_bridge_thumb,
+    file: under_the_bridge_mp3,
+    video: under_the_bridge_mp4,
+    desc: "Red Hot Chili Peppers, 1991",
+    duration: "4:27",
+  },
+  {
+    id: 9,
+    name: "I Miss You",
+    image: i_miss_you_thumb,
+    file: i_miss_you_mp3,
+    video: i_miss_you_mp4,
+    desc: "blink-182, 2003",
+    duration: "3:49",
   }
 ];
