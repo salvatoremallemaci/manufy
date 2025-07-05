@@ -14,7 +14,8 @@ import {
     songsLauraData,
     songsClaudioData,
     songsCamiData,
-    songsVittoData
+    songsVittoData,
+    songsSalvoData
 } from '../assets/assets';
 import { PlayerContext } from '../context/PlayerContext';
 
@@ -27,7 +28,7 @@ const DisplayAlbum = () => {
 
     switch (Number(id)) {
         case 0:
-            songsData = songsManuData;
+            songsData = songsSalvoData;
             break;
         case 1:
             songsData = songsFedeData;

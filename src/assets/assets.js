@@ -437,6 +437,40 @@ import non_avere_paura_thumb from "./vitto/non_avere_paura/non_avere_paura.png";
 import numero_uno_thumb from "./vitto/numero_uno/numero_uno.jpg";
 import sei_bellissima_thumb from "./vitto/sei_bellissima/sei_bellissima.jpg";
 
+// Salvo songs
+import ama_noi_mp3 from "./salvo/ama_noi/ama_noi.mp3";
+import bastavano_le_briciole_mp3 from "./salvo/bastavano_le_briciole/bastavano_le_briciole.mp3";
+import e_sempre_bello_mp3 from "./salvo/e_sempre_bello/e_sempre_bello.mp3";
+import gli_anni_d_oro_mp3 from "./salvo/gli_anni_d_oro/gli_anni_d_oro.mp3";
+import intro_mp3 from "./salvo/intro/intro.mp3";
+import intro_orange_county_mp3 from "./salvo/intro_orange_county/intro_orange_county.mp3";
+import lo_sai_che_ci_penso_mp3 from "./salvo/lo_sai_che_ci_penso/lo_sai_che_ci_penso.mp3";
+import piccolo_mp3 from "./salvo/piccolo/piccolo.mp3";
+import stavo_pensando_a_te_mp3 from "./salvo/stavo_pensando_a_te/stavo_pensando_a_te.mp3";
+import vivo_mp3 from "./salvo/vivo/vivo.mp3";
+// Salvo videos
+import ama_noi_mp4 from "./salvo/ama_noi/ama_noi.mp4";
+import bastavano_le_briciole_mp4 from "./salvo/bastavano_le_briciole/bastavano_le_briciole.mp4";
+import e_sempre_bello_mp4 from "./salvo/e_sempre_bello/e_sempre_bello.mp4";
+import gli_anni_d_oro_mp4 from "./salvo/gli_anni_d_oro/gli_anni_d_oro.mp4";
+import intro_mp4 from "./salvo/intro/intro.mp4";
+import intro_orange_county_mp4 from "./salvo/intro_orange_county/intro_orange_county.mp4";
+import lo_sai_che_ci_penso_mp4 from "./salvo/lo_sai_che_ci_penso/lo_sai_che_ci_penso.mp4";
+import piccolo_mp4 from "./salvo/piccolo/piccolo.mp4";
+import stavo_pensando_a_te_mp4 from "./salvo/stavo_pensando_a_te/stavo_pensando_a_te.mp4";
+import vivo_mp4 from "./salvo/vivo/vivo.mp4";
+// Salvo songs thumb
+import ama_noi_thumb from "./salvo/ama_noi/ama_noi.jpg";
+import bastavano_le_briciole_thumb from "./salvo/bastavano_le_briciole/bastavano_le_briciole.jpg";
+import e_sempre_bello_thumb from "./salvo/e_sempre_bello/e_sempre_bello.png";
+import gli_anni_d_oro_thumb from "./salvo/gli_anni_d_oro/gli_anni_d_oro.jpg";
+import intro_thumb from "./salvo/intro/intro.jpg";
+import intro_orange_county_thumb from "./salvo/intro_orange_county/intro_orange_county.jpg";
+import lo_sai_che_ci_penso_thumb from "./salvo/lo_sai_che_ci_penso/lo_sai_che_ci_penso.png";
+import piccolo_thumb from "./salvo/piccolo/piccolo.jpg";
+import stavo_pensando_a_te_thumb from "./salvo/stavo_pensando_a_te/stavo_pensando_a_te.jpg";
+import vivo_thumb from "./salvo/vivo/vivo.png";
+
 export const assets = {
   bell_icon,
   home_icon,
@@ -1295,7 +1329,7 @@ export const songsLauraData = [
   },
   {
     id: 1,
-    name: "Lunedì",
+    name: "LUNEDÌ",
     image: lunedi_thumb,
     file: lunedi_mp3,
     video: lunedi_mp4,
@@ -1652,5 +1686,107 @@ export const songsVittoData = [
     video: ci_pensiamo_domani_mp4,
     desc: "Angelina Mango, 2023",
     duration: "3:11",
+  }
+];
+
+export const songsSalvoData = [
+  {
+    id: 0,
+    name: "Intro Orange County",
+    image: intro_orange_county_thumb,
+    file: intro_orange_county_mp3,
+    video: intro_orange_county_mp4,
+    desc: "Tedua, 2016",
+    duration: "3:50",
+  },
+  {
+    id: 1,
+    name: "Bastavano Le Briciole",
+    image: bastavano_le_briciole_thumb,
+    file: bastavano_le_briciole_mp3,
+    video: bastavano_le_briciole_mp4,
+    desc: "Marracash, 2008",
+    duration: "3:53",
+  },
+  {
+    id: 2,
+    name: "Lo Sai Che Ci Penso",
+    image: lo_sai_che_ci_penso_thumb,
+    file: lo_sai_che_ci_penso_mp3,
+    video: lo_sai_che_ci_penso_mp4,
+    desc: "Gemitaiz, 2018",
+    duration: "3:00",
+  },
+  {
+    id: 3,
+    name: "Gli Anni D'Oro",
+    image: gli_anni_d_oro_thumb,
+    file: gli_anni_d_oro_mp3,
+    video: gli_anni_d_oro_mp4,
+    desc: "Jake La Furia, 2013",
+    duration: "3:22",
+  },
+  {
+    id: 4,
+    name: "Stavo Pensando A Te",
+    image: stavo_pensando_a_te_thumb,
+    file: stavo_pensando_a_te_mp3,
+    video: stavo_pensando_a_te_mp4,
+    desc: "Fibra, 2017",
+    duration: "4:25",
+  },
+  {
+    id: 5,
+    name: "È sempre bello",
+    image: e_sempre_bello_thumb,
+    file: e_sempre_bello_mp3,
+    video: e_sempre_bello_mp4,
+    desc: "Coez, 2019",
+    duration: "3:26",
+  },
+  {
+    id: 6,
+    name: "Piccolo",
+    image: piccolo_thumb,
+    file: piccolo_mp3,
+    video: piccolo_mp4,
+    desc: "NASKA, 2024",
+    duration: "3:03",
+  },
+  {
+    id: 7,
+    name: "Ama noi",
+    image: ama_noi_thumb,
+    file: ama_noi_mp3,
+    video: ama_noi_mp4,
+    desc: "Dargen D'Amico, 2017",
+    duration: "3:39",
+  },
+  {
+    id: 8,
+    name: "LUNEDÌ",
+    image: lunedi_thumb,
+    file: lunedi_mp3,
+    video: lunedi_mp4,
+    desc: "Salmo, 2018",
+    duration: "3:25",
+  },
+  {
+    id: 9,
+    name: "Intro (with Bianca Atzei)",
+    image: intro_thumb,
+    file: intro_mp3,
+    video: intro_mp4,
+    desc: "J-AX, 2015",
+    duration: "4:54",
+  },
+  {
+    id: 10,
+    name: "Vivo",
+    image: vivo_thumb,
+    file: vivo_mp3,
+    video: vivo_mp4,
+    desc: "Fibra, 2025",
+    duration: "3:47",
   }
 ];

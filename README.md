@@ -109,18 +109,20 @@
 9.  Fiuri – Devis Muccari *(Ascoltala quando sei triste)* ✔️  
 10. September – James Arthur ✔️
 
-## Salvo - This is Salvo/S (vino: #)
+## Salvo - This is Salvo/S (vino: #970a44) ✔️
 
-1. 
-2. 
-3. 
-4. 
-5. 
-6. 
-7.  
-8. 
-9. 
-10. 
+1.  Intro Orange County - Tedua ✔️
+2.  Bastavano Le Briciole - Marracash ✔️
+3.  Lo Sai Che Ci Penso - Gemitaiz ✔️
+4.  Gli Anni D'Oro - Jake La Furia ✔️
+5.  Stavo Pensando A Te - Fibra ✔️
+6.  È sempre bello - Coez ✔️
+7.  Piccolo - NASKA ✔️
+8.  Ama noi - Dargen D'Amico ✔️
+9.  LUNEDÌ - Salmo ✔️
+10. Intro (with Bianca Atzei) - J-AX ✔️
+11. Vivo - Fibra ✔️
+
 
 ## Laura - This is L (rosso: #d90b0a) ✔️
 
