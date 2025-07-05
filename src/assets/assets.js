@@ -57,6 +57,7 @@ import salvo_thumb from "./img/manu-playlist-thumb/playlist_salvo_thumb.png";
 import carlotta_thumb from "./img/manu-playlist-thumb/playlist_carlotta_thumb.png";
 import jac_thumb from "./img/manu-playlist-thumb/playlist_jac_thumb.png";
 import pa_thumb from "./img/manu-playlist-thumb/playlist_pa_thumb.png";
+import gede_thumb from "./img/manu-playlist-thumb/playlist_gede_thumb.png";
 import fede_thumb from "./img/manu-playlist-thumb/playlist_fede_thumb.png";
 import simo_thumb from "./img/manu-playlist-thumb/playlist_simo_thumb.png";
 import thumb from "./img/manu-playlist-thumb/playlist_thumb.png";
@@ -268,6 +269,40 @@ import pero_thumb from "./paola/pero/pero.png";
 import determinate_thumb from "./paola/determinate/determinate.png";
 import you_re_gonna_go_far_thumb from "./paola/you_re_gonna_go_far/you_re_gonna_far.png";
 
+// Gede songs
+import a_sky_full_of_stars_mp3 from "./gede/a_sky_full_of_stars/a_sky_full_of_stars.mp3";
+import bianca_mp3 from "./gede/bianca/bianca.mp3";
+import buon_viaggio_mp3 from "./gede/buon_viaggio/buon_viaggio.mp3";
+import estate_mp3 from "./gede/estate/estate.mp3";
+import fiuri_mp3 from "./gede/fiuri/fiuri.mp3";
+import ricordi_mp3 from "./gede/ricordi/ricordi.mp3";
+import september_mp3 from "./gede/september/september.mp3";
+import solo_per_te_mp3 from "./gede/solo_per_te/solo_per_te.mp3";
+import travel_mp3 from "./gede/travel/travel.mp3";
+import yellow_mp3 from "./gede/yellow/yellow.mp3";
+// Gede videos
+import a_sky_full_of_stars_mp4 from "./gede/a_sky_full_of_stars/a_sky_full_of_stars.mp4";
+import bianca_mp4 from "./gede/bianca/bianca.mp4";
+import buon_viaggio_mp4 from "./gede/buon_viaggio/buon_viaggio.mp4";
+import estate_mp4 from "./gede/estate/estate.mp4";
+import fiuri_mp4 from "./gede/fiuri/fiuri.mp4";
+import ricordi_mp4 from "./gede/ricordi/ricordi.mp4";
+import september_mp4 from "./gede/september/september.mp4";
+import solo_per_te_mp4 from "./gede/solo_per_te/solo_per_te.mp4";
+import travel_mp4 from "./gede/travel/travel.mp4";
+import yellow_mp4 from "./gede/yellow/yellow.mp4";
+// Gede songs thumb
+import a_sky_full_of_stars_thumb from "./gede/a_sky_full_of_stars/a_sky_full_of_stars.png";
+import bianca_thumb from "./gede/bianca/bianca.jpg";
+import buon_viaggio_thumb from "./gede/buon_viaggio/buon_viaggio.jpg";
+import estate_thumb from "./gede/estate/estate.jpg";
+import fiuri_thumb from "./gede/fiuri/fiuri.jpeg";
+import ricordi_thumb from "./gede/ricordi/ricordi.jpg";
+import september_thumb from "./gede/september/september.png";
+import solo_per_te_thumb from "./gede/solo_per_te/solo_per_te.jpg";
+import travel_thumb from "./gede/travel/travel.jpg";
+import yellow_thumb from "./gede/yellow/yellow.png";
+
 export const assets = {
   bell_icon,
   home_icon,
@@ -338,6 +373,13 @@ export const albumsData = [
     image: pa_thumb,
     desc: "Your weekly update of the most played tracks",
     bgColor: "#B0C400",
+  },
+  {
+    id: 6,
+    name: "This is Gede",
+    image: gede_thumb,
+    desc: "Spensieratezza",
+    bgColor: "#1a8147",
   },
   /*
   {
@@ -1013,5 +1055,98 @@ export const songsPaData = [
     video: you_re_gonna_go_far_mp4,
     desc: "Noah Kahan, 2023",
     duration: "4:46",
+  }
+];
+
+export const songsGedeData = [
+  {
+    id: 0,
+    name: "Solo per te",
+    image: solo_per_te_thumb,
+    file: solo_per_te_mp3,
+    video: solo_per_te_mp4,
+    desc: "Negramaro, 2005",
+    duration: "4:04",
+  },
+  {
+    id: 1,
+    name: "Estate",
+    image: estate_thumb,
+    file: estate_mp3,
+    video: estate_mp4,
+    desc: "Negramaro, 2005",
+    duration: "3:15",
+  },
+  {
+    id: 2,
+    name: "Yellow",
+    image: yellow_thumb,
+    file: yellow_mp3,
+    video: yellow_mp4,
+    desc: "Coldplay, 2000",
+    duration: "4:32",
+  },
+  {
+    id: 3,
+    name: "A Sky Full of Stars",
+    image: a_sky_full_of_stars_thumb,
+    file: a_sky_full_of_stars_mp3,
+    video: a_sky_full_of_stars_mp4,
+    desc: "Coldplay, 2014",
+    duration: "4:13",
+  },
+  {
+    id: 4,
+    name: "Ricordi",
+    image: ricordi_thumb,
+    file: ricordi_mp3,
+    video: ricordi_mp4,
+    desc: "Pinguini Tattici Nucleari, 2022",
+    duration: "3:45",
+  },
+  {
+    id: 5,
+    name: "Bianca",
+    image: bianca_thumb,
+    file: bianca_mp3,
+    video: bianca_mp4,
+    desc: "Olly, 2023",
+    duration: "2:34",
+  },
+  {
+    id: 6,
+    name: "Travel",
+    image: travel_thumb,
+    file: travel_mp3,
+    video: travel_mp4,
+    desc: "Kapitol, 2016",
+    duration: "3:29",
+  },
+  {
+    id: 7,
+    name: "Buon viaggio",
+    image: buon_viaggio_thumb,
+    file: buon_viaggio_mp3,
+    video: buon_viaggio_mp4,
+    desc: "Cesare Cremonini, 2015",
+    duration: "3:39",
+  },
+  {
+    id: 8,
+    name: "Fiuri",
+    image: fiuri_thumb,
+    file: fiuri_mp3,
+    video: fiuri_mp4,
+    desc: "Davis Muccari, 2024",
+    duration: "4:27",
+  },
+  {
+    id: 9,
+    name: "September",
+    image: september_thumb,
+    file: september_mp3,
+    video: september_mp4,
+    desc: "James Arthur, 2021",
+    duration: "3:43",
   }
 ];

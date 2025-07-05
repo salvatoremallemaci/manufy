@@ -91,19 +91,19 @@
 9.  Determinate – Lemonade Mouth ✔️  
 10. You're gonna go far – Noah Kahan ✔️
 
-## Gede - This is Gede (verde: #)
+## Gede - This is Gede (verde: #1a8147) ✔️
 *Descrizione: spensieratezza*
 
-1.  Solo per te – Negramaro  
-2.  Estate – Negramaro  
-3.  Yellow – Coldplay  
-4.  A Sky Full of Stars – Coldplay  
-5.  Ricordi – Pinguini Tattici  
-6.  Bianca – Olly  
-7.  Travel – Kapitol *(Ascoltala durante il viaggio)*  
-8.  Buon viaggio – Cesare Cremonini  
-9.  Fiuri – Devis Muccari *(Ascoltala quando sei triste)*  
-10. September – James Arthur
+1.  Solo per te – Negramaro ✔️  
+2.  Estate – Negramaro ✔️  
+3.  Yellow – Coldplay ✔️ 
+4.  A Sky Full of Stars – Coldplay ✔️  
+5.  Ricordi – Pinguini Tattici ✔️  
+6.  Bianca – Olly ✔️  
+7.  Travel – Kapitol *(Ascoltala durante il viaggio)* ✔️  
+8.  Buon viaggio – Cesare Cremonini ✔️  
+9.  Fiuri – Devis Muccari *(Ascoltala quando sei triste)* ✔️  
+10. September – James Arthur ✔️
 
 ## Salvo - This is Salvo/S (vino: #)
 
