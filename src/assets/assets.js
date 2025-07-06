@@ -75,6 +75,18 @@ import blablabla_mp3 from "./extra/extra-songs/blablabla.mp3";
 import cazzoema_mp3 from "./extra/extra-songs/cazzoema.mp3";
 import oddiofototomba_mp3 from "./extra/extra-songs/oddiofototomba.mp3";
 import uuuUUUU_mp3 from "./extra/extra-songs/uuuUUUU.mp3";
+import hobisognodiundito_mp3 from "./extra/extra-songs/hobisognodiundito.mp3";
+import iwroteasongforyou_mp3 from "./extra/extra-songs/iwroteasongforyou.mp3";
+import nobodysaiditwaseasy_mp3 from "./extra/extra-songs/nobodysaiditwaseasy.mp3";
+import paraparaparadise_mp3 from "./extra/extra-songs/paraparaparadise.mp3";
+import somesuperherooo_mp3 from "./extra/extra-songs/somesuperherooo.mp3";
+import turnintosomethingbeautiful_mp3 from "./extra/extra-songs/turnintosomethingbeautiful.mp3";
+import breeeakingfree_mp3 from "./extra/extra-songs/breeeakingfree.mp3";
+import ricordatevidime_mp3 from "./extra/extra-songs/ricordatevidime.mp3";
+import tiktok_boss_mp3 from "./extra/extra-songs/tiktok_boss.mp3";
+import tiktok_dna_mp3 from "./extra/extra-songs/tiktok_dna.mp3";
+import tiktok_ronaldo_mp3 from "./extra/extra-songs/tiktok_ronaldo.mp3";
+import tiktok_strega_mp3 from "./extra/extra-songs/tiktok_strega.mp3";
 // Extra videos
 import akapisciandomi_mp4 from "./extra/extra-videos/akapisciandomi.mp4";
 import ballandomi_mp4 from "./extra/extra-videos/ballandomi.mp4";
@@ -82,6 +94,18 @@ import blablabla_mp4 from "./extra/extra-videos/blablabla.mp4";
 import cazzoema_mp4 from "./extra/extra-videos/cazzoema.mp4";
 import oddiofototomba_mp4 from "./extra/extra-videos/oddiofototomba.mp4";
 import uuuUUUU_mp4 from "./extra/extra-videos/uuuUUUU.mp4";
+import hobisognodiundito_mp4 from "./extra/extra-videos/hobisognodiundito.mp4";
+import iwroteasongforyou_mp4 from "./extra/extra-videos/iwroteasongforyou.mp4";
+import nobodysaiditwaseasy_mp4 from "./extra/extra-videos/nobodysaiditwaseasy.mp4";
+import paraparaparadise_mp4 from "./extra/extra-videos/paraparaparadise.mp4";
+import somesuperherooo_mp4 from "./extra/extra-videos/somesuperherooo.mp4";
+import turnintosomethingbeautiful_mp4 from "./extra/extra-videos/turnintosomethingbeautiful.mp4";
+import breeeakingfree_mp4 from "./extra/extra-videos/breeeakingfree.mp4";
+import ricordatevidime_mp4 from "./extra/extra-videos/ricordatevidime.mp4";
+import tiktok_boss_mp4 from "./extra/extra-videos/tiktok_boss.mp4";
+import tiktok_dna_mp4 from "./extra/extra-videos/tiktok_dna.mp4";
+import tiktok_ronaldo_mp4 from "./extra/extra-videos/tiktok_ronaldo.mp4";
+import tiktok_strega_mp4 from "./extra/extra-videos/tiktok_strega.mp4";
 // Extra thumb
 import akapisciandomi_thumb from "./extra/extra-thumb/akapisciandomi.png";
 import ballandomi_thumb from "./extra/extra-thumb/ballandomi.png";
@@ -89,6 +113,18 @@ import blablabla_thumb from "./extra/extra-thumb/blablabla.png";
 import cazzoema_thumb from "./extra/extra-thumb/cazzoema.png";
 import oddiofototomba_thumb from "./extra/extra-thumb/oddiofototomba.png";
 import uuuUUUU_thumb from "./extra/extra-thumb/uuuUUUU.png";
+import hobisognodiundito_thumb from "./extra/extra-thumb/hobisognodiundito.png";
+import iwroteasongforyou_thumb from "./extra/extra-thumb/iwroteasongforyou.png";
+import nobodysaiditwaseasy_thumb from "./extra/extra-thumb/nobodysaiditwaseasy.png";
+import paraparaparadise_thumb from "./extra/extra-thumb/paraparaparadise.png";
+import somesuperherooo_thumb from "./extra/extra-thumb/somesuperherooo.png";
+import turnintosomethingbeautiful_thumb from "./extra/extra-thumb/turnintosomethingbeautiful.png";
+import breeeakingfree_thumb from "./extra/extra-thumb/breeeakingfree.png";
+import ricordatevidime_thumb from "./extra/extra-thumb/ricordatevidime.png";
+import tiktok_boss_thumb from "./extra/extra-thumb/tiktok_boss.png";
+import tiktok_dna_thumb from "./extra/extra-thumb/tiktok_dna.png";
+import tiktok_ronaldo_thumb from "./extra/extra-thumb/tiktok_ronaldo.png";
+import tiktok_strega_thumb from "./extra/extra-thumb/tiktok_strega.png";
 
 // Da S assets
 import da_s_thumb from "./da-s/da_s_thumb.jpg";
@@ -779,35 +815,114 @@ export const songsManuData = [
     desc: "2024",
     duration: "0:18",
   },
-  /*
-  {
-    id: 5,
-    name: "1984",
-    image: unonoveottoquattro_thumb,
-    file: unonoveottoquattro_mp3,
-    video: unonoveottoquattro_mp4,
-    desc: "Salmo, Hellvisback, 2015",
-    duration: "4:17",
-  },
-  {
-    id: 6,
-    name: "Niente Panico",
-    image: nientepanico_thumb,
-    file: nientepanico_mp3,
-    video: nientepanico_mp4,
-    desc: "Ghali, Chill, 2024",
-    duration: "3:09",
-  },
   {
     id: 7,
-    name: "1984",
-    image: unonoveottoquattro_thumb,
-    file: unonoveottoquattro_mp3,
-    video: unonoveottoquattro_mp4,
-    desc: "Salmo, Hellvisback, 2015",
-    duration: "4:17",
+    name: "hobisognodiundito",
+    image: hobisognodiundito_thumb,
+    file: hobisognodiundito_mp3,
+    video: hobisognodiundito_mp4,
+    desc: "2024",
+    duration: "0:13",
   },
-  */
+  {
+    id: 8,
+    name: "iwroteasongforyou",
+    image: iwroteasongforyou_thumb,
+    file: iwroteasongforyou_mp3,
+    video: iwroteasongforyou_mp4,
+    desc: "2024",
+    duration: "0:40",
+  },
+  {
+    id: 9,
+    name: "nobodysaiditwaseasy",
+    image: nobodysaiditwaseasy_thumb,
+    file: nobodysaiditwaseasy_mp3,
+    video: nobodysaiditwaseasy_mp4,
+    desc: "2024",
+    duration: "0:33",
+  },
+  {
+    id: 10,
+    name: "paraparaparadise",
+    image: paraparaparadise_thumb,
+    file: paraparaparadise_mp3,
+    video: paraparaparadise_mp4,
+    desc: "2024",
+    duration: "0:14",
+  },
+  {
+    id: 11,
+    name: "somesuperherooo",
+    image: somesuperherooo_thumb,
+    file: somesuperherooo_mp3,
+    video: somesuperherooo_mp4,
+    desc: "2024",
+    duration: "0:24",
+  },
+  {
+    id: 12,
+    name: "turnintosomethingbeautiful",
+    image: turnintosomethingbeautiful_thumb,
+    file: turnintosomethingbeautiful_mp3,
+    video: turnintosomethingbeautiful_mp4,
+    desc: "2024",
+    duration: "0:23",
+  },
+  {
+    id: 13,
+    name: "breeeakingfree",
+    image: breeeakingfree_thumb,
+    file: breeeakingfree_mp3,
+    video: breeeakingfree_mp4,
+    desc: "2024",
+    duration: "1:12",
+  },
+  {
+    id: 14,
+    name: "ricordatevidime",
+    image: ricordatevidime_thumb,
+    file: ricordatevidime_mp3,
+    video: ricordatevidime_mp4,
+    desc: "2024",
+    duration: "0:13",
+  },
+  {
+    id: 15,
+    name: "tiktok_ronaldo",
+    image: tiktok_ronaldo_thumb,
+    file: tiktok_ronaldo_mp3,
+    video: tiktok_ronaldo_mp4,
+    desc: "2024",
+    duration: "0:15",
+  },
+  {
+    id: 16,
+    name: "tiktok_strega",
+    image: tiktok_strega_thumb,
+    file: tiktok_strega_mp3,
+    video: tiktok_strega_mp4,
+    desc: "2024",
+    duration: "0:10",
+  },
+  {
+    id: 17,
+    name: "tiktok_boss",
+    image: tiktok_boss_thumb,
+    file: tiktok_boss_mp3,
+    video: tiktok_boss_mp4,
+    desc: "2023",
+    duration: "0:08",
+  },
+  {
+    id: 18,
+    name: "tiktok_dna",
+    image: tiktok_dna_thumb,
+    file: tiktok_dna_mp3,
+    video: tiktok_dna_mp4,
+    desc: "2024",
+    duration: "0:13",
+  },
 ];
 
 export const songsFedeData = [
