@@ -65,6 +65,7 @@ import fede_thumb from "./img/manu-playlist-thumb/playlist_fede_thumb.png";
 import simo_thumb from "./img/manu-playlist-thumb/playlist_simo_thumb.png";
 import vitto_thumb from "./img/manu-playlist-thumb/playlist_vitto_thumb.png";
 import matte_thumb from "./img/manu-playlist-thumb/playlist_matteo_thumb.png";
+import oppe_thumb from "./img/manu-playlist-thumb/playlist_oppe_thumb.png";
 import thumb from "./img/manu-playlist-thumb/playlist_thumb.png";
 
 // Extra songs
@@ -506,6 +507,25 @@ import supreme_thumb from "./matteo/supreme/supreme.jpg";
 import tarantella_thumb from "./matteo/tarantella/tarantella.jpg";
 import viva_la_vida_thumb from "./matteo/viva_la_vida/viva_la_vida.jpg";
 
+// Oppe songs
+import california_mp3 from "./oppe/california/california.mp3";
+import digane_mp3 from "./oppe/digane/digane.mp3";
+import dragonball_mp3 from "./oppe/dragonball/dragonball.mp3";
+import hangover_mp3 from "./oppe/hangover/hangover.mp3";
+import maracana_mp3 from "./oppe/maracana/maracana.mp3";
+// Oppe videos
+import california_mp4 from "./oppe/california/california.mp4";
+import digane_mp4 from "./oppe/digane/digane.mp4";
+import dragonball_mp4 from "./oppe/dragonball/dragonball.mp4";
+import hangover_mp4 from "./oppe/hangover/hangover.mp4";
+import maracana_mp4 from "./oppe/maracana/maracana.mp4";
+// Oppe songs thumb
+import california_thumb from "./oppe/california/california.jpg";
+import digane_thumb from "./oppe/digane/digane.jpg";
+import dragonball_thumb from "./oppe/dragonball/dragonball.jpg";
+import hangover_thumb from "./oppe/hangover/hangover.png";
+import maracana_thumb from "./oppe/maracana/maracana.jpg";
+
 export const assets = {
   bell_icon,
   home_icon,
@@ -618,6 +638,13 @@ export const albumsData = [
     image: matte_thumb,
     desc: "Canzoni quasi ragionate",
     bgColor: "#e87523",
+  },
+  {
+    id: 12,
+    name: "This is Oppe",
+    image: oppe_thumb,
+    desc: "Your weekly update of the most played tracks",
+    bgColor: "#0a05d2",
   },
 ];
 
@@ -1924,4 +1951,52 @@ export const songsMatteoData = [
     desc: "Drake, 2017",
     duration: "4:58",
   }
+];
+
+export const songsOppeData = [
+  {
+    id: 0,
+    name: "What’s My Destiny Dragon Ball",
+    image: dragonball_thumb,
+    file: dragonball_mp3,
+    video: dragonball_mp4,
+    desc: "Giorgio Vanni, 2000",
+    duration: "2:45",
+  },
+  {
+    id: 1,
+    name: "Maracanã",
+    image: maracana_thumb,
+    file: maracana_mp3,
+    video: maracana_mp4,
+    desc: "Emis Killa, 2014",
+    duration: "3:56",
+  },
+  {
+    id: 2,
+    name: "Hangover",
+    image: hangover_thumb,
+    file: hangover_mp3,
+    video: hangover_mp4,
+    desc: "Taio Cruz, 2011",
+    duration: "4:43",
+  },
+  {
+    id: 3,
+    name: "California",
+    image: california_thumb,
+    file: california_mp3,
+    video: california_mp4,
+    desc: "Phantom Planet, 2002",
+    duration: "3:12",
+  },
+  {
+    id: 4,
+    name: "Digane",
+    image: digane_thumb,
+    file: digane_mp3,
+    video: digane_mp4,
+    desc: "Bob Sinclar & Sofiya Nzau, 2024",
+    duration: "2:54",
+  },
 ];

@@ -16,7 +16,8 @@ import {
     songsCamiData,
     songsVittoData,
     songsSalvoData,
-    songsMatteoData
+    songsMatteoData,
+    songsOppeData
 } from '../assets/assets';
 import { PlayerContext } from '../context/PlayerContext';
 
@@ -63,6 +64,9 @@ const DisplayAlbum = () => {
             break;
         case 11:
             songsData = songsMatteoData;
+            break;
+        case 12:
+            songsData = songsOppeData;
             break;
         default:
             songsData = songsManuData;
