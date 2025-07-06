@@ -2172,3 +2172,19 @@ export const songsOppeData = [
     duration: "3:20",
   },
 ];
+
+export const people = [
+  { name: "Fede", phone: "393480981389" },
+  { name: "Simo", phone: "393420583087" },
+  { name: "CC", phone: "393487594082" },
+  { name: "Vitto", phone: "393668726829" },
+  { name: "Jac", phone: "393397566361" },
+  { name: "SKAM", phone: "393394104363" },
+  { name: "Pa", phone: "393898714273" },
+  { name: "Gede", phone: "393455800027" },
+  { name: "Salvo", phone: "393403915886" },
+  { name: "L", phone: "393466849420" },
+  { name: "Claudio", phone: "393463928516" },
+  { name: "Matthew", phone: "393482482426" },
+  { name: "Oppe", phone: "393339964931" },
+];
