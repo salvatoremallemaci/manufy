@@ -2,7 +2,7 @@
 
 ## URL: https://salvatoremallemaci.github.io/manufy/
 
-##  Federico - This is Fede (rosso: #fe0000) ✔️
+## Federico - This is Fede (rosso: #fe0000) ✔️
 
 1.  Blanco - Blu celeste ✔️
 2.  The Kolors - Italodisco ✔️
@@ -15,7 +15,7 @@
 9.  Linkin park- Waiting for the end  ✔️
 10. Aiello- Arsenico ✔️
 
-##  Simone - This is Simo (fucsia: #ff328a) ✔️
+## Simone - This is Simo (fucsia: #ff328a) ✔️
 
 1.  Dead or Alive - Yoy Spin me round ✔️
 2.  Billy more - Up & down ✔️
@@ -28,7 +28,7 @@
 9.  sabrina - boys ✔️
 10. snap! - rhythm is a dancer ✔️
 
-##  Carlotta - This is CC (rosa: #FF69B4) ✔️
+## Carlotta - This is CC (rosa: #FF69B4) ✔️
 
 1.  Maledetta primavera ✔️
 2.  Miu Miu ✔️
@@ -42,7 +42,7 @@
 10. del verde (Calcutta) ✔️ 
 11. riptide (Vance Joy) ✔️
 
-##  Vittorio - This is Vitto (blu come i suoi occhi: #8eb3bb) ✔️
+## Vittorio - This is Vitto (blu come i suoi occhi: #8eb3bb) ✔️
 
 1.  sei bellissima di Loredana berte ✔️
 2.  eins zwei polizei ✔️
@@ -69,7 +69,7 @@
 10. Snowman – Sia ✔️  
 11. GREVE (feat. MadMan) – Bloody Vinyl, Slait, thasup, MadMan ✔️
 
-##  Cami - This is SKAM (giallo chiaro: #fbec9c) ✔️
+## Cami - This is SKAM (giallo chiaro: #fbec9c) ✔️
 
 1.  feelslikeimfallinginlove - Coldplay ✔️
 2.  mi ami o è fake ✔️
@@ -82,7 +82,7 @@
 9.  in luv with u - finn ✔️
 10. don raffaè - Fabrizio de andrè ✔️
 
-##  Paola - This is Pa (verde shrek: #B0C400) ✔️ 
+## Paola - This is Pa (verde shrek: #B0C400) ✔️ 
 
 1.  Incanto – Tiziano ✔️  
 2.  Messy – Lola Young ✔️  

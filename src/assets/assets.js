@@ -874,7 +874,7 @@ export const songsManuData = [
   },
   {
     id: 12,
-    name: "turnintosomethingbeautiful",
+    name: "somethingbeautiful",
     image: turnintosomethingbeautiful_thumb,
     file: turnintosomethingbeautiful_mp3,
     video: turnintosomethingbeautiful_mp4,
