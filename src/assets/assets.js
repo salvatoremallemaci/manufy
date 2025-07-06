@@ -549,18 +549,30 @@ import digane_mp3 from "./oppe/digane/digane.mp3";
 import dragonball_mp3 from "./oppe/dragonball/dragonball.mp3";
 import hangover_mp3 from "./oppe/hangover/hangover.mp3";
 import maracana_mp3 from "./oppe/maracana/maracana.mp3";
+import asalaam_e_ishqum_mp3 from "./oppe/asalaam_e_ishqum/asalaam_e_ishqum.mp3";
+import bow_c_bow_mp3 from "./oppe/bow_c_bow/bow_c_bow.mp3";
+import kolo_mp3 from "./oppe/kolo/kolo.mp3";
+import something_just_like_this_mp3 from "./oppe/something_just_like_this/something_just_like_this.mp3";
 // Oppe videos
 import california_mp4 from "./oppe/california/california.mp4";
 import digane_mp4 from "./oppe/digane/digane.mp4";
 import dragonball_mp4 from "./oppe/dragonball/dragonball.mp4";
 import hangover_mp4 from "./oppe/hangover/hangover.mp4";
 import maracana_mp4 from "./oppe/maracana/maracana.mp4";
+import asalaam_e_ishqum_mp4 from "./oppe/asalaam_e_ishqum/asalaam_e_ishqum.mp4";
+import bow_c_bow_mp4 from "./oppe/bow_c_bow/bow_c_bow.mp4";
+import kolo_mp4 from "./oppe/kolo/kolo.mp4";
+import something_just_like_this_mp4 from "./oppe/something_just_like_this/something_just_like_this.mp4";
 // Oppe songs thumb
 import california_thumb from "./oppe/california/california.jpg";
 import digane_thumb from "./oppe/digane/digane.jpg";
 import dragonball_thumb from "./oppe/dragonball/dragonball.jpg";
 import hangover_thumb from "./oppe/hangover/hangover.png";
 import maracana_thumb from "./oppe/maracana/maracana.jpg";
+import asalaam_e_ishqum_thumb from "./oppe/asalaam_e_ishqum/asalaam_e_ishqum.jpg";
+import bow_c_bow_thumb from "./oppe/bow_c_bow/bow_c_bow.jpg";
+import kolo_thumb from "./oppe/kolo/kolo.webp";
+import something_just_like_this_thumb from "./oppe/something_just_like_this/something_just_like_this.png";
 
 export const assets = {
   bell_icon,
@@ -2071,7 +2083,7 @@ export const songsMatteoData = [
 export const songsOppeData = [
   {
     id: 0,
-    name: "What’s My Destiny Dragon Ball",
+    name: "What’s My Destiny DB",
     image: dragonball_thumb,
     file: dragonball_mp3,
     video: dragonball_mp4,
@@ -2113,5 +2125,50 @@ export const songsOppeData = [
     video: digane_mp4,
     desc: "Bob Sinclar & Sofiya Nzau, 2024",
     duration: "2:54",
+  },
+  {
+    id: 5,
+    name: "Something Just Like This",
+    image: something_just_like_this_thumb,
+    file: something_just_like_this_mp3,
+    video: something_just_like_this_mp4,
+    desc: "The Chainsmokers & Coldplay, 2017",
+    duration: "4:07",
+  },
+  {
+    id: 6,
+    name: "Asalaam-E-Ishqum",
+    image: asalaam_e_ishqum_thumb,
+    file: asalaam_e_ishqum_mp3,
+    video: asalaam_e_ishqum_mp4,
+    desc: "Prince of Jeruz, 2015",
+    duration: "4:04",
+  },
+  {
+    id: 7,
+    name: "KOLO",
+    image: kolo_thumb,
+    file: kolo_mp3,
+    video: kolo_mp4,
+    desc: "Ice Prince, 2021",
+    duration: "2:48",
+  },
+  {
+    id: 8,
+    name: "Bow C Bow",
+    image: bow_c_bow_thumb,
+    file: bow_c_bow_mp3,
+    video: bow_c_bow_mp4,
+    desc: "Marco Comis, 2005",
+    duration: "4:29",
+  },
+  {
+    id: 9,
+    name: "Italodisco",
+    image: italodisco_thumb,
+    file: italodisco_mp3,
+    video: italodisco_mp4,
+    desc: "The Kolors, 2023",
+    duration: "3:20",
   },
 ];

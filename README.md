@@ -163,18 +163,18 @@
 9.  Paganini, Kid yugi ✔️
 10. Passionfruit, Drake ✔️
 
-## Oppe - This is Oppe (blu: #0a05d2)
+## Oppe - This is Oppe (blu: #0a05d2) ✔️
 
-1. Sigla Dragon Ball Z ✔️
-2. Maracana - Emis Killa ✔️
-3. Hangover - Taio Cruz ✔️
-4. California - Phantom Planet ✔️
-5. Bob Sinclar & Sofiya Nzau - Digane ✔️
-6. 
-7.  
-8. 
-9. 
-10. 
+1.  Sigla Dragon Ball Z ✔️
+2.  Maracana - Emis Killa ✔️
+3.  Hangover - Taio Cruz ✔️
+4.  California - Phantom Planet ✔️
+5.  Bob Sinclar & Sofiya Nzau - Digane ✔️
+6.  Something Just Like This ✔️
+7.  Asalaam-E-Ishqum ✔️
+8.  KOLO ✔️
+9.  Bow C Bow ✔️
+10. The Kolors - Italodisco ✔️
 
 
 

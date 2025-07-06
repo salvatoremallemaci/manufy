@@ -14,7 +14,7 @@ const Opening = () => {
     <div className='h-screen bg-[#121212] flex items-center justify-center'>
       <video
         ref={videoRef}
-        className='w-[90vw] md:w-[40%] object-cover mix-blend-screen'
+        className='w-[75vw] md:w-[40%] object-cover mix-blend-screen'
         src={background}
         preload='auto'
         autoPlay
