@@ -64,6 +64,7 @@ import gede_thumb from "./img/manu-playlist-thumb/playlist_gede_thumb.png";
 import fede_thumb from "./img/manu-playlist-thumb/playlist_fede_thumb.png";
 import simo_thumb from "./img/manu-playlist-thumb/playlist_simo_thumb.png";
 import vitto_thumb from "./img/manu-playlist-thumb/playlist_vitto_thumb.png";
+import matte_thumb from "./img/manu-playlist-thumb/playlist_matteo_thumb.png";
 import thumb from "./img/manu-playlist-thumb/playlist_thumb.png";
 
 // Extra songs
@@ -471,6 +472,40 @@ import piccolo_thumb from "./salvo/piccolo/piccolo.jpg";
 import stavo_pensando_a_te_thumb from "./salvo/stavo_pensando_a_te/stavo_pensando_a_te.jpg";
 import vivo_thumb from "./salvo/vivo/vivo.png";
 
+// Matteo songs
+import circo_loco_mp3 from "./matteo/circo_loco/circo_loco.mp3";
+import globo_mp3 from "./matteo/globo/globo.mp3";
+import ho_paura_di_uscire_mp3 from "./matteo/ho_paura_di_uscire/ho_paura_di_uscire.mp3";
+import paganini_mp3 from "./matteo/paganini/paganini.mp3";
+import passionfruit_mp3 from "./matteo/passionfruit/passionfruit.mp3";
+import sigarette_mp3 from "./matteo/sigarette/sigarette.mp3";
+import sintetico_mp3 from "./matteo/sintetico/sintetico.mp3";
+import supreme_mp3 from "./matteo/supreme/supreme.mp3";
+import tarantella_mp3 from "./matteo/tarantella/tarantella.mp3";
+import viva_la_vida_mp3 from "./matteo/viva_la_vida/viva_la_vida.mp3";
+// Matteo videos
+import circo_loco_mp4 from "./matteo/circo_loco/circo_loco.mp4";
+import globo_mp4 from "./matteo/globo/globo.mp4";
+import ho_paura_di_uscire_mp4 from "./matteo/ho_paura_di_uscire/ho_paura_di_uscire.mp4";
+import paganini_mp4 from "./matteo/paganini/paganini.mp4";
+import passionfruit_mp4 from "./matteo/passionfruit/passionfruit.mp4";
+import sigarette_mp4 from "./matteo/sigarette/sigarette.mp4";
+import sintetico_mp4 from "./matteo/sintetico/sintetico.mp4";
+import supreme_mp4 from "./matteo/supreme/supreme.mp4";
+import tarantella_mp4 from "./matteo/tarantella/tarantella.mp4";
+import viva_la_vida_mp4 from "./matteo/viva_la_vida/viva_la_vida.mp4";
+// Matteo songs thumb
+import circo_loco_thumb from "./matteo/circo_loco/circo_loco.png";
+import globo_thumb from "./matteo/globo/globo.png";
+import ho_paura_di_uscire_thumb from "./matteo/ho_paura_di_uscire/ho_paura_di_uscire.png";
+import paganini_thumb from "./matteo/paganini/paganini.png";
+import passionfruit_thumb from "./matteo/passionfruit/passionfruit.png";
+import sigarette_thumb from "./matteo/sigarette/sigarette.jpg";
+import sintetico_thumb from "./matteo/sintetico/sintetico.png";
+import supreme_thumb from "./matteo/supreme/supreme.jpg";
+import tarantella_thumb from "./matteo/tarantella/tarantella.jpg";
+import viva_la_vida_thumb from "./matteo/viva_la_vida/viva_la_vida.jpg";
+
 export const assets = {
   bell_icon,
   home_icon,
@@ -576,6 +611,13 @@ export const albumsData = [
     image: vitto_thumb,
     desc: "Your weekly update of the most played tracks",
     bgColor: "#8eb3bb",
+  },
+  {
+    id: 11,
+    name: "This is Matthew",
+    image: matte_thumb,
+    desc: "Canzoni quasi ragionate",
+    bgColor: "#e87523",
   },
 ];
 
@@ -1788,5 +1830,98 @@ export const songsSalvoData = [
     video: vivo_mp4,
     desc: "Fibra, 2025",
     duration: "3:47",
+  }
+];
+
+export const songsMatteoData = [
+  {
+    id: 0,
+    name: "Sintetico",
+    image: sintetico_thumb,
+    file: sintetico_mp3,
+    video: sintetico_mp4,
+    desc: "Kid Yugi, 2023",
+    duration: "2:31",
+  },
+  {
+    id: 1,
+    name: "Viva La Vida",
+    image: viva_la_vida_thumb,
+    file: viva_la_vida_mp3,
+    video: viva_la_vida_mp4,
+    desc: "Coldplay, 2008",
+    duration: "4:02",
+  },
+  {
+    id: 2,
+    name: "Sigarette",
+    image: sigarette_thumb,
+    file: sigarette_mp3,
+    video: sigarette_mp4,
+    desc: "Neffa, 2015",
+    duration: "4:02",
+  },
+  {
+    id: 3,
+    name: "HO PAURA DI USCIRE",
+    image: ho_paura_di_uscire_thumb,
+    file: ho_paura_di_uscire_mp3,
+    video: ho_paura_di_uscire_mp4,
+    desc: "Salmo, 2018",
+    duration: "3:17",
+  },
+  {
+    id: 4,
+    name: "Globo",
+    image: globo_thumb,
+    file: globo_mp3,
+    video: globo_mp4,
+    desc: "Ele A, 2023",
+    duration: "3:01",
+  },
+  {
+    id: 5,
+    name: "Tarantella di Monte Sant'Angelo",
+    image: tarantella_thumb,
+    file: tarantella_mp3,
+    video: tarantella_mp4,
+    desc: "TerrAnima, 2006",
+    duration: "4:27",
+  },
+  {
+    id: 6,
+    name: "SUPREME - L’ego",
+    image: supreme_thumb,
+    file: supreme_mp3,
+    video: supreme_mp4,
+    desc: "Marracash, 2019",
+    duration: "3:46",
+  },
+  {
+    id: 7,
+    name: "Circo Loco",
+    image: circo_loco_thumb,
+    file: circo_loco_mp3,
+    video: circo_loco_mp4,
+    desc: "Drake & 21 Savage, 2022",
+    duration: "3:57",
+  },
+  {
+    id: 8,
+    name: "Paganini",
+    image: paganini_thumb,
+    file: paganini_mp3,
+    video: paganini_mp4,
+    desc: "Kid Yugi, 2024",
+    duration: "2:58",
+  },
+  {
+    id: 9,
+    name: "Passionfruit",
+    image: passionfruit_thumb,
+    file: passionfruit_mp3,
+    video: passionfruit_mp4,
+    desc: "Drake, 2017",
+    duration: "4:58",
   }
 ];
