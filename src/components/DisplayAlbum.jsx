@@ -121,45 +121,56 @@ const DisplayAlbum = () => {
 
             {/* SONGS */}
             {
-                songsData.map((item, index) => (
-                    <div
-                        onClick={() => playWithId(item.id, songsData)}
-                        key={index}
-                        className='md:grid md:grid-cols-[3fr_1.5fr_1.5fr_1fr] gap-3 p-2 items-center text-[#a7a7a7] hover:bg-[#ffffff2b] cursor-pointer flex justify-between'
-                    >
-                        {/* IMMAGINE + TITOLO + NUMERO */}
-                        <div className='flex items-center'>
-                            {/* Numero su mobile */}
-                            <span className='inline-block md:hidden text-[13px] w-4 mr-2 text-[#a7a7a7]'>
-                                {index + 1}
-                            </span>
+                songsData.map((item, index) => {
+                    const isLast = index === songsData.length - 1;
+                    const isOutro = item.name && item.name.startsWith("Outro");
+                    const disabled = isLast && isOutro;
 
-                            {/* Numero su desktop */}
-                            <span className='hidden md:inline-block w-6 text-right mr-4 text-[#a7a7a7]'>
-                                {index + 1}
-                            </span>
+                    return (
+                        <div
+                            onClick={() => !disabled && playWithId(item.id, songsData)}
+                            key={index}
+                            className={
+                                `md:grid md:grid-cols-[3fr_1.5fr_1.5fr_1fr] gap-3 p-2 items-center text-[#a7a7a7] 
+                    ${disabled ? 'opacity-50 cursor-not-allowed' : 'hover:bg-[#ffffff2b] cursor-pointer'} 
+                    flex justify-between`
+                            }
+                            style={disabled ? { pointerEvents: 'none' } : {}}
+                        >
+                            {/* IMMAGINE + TITOLO + NUMERO */}
+                            <div className='flex items-center'>
+                                {/* Numero su mobile */}
+                                <span className='inline-block md:hidden text-[13px] w-4 mr-2 text-[#a7a7a7]'>
+                                    {index + 1}
+                                </span>
 
-                            {/* Immagine */}
-                            <img className='w-10 h-10 mr-4 rounded' src={item.image} alt="" />
+                                {/* Numero su desktop */}
+                                <span className='hidden md:inline-block w-6 text-right mr-4 text-[#a7a7a7]'>
+                                    {index + 1}
+                                </span>
 
-                            {/* Titolo */}
-                            <div className='flex flex-col'>
-                                <p className='text-white text-sm'>{item.name}</p>
-                                {/* Album su mobile */}
-                                <p className='text-xs text-gray-400 md:hidden'>{item.desc}</p>
+                                {/* Immagine */}
+                                <img className='w-10 h-10 mr-4 rounded' src={item.image} alt="" />
+
+                                {/* Titolo */}
+                                <div className='flex flex-col'>
+                                    <p className='text-white text-sm'>{item.name}</p>
+                                    {/* Album su mobile */}
+                                    <p className='text-xs text-gray-400 md:hidden'>{item.desc}</p>
+                                </div>
                             </div>
+
+                            {/* Playlist solo desktop */}
+                            <p className='hidden md:block text-[15px]'>{albumDatalocal.name}</p>
+
+                            {/* Date added solo desktop */}
+                            <p className='hidden md:block text-[15px] ml-2'>3 days ago</p>
+
+                            {/* Durata */}
+                            <p className='text-[15px] ml-auto md:ml-0 justify-self-end'>{item.duration}</p>
                         </div>
-
-                        {/* Playlist solo desktop */}
-                        <p className='hidden md:block text-[15px]'>{albumDatalocal.name}</p>
-
-                        {/* Date added solo desktop */}
-                        <p className='hidden md:block text-[15px] ml-2'>3 days ago</p>
-
-                        {/* Durata */}
-                        <p className='text-[15px] ml-auto md:ml-0 justify-self-end'>{item.duration}</p>
-                    </div>
-                ))
+                    );
+                })
             }
 
         </>

@@ -51,6 +51,8 @@ import poivalva from "./songs/Poi-Vazhva.mp3";
 import sirukkivaasasm from "./songs/Sirukki-Vaasam.mp3";
 import bodhaikaname from "./songs/Bodhai-Kaname.mp3";
 
+// Manu people thumb
+import people_carlotta_thumb from "./img/manu-people-thumb/carlotta_thumb.jpg";
 
 // Manu playlist thumb
 import salvo_thumb from "./img/manu-playlist-thumb/playlist_salvo_thumb.png";
@@ -1222,6 +1224,15 @@ export const songsCarlottaData = [
     video: riptide_mp4,
     desc: "Vance Joy, 2013",
     duration: "3:24",
+  },
+  {
+    id: 11,
+    name: "Outro - CC",
+    image: people_carlotta_thumb,
+    file: riptide_mp3,
+    video: riptide_mp4,
+    desc: "CC, 2025",
+    duration: "0:24",
   },
 ];
 
