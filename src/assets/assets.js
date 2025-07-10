@@ -290,6 +290,7 @@ import desolee_mp3 from "./paola/desolee/desolee.mp3";
 import pero_mp3 from "./paola/pero/pero.mp3";
 import determinate_mp3 from "./paola/determinate/determinate.mp3";
 import you_re_gonna_go_far_mp3 from "./paola/you_re_gonna_go_far/you_re_gonna_far.mp3";
+import thats_so_true_mp3 from "./paola/thats_so_true/thats_so_true.mp3";
 // Pa videos
 import incanto_mp4 from "./paola/incanto/incanto.mp4";
 import messy_mp4 from "./paola/messy/messy.mp4";
@@ -301,6 +302,7 @@ import desolee_mp4 from "./paola/desolee/desolee.mp4";
 import pero_mp4 from "./paola/pero/pero.mp4";
 import determinate_mp4 from "./paola/determinate/determinate.mp4";
 import you_re_gonna_go_far_mp4 from "./paola/you_re_gonna_go_far/you_re_gonna_far.mp4";
+import thats_so_true_mp4 from "./paola/thats_so_true/thats_so_true.mp4"
 // Pa songs thumb
 import incanto_thumb from "./paola/incanto/incanto.png";
 import messy_thumb from "./paola/messy/messy.png";
@@ -312,6 +314,7 @@ import desolee_thumb from "./paola/desolee/desolee.png";
 import pero_thumb from "./paola/pero/pero.png";
 import determinate_thumb from "./paola/determinate/determinate.png";
 import you_re_gonna_go_far_thumb from "./paola/you_re_gonna_go_far/you_re_gonna_far.png";
+import thats_so_true_thumb from "./paola/thats_so_true/thats_so_true.png"
 
 // Gede songs
 import a_sky_full_of_stars_mp3 from "./gede/a_sky_full_of_stars/a_sky_full_of_stars.mp3";
@@ -1229,10 +1232,11 @@ export const songsCarlottaData = [
     id: 11,
     name: "Outro - CC",
     image: people_carlotta_thumb,
-    file: riptide_mp3,
-    video: riptide_mp4,
+    file: cuoricini_mp3,
+    video: cuoricini_mp4,
     desc: "CC, 2025",
-    duration: "0:24",
+    duration: "2:04",
+    outro: true
   },
 ];
 
@@ -1428,6 +1432,15 @@ export const songsPaData = [
     video: you_re_gonna_go_far_mp4,
     desc: "Noah Kahan, 2023",
     duration: "4:46",
+  },
+  {
+    id: 10,
+    name: "That’s So True",
+    image: thats_so_true_thumb,
+    file: thats_so_true_mp3,
+    video: thats_so_true_mp4,
+    desc: "Gracie Abrams, 2024",
+    duration: "2:46",
   }
 ];
 

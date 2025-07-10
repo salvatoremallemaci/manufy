@@ -26,7 +26,7 @@ const Sidebar = () => {
                         </p>
                         <button
                             onClick={() => {
-                                const message = encodeURIComponent(`Ciao ${selectedPerson.name}, mi è arrivato un pensiero da te!`);
+                                const message = encodeURIComponent(`Ciao ${selectedPerson.name}, pensandoti!`);
                                 window.open(`https://wa.me/${selectedPerson.phone}?text=${message}`, '_blank');
                             }}
                             className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full mb-2 shadow"

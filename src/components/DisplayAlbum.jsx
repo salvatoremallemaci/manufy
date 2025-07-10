@@ -122,9 +122,7 @@ const DisplayAlbum = () => {
             {/* SONGS */}
             {
                 songsData.map((item, index) => {
-                    const isLast = index === songsData.length - 1;
-                    const isOutro = item.name && item.name.startsWith("Outro");
-                    const disabled = isLast && isOutro;
+                    const disabled = item.outro === true;
 
                     return (
                         <div

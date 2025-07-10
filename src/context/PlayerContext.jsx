@@ -53,24 +53,38 @@ const PlayerContextProvider = (props) => {
 
   // Modificato: accetta anche la playlist
   const playWithId = async (id, playlistArg = playlist) => {
+    const song = playlistArg.find(s => s.id === id);
+    if (!song || song.outro) return;
+
     setPlaylist(playlistArg);
-    await setTrack(playlistArg[id]);
+    await setTrack(song);
     await audioRef.current.play();
     setPlayStatus(true);
   };
 
-  const before = async () => {
-    if (track.id > 0) {
-      await setTrack(playlist[track.id - 1]);
-      await audioRef.current.play();
-      setPlayStatus(true);
+  const before = () => {
+    const currentIndex = playlist.findIndex(song => song.id === track.id);
+    let prevIndex = currentIndex - 1;
+
+    while (prevIndex >= 0 && playlist[prevIndex]?.outro) {
+      prevIndex--;
+    }
+
+    if (prevIndex >= 0) {
+      playWithId(playlist[prevIndex].id, playlist);
     }
   };
-  const after = async () => {
-    if (track.id < playlist.length - 1) {
-      await setTrack(playlist[track.id + 1]);
-      await audioRef.current.play();
-      setPlayStatus(true);
+
+  const after = () => {
+    const currentIndex = playlist.findIndex(song => song.id === track.id);
+    let nextIndex = currentIndex + 1;
+
+    while (nextIndex < playlist.length && playlist[nextIndex]?.outro) {
+      nextIndex++;
+    }
+
+    if (nextIndex < playlist.length) {
+      playWithId(playlist[nextIndex].id, playlist);
     }
   };
 
