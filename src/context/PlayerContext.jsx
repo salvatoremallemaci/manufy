@@ -23,29 +23,13 @@ const PlayerContextProvider = (props) => {
     },
   });
 
-  useEffect(() => {
-    setTimeout(() => {
-      audioRef.current.ontimeupdate = () => {
-        seekBar.current.style.width =
-          ((audioRef.current.currentTime / audioRef.current.duration) * 100) + "%";
-        setTime({
-          currentTime: {
-            second: Math.floor(audioRef.current.currentTime % 60),
-            minute: Math.floor(audioRef.current.currentTime / 60),
-          },
-          totalTime: {
-            second: Math.floor(audioRef.current.duration % 60),
-            minute: Math.floor(audioRef.current.duration / 60),
-          },
-        });
-      };
-    }, 1000);
-  }, [audioRef]);
+
 
   const play = () => {
     audioRef.current.play();
     setPlayStatus(true);
   };
+
   const pause = () => {
     audioRef.current.pause();
     setPlayStatus(false);
@@ -76,18 +60,41 @@ const PlayerContextProvider = (props) => {
     }
   };
 
+  const waitForCanPlay = (audio) => {
+    return new Promise((resolve) => {
+      const onCanPlay = () => {
+        audio.removeEventListener('canplaythrough', onCanPlay);
+        resolve();
+      };
+      audio.addEventListener('canplaythrough', onCanPlay);
+    });
+  };
+
   const after = async () => {
     const currentIndex = playlist.indexOf(track);
     let nextIndex = currentIndex + 1;
 
+    // Salta le outro
     while (nextIndex < playlist.length && playlist[nextIndex]?.outro) {
       nextIndex++;
     }
 
     if (nextIndex < playlist.length) {
-      await setTrack(playlist[nextIndex]);
-      await audioRef.current.play();
-      setPlayStatus(true);
+      const nextTrack = playlist[nextIndex];
+
+      // Metti pausa tra una canzone e l'altra
+      setPlayStatus(false);          // disattiva visualmente il play
+      audioRef.current.pause();      // pausa hard (non necessario ma sicuro)
+      audioRef.current.currentTime = 0;
+
+      await new Promise((resolve) => setTimeout(resolve, 700)); // 700ms di pausa
+
+      setTrack(nextTrack);           // imposta la nuova traccia
+      const audio = audioRef.current;
+
+      await waitForCanPlay(audio);   // aspetta che sia pronta
+      await audio.play();            // avvia
+      setPlayStatus(true);           // aggiorna stato
     }
   };
 
@@ -104,6 +111,37 @@ const PlayerContextProvider = (props) => {
       video.currentTime = newTime;
     }
   };
+
+  useEffect(() => {
+    const audio = audioRef.current;
+
+    const handleTimeUpdate = () => {
+      seekBar.current.style.width =
+        ((audio.currentTime / audio.duration) * 100) + "%";
+      setTime({
+        currentTime: {
+          second: Math.floor(audio.currentTime % 60),
+          minute: Math.floor(audio.currentTime / 60),
+        },
+        totalTime: {
+          second: Math.floor(audio.duration % 60),
+          minute: Math.floor(audio.duration / 60),
+        },
+      });
+    };
+
+    const handleEnded = () => {
+      after(); // vai al brano successivo
+    };
+
+    audio.addEventListener('timeupdate', handleTimeUpdate);
+    audio.addEventListener('ended', handleEnded);
+
+    return () => {
+      audio.removeEventListener('timeupdate', handleTimeUpdate);
+      audio.removeEventListener('ended', handleEnded);
+    };
+  }, [after]);
 
   const contextValue = {
     audioRef,

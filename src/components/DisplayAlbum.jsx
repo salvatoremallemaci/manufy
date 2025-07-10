@@ -162,7 +162,9 @@ const DisplayAlbum = () => {
                             <p className='hidden md:block text-[15px]'>{albumDatalocal.name}</p>
 
                             {/* Date added solo desktop */}
-                            <p className='hidden md:block text-[15px] ml-2'>3 days ago</p>
+                            <p className='hidden md:block text-[15px] ml-2'>
+                                {item.outro ? 'Tomorrow' : `${Math.floor(Math.random() * 10) + 1} days ago`}
+                            </p>
 
                             {/* Durata */}
                             <p className='text-[15px] ml-auto md:ml-0 justify-self-end'>{item.duration}</p>
