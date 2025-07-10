@@ -52,7 +52,13 @@ import sirukkivaasasm from "./songs/Sirukki-Vaasam.mp3";
 import bodhaikaname from "./songs/Bodhai-Kaname.mp3";
 
 // Manu people thumb
-import people_carlotta_thumb from "./img/manu-people-thumb/carlotta_thumb.jpg";
+import people_carlotta_thumb from "./img/manu-people-thumb/carlotta_thumb.png";
+import people_cami_thumb from "./img/manu-people-thumb/cami_thumb.png";
+import people_matteo_thumb from "./img/manu-people-thumb/matteo_thumb.png";
+import people_pa_thumb from "./img/manu-people-thumb/pa_thumb.png";
+import people_salvo_thumb from "./img/manu-people-thumb/salvo_thumb.png";
+import people_simo_thumb from "./img/manu-people-thumb/simo_thumb.png";
+import people_vitto_thumb from "./img/manu-people-thumb/vitto_thumb.png";
 
 // Manu playlist thumb
 import salvo_thumb from "./img/manu-playlist-thumb/playlist_salvo_thumb.png";
@@ -1126,6 +1132,16 @@ export const songsSimoData = [
     desc: "Snap!, 1992",
     duration: "3:40",
   },
+  {
+    id: 10,
+    name: "Outro - Simo",
+    image: people_simo_thumb,
+    file: cuoricini_mp3,
+    video: cuoricini_mp4,
+    desc: "Simo, 2025",
+    duration: "2:04",
+    outro: true
+  },
 ];
 
 export const songsCarlottaData = [
@@ -1441,7 +1457,17 @@ export const songsPaData = [
     video: thats_so_true_mp4,
     desc: "Gracie Abrams, 2024",
     duration: "2:46",
-  }
+  },
+  {
+    id: 11,
+    name: "Outro - Pa",
+    image: people_pa_thumb,
+    file: cuoricini_mp3,
+    video: cuoricini_mp4,
+    desc: "Pa, 2025",
+    duration: "2:04",
+    outro: true
+  },
 ];
 
 export const songsGedeData = [
@@ -1813,7 +1839,17 @@ export const songsCamiData = [
     video: don_raffae_mp4,
     desc: "Fabrizio De André, 1990",
     duration: "4:08",
-  }
+  },
+  {
+    id: 10,
+    name: "Outro - SKAM",
+    image: people_cami_thumb,
+    file: cuoricini_mp3,
+    video: cuoricini_mp4,
+    desc: "SKAM, 2025",
+    duration: "2:04",
+    outro: true
+  },
 ];
 
 export const songsVittoData = [
@@ -2008,7 +2044,17 @@ export const songsSalvoData = [
     video: vivo_mp4,
     desc: "Fibra, 2025",
     duration: "3:47",
-  }
+  },
+  {
+    id: 11,
+    name: "Outro - Salvo",
+    image: people_salvo_thumb,
+    file: cuoricini_mp3,
+    video: cuoricini_mp4,
+    desc: "Salvo, 2025",
+    duration: "2:04",
+    outro: true
+  },
 ];
 
 export const songsMatteoData = [
@@ -2101,7 +2147,17 @@ export const songsMatteoData = [
     video: passionfruit_mp4,
     desc: "Drake, 2017",
     duration: "4:58",
-  }
+  },
+  {
+    id: 10,
+    name: "Outro - Matthew",
+    image: people_matteo_thumb,
+    file: cuoricini_mp3,
+    video: cuoricini_mp4,
+    desc: "Matthew, 2025",
+    duration: "2:04",
+    outro: true
+  },
 ];
 
 export const songsOppeData = [
