@@ -60,6 +60,15 @@ import people_salvo_thumb from "./img/manu-people-thumb/salvo_thumb.png";
 import people_simo_thumb from "./img/manu-people-thumb/simo_thumb.png";
 import people_vitto_thumb from "./img/manu-people-thumb/vitto_thumb.png";
 
+// Manu people songs
+import audio_carlotta_mp3 from "./people-audio/carlotta_audio.mp3";
+// import audio_cami_mp3 from "./people-audio/camilla_audio.mp3";
+import audio_matteo_mp3 from "./people-audio/matteo_audio.mp3";
+// import audio_pa_mp3 from "./people-audio/carlotta_audio.mp3";
+// import audio_salvo_mp3 from "./people-audio/salvo_audio.mp3";
+// import audio_simo_mp3 from "./people-audio/simo_audio.mp3";
+// import audio_vitto_mp3 from "./people-audio/vitto_audio.mp3";
+
 // Manu playlist thumb
 import salvo_thumb from "./img/manu-playlist-thumb/playlist_salvo_thumb.png";
 import carlotta_thumb from "./img/manu-playlist-thumb/playlist_carlotta_thumb.png";
@@ -1248,10 +1257,10 @@ export const songsCarlottaData = [
     id: 11,
     name: "Outro - CC",
     image: people_carlotta_thumb,
-    file: cuoricini_mp3,
-    video: cuoricini_mp4,
+    file: audio_carlotta_mp3,
+    video: null,
     desc: "CC, 2025",
-    duration: "2:04",
+    duration: "2:03",
     outro: true
   },
 ];
@@ -2152,10 +2161,10 @@ export const songsMatteoData = [
     id: 10,
     name: "Outro - Matthew",
     image: people_matteo_thumb,
-    file: cuoricini_mp3,
-    video: cuoricini_mp4,
+    file: audio_matteo_mp3,
+    video: null,
     desc: "Matthew, 2025",
-    duration: "2:04",
+    duration: "0:50",
     outro: true
   },
 ];

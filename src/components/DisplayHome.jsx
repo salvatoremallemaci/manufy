@@ -37,7 +37,7 @@ const DisplayHome = () => {
         </div>
       </div>
       <div className="mb-4">
-        <h1 className="my-5 font-bold text-2xl"><em>Ciao stelle suggerite titolo</em></h1>
+        <h1 className="my-5 font-bold text-2xl"><em>Contenuti extra</em></h1>
         <div className="flex overflow-auto">
           {shuffledSongs.map((item, index) => (
             <SongItems
