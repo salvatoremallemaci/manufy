@@ -2201,6 +2201,8 @@ export const people = [
   { name: "Fede", phone: "393480981389" },
   { name: "Simo", phone: "393420583087" },
   { name: "CC", phone: "393487594082" },
+  { name: "CC", phone: "393487594082" },
+  { name: "CC", phone: "393487594082" },
   { name: "Vitto", phone: "393668726829" },
   { name: "Jac", phone: "393397566361" },
   { name: "SKAM", phone: "393394104363" },
