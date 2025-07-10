@@ -64,10 +64,9 @@ import people_vitto_thumb from "./img/manu-people-thumb/vitto_thumb.png";
 import audio_carlotta_mp3 from "./people-audio/carlotta_audio.mp3";
 // import audio_cami_mp3 from "./people-audio/camilla_audio.mp3";
 import audio_matteo_mp3 from "./people-audio/matteo_audio.mp3";
-// import audio_pa_mp3 from "./people-audio/carlotta_audio.mp3";
-// import audio_salvo_mp3 from "./people-audio/salvo_audio.mp3";
-// import audio_simo_mp3 from "./people-audio/simo_audio.mp3";
-// import audio_vitto_mp3 from "./people-audio/vitto_audio.mp3";
+// import audio_pa_mp3 from "./people-audio/paola_audio.mp3";
+import audio_salvo_mp3 from "./people-audio/salvo_audio.mp3";
+import audio_simo_mp3 from "./people-audio/simo_audio.mp3";
 
 // Manu playlist thumb
 import salvo_thumb from "./img/manu-playlist-thumb/playlist_salvo_thumb.png";
@@ -627,91 +626,91 @@ export const albumsData = [
     id: 0,
     name: "This is Salvo",
     image: salvo_thumb,
-    desc: "Your weekly update of the most played tracks",
+    desc: "",
     bgColor: "#970a44",
   },
   {
     id: 1,
     name: "This is Fede",
     image: fede_thumb,
-    desc: "Your weekly update of the most played tracks",
+    desc: "",
     bgColor: "#fe0000",
   },
   {
     id: 2,
     name: "This is Simo",
     image: simo_thumb,
-    desc: "No depression",
+    desc: "",
     bgColor: "#ff328a",
   },
   {
     id: 3,
     name: "This is CC",
     image: carlotta_thumb,
-    desc: "Your weekly update of the most played tracks",
+    desc: "",
     bgColor: "#FF69B4",
   },
   {
     id: 4,
     name: "This is Jac",
     image: jac_thumb,
-    desc: "Your weekly update of the most played tracks",
+    desc: "",
     bgColor: "#821740",
   },
   {
     id: 5,
     name: "This is Pa",
     image: pa_thumb,
-    desc: "Your weekly update of the most played tracks",
+    desc: "",
     bgColor: "#B0C400",
   },
   {
     id: 6,
     name: "This is Gede",
     image: gede_thumb,
-    desc: "Spensieratezza",
+    desc: "",
     bgColor: "#1a8147",
   },
   {
     id: 7,
     name: "This is L",
     image: laura_thumb,
-    desc: "Your weekly update of the most played tracks",
+    desc: "",
     bgColor: "#d90b0a",
   },
   {
     id: 8,
     name: "This is Claudio",
     image: claudio_thumb,
-    desc: "Your weekly update of the most played tracks",
+    desc: "",
     bgColor: "#25b2d0",
   },
   {
     id: 9,
     name: "This is SKAM",
     image: cami_thumb,
-    desc: "Your weekly update of the most played tracks",
+    desc: "",
     bgColor: "#fbec9c",
   },
   {
     id: 10,
     name: "This is Vitto",
     image: vitto_thumb,
-    desc: "Your weekly update of the most played tracks",
+    desc: "",
     bgColor: "#8eb3bb",
   },
   {
     id: 11,
     name: "This is Matthew",
     image: matte_thumb,
-    desc: "Canzoni quasi ragionate",
+    desc: "",
     bgColor: "#e87523",
   },
   {
     id: 12,
     name: "This is Oppe",
     image: oppe_thumb,
-    desc: "Your weekly update of the most played tracks",
+    desc: "",
     bgColor: "#0a05d2",
   },
 ];
@@ -1145,10 +1144,10 @@ export const songsSimoData = [
     id: 10,
     name: "Outro - Simo",
     image: people_simo_thumb,
-    file: cuoricini_mp3,
-    video: cuoricini_mp4,
+    file: audio_simo_mp3,
+    video: null,
     desc: "Simo, 2025",
-    duration: "2:04",
+    duration: "1:19",
     outro: true
   },
 ];
@@ -1849,6 +1848,7 @@ export const songsCamiData = [
     desc: "Fabrizio De André, 1990",
     duration: "4:08",
   },
+  /*
   {
     id: 10,
     name: "Outro - SKAM",
@@ -1859,6 +1859,7 @@ export const songsCamiData = [
     duration: "2:04",
     outro: true
   },
+  */
 ];
 
 export const songsVittoData = [
@@ -2058,10 +2059,10 @@ export const songsSalvoData = [
     id: 11,
     name: "Outro - Salvo",
     image: people_salvo_thumb,
-    file: cuoricini_mp3,
-    video: cuoricini_mp4,
+    file: audio_salvo_mp3,
+    video: null,
     desc: "Salvo, 2025",
-    duration: "2:04",
+    duration: "4:00",
     outro: true
   },
 ];
