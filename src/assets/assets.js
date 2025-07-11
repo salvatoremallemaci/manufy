@@ -505,8 +505,6 @@ import lo_sai_che_ci_penso_mp3 from "./salvo/lo_sai_che_ci_penso/lo_sai_che_ci_p
 import piccolo_mp3 from "./salvo/piccolo/piccolo.mp3";
 import stavo_pensando_a_te_mp3 from "./salvo/stavo_pensando_a_te/stavo_pensando_a_te.mp3";
 import vivo_mp3 from "./salvo/vivo/vivo.mp3";
-import bene_mp3 from "./salvo/bene/bene.mp3";
-import andrea_mp3 from "./salvo/andrea/andrea.mp3";
 // Salvo videos
 import ama_noi_mp4 from "./salvo/ama_noi/ama_noi.mp4";
 import bastavano_le_briciole_mp4 from "./salvo/bastavano_le_briciole/bastavano_le_briciole.mp4";
@@ -518,8 +516,6 @@ import lo_sai_che_ci_penso_mp4 from "./salvo/lo_sai_che_ci_penso/lo_sai_che_ci_p
 import piccolo_mp4 from "./salvo/piccolo/piccolo.mp4";
 import stavo_pensando_a_te_mp4 from "./salvo/stavo_pensando_a_te/stavo_pensando_a_te.mp4";
 import vivo_mp4 from "./salvo/vivo/vivo.mp4";
-import bene_mp4 from "./salvo/bene/bene.mp4";
-import andrea_mp4 from "./salvo/andrea/andrea.mp4";
 // Salvo songs thumb
 import ama_noi_thumb from "./salvo/ama_noi/ama_noi.jpg";
 import bastavano_le_briciole_thumb from "./salvo/bastavano_le_briciole/bastavano_le_briciole.jpg";
@@ -531,8 +527,6 @@ import lo_sai_che_ci_penso_thumb from "./salvo/lo_sai_che_ci_penso/lo_sai_che_ci
 import piccolo_thumb from "./salvo/piccolo/piccolo.jpg";
 import stavo_pensando_a_te_thumb from "./salvo/stavo_pensando_a_te/stavo_pensando_a_te.jpg";
 import vivo_thumb from "./salvo/vivo/vivo.png";
-import bene_thumb from "./salvo/bene/bene.png";
-import andrea_thumb from "./salvo/andrea/andrea.png";
 
 // Matteo songs
 import circo_loco_mp3 from "./matteo/circo_loco/circo_loco.mp3";
@@ -1982,12 +1976,12 @@ export const songsSalvoData = [
   },
   {
     id: 2,
-    name: "Bene",
-    image: bene_thumb,
-    file: bene_mp3,
-    video: bene_mp4,
-    desc: "Gemitaiz, 2015",
-    duration: "3:57",
+    name: "Lo Sai Che Ci Penso",
+    image: lo_sai_che_ci_penso_thumb,
+    file: lo_sai_che_ci_penso_mp3,
+    video: lo_sai_che_ci_penso_mp4,
+    desc: "Gemitaiz, 2018",
+    duration: "3:00",
   },
   {
     id: 3,
@@ -2018,12 +2012,12 @@ export const songsSalvoData = [
   },
   {
     id: 6,
-    name: "Andrea",
-    image: andrea_thumb,
-    file: andrea_mp3,
-    video: andrea_mp4,
-    desc: "Bresh, 2022",
-    duration: "3:09",
+    name: "Piccolo",
+    image: piccolo_thumb,
+    file: piccolo_mp3,
+    video: piccolo_mp4,
+    desc: "NASKA, 2024",
+    duration: "3:03",
   },
   {
     id: 7,
