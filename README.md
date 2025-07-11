@@ -94,6 +94,7 @@
 8.  Però – Gazzelle ✔️  
 9.  Determinate – Lemonade Mouth ✔️  
 10. You're gonna go far – Noah Kahan ✔️
+11. That’s So True - Gracie Abrams ✔️
 
 ## Gede - This is Gede (verde: #1a8147) ✔️
 *Descrizione: spensieratezza*
@@ -113,11 +114,11 @@
 
 1.  Intro Orange County - Tedua ✔️
 2.  Bastavano Le Briciole - Marracash ✔️
-3.  Lo Sai Che Ci Penso - Gemitaiz ✔️
+3.  Bene - Gemitaiz ✔️
 4.  Gli Anni D'Oro - Jake La Furia ✔️
 5.  Stavo Pensando A Te - Fibra ✔️
 6.  È sempre bello - Coez ✔️
-7.  Piccolo - NASKA ✔️
+7.  Andrea - Bresh ✔️
 8.  Ama noi - Dargen D'Amico ✔️
 9.  LUNEDÌ - Salmo ✔️
 10. Intro (with Bianca Atzei) - J-AX ✔️
