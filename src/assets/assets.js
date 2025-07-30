@@ -1148,7 +1148,6 @@ export const songsSimoData = [
     video: null,
     desc: "Simo, 2025",
     duration: "1:19",
-    outro: true,
     release: true
   },
 ];
@@ -1261,7 +1260,6 @@ export const songsCarlottaData = [
     video: null,
     desc: "CC, 2025",
     duration: "2:03",
-    outro: true,
     release: true
   },
 ];
@@ -1476,7 +1474,6 @@ export const songsPaData = [
     video: null,
     desc: "Pa, 2025",
     duration: "2:33",
-    outro: true,
     release: true
   },
 ];
@@ -2066,7 +2063,6 @@ export const songsSalvoData = [
     video: null,
     desc: "Salvo, 2025",
     duration: "4:00",
-    outro: true,
     release: true
   },
 ];
@@ -2170,7 +2166,6 @@ export const songsMatteoData = [
     video: null,
     desc: "Matthew, 2025",
     duration: "0:50",
-    outro: true,
     release: true
   },
 ];
