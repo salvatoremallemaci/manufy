@@ -64,7 +64,7 @@ import people_vitto_thumb from "./img/manu-people-thumb/vitto_thumb.png";
 import audio_carlotta_mp3 from "./people-audio/carlotta_audio.mp3";
 // import audio_cami_mp3 from "./people-audio/camilla_audio.mp3";
 import audio_matteo_mp3 from "./people-audio/matteo_audio.mp3";
-// import audio_pa_mp3 from "./people-audio/paola_audio.mp3";
+import audio_pa_mp3 from "./people-audio/paola_audio.mp3";
 import audio_salvo_mp3 from "./people-audio/salvo_audio.mp3";
 import audio_simo_mp3 from "./people-audio/simo_audio.mp3";
 
@@ -1148,7 +1148,8 @@ export const songsSimoData = [
     video: null,
     desc: "Simo, 2025",
     duration: "1:19",
-    outro: true
+    outro: true,
+    release: true
   },
 ];
 
@@ -1260,7 +1261,8 @@ export const songsCarlottaData = [
     video: null,
     desc: "CC, 2025",
     duration: "2:03",
-    outro: true
+    outro: true,
+    release: true
   },
 ];
 
@@ -1470,11 +1472,12 @@ export const songsPaData = [
     id: 11,
     name: "Outro - Pa",
     image: people_pa_thumb,
-    file: cuoricini_mp3,
-    video: cuoricini_mp4,
+    file: audio_pa_mp3,
+    video: null,
     desc: "Pa, 2025",
-    duration: "2:04",
-    outro: true
+    duration: "2:33",
+    outro: true,
+    release: true
   },
 ];
 
@@ -2063,7 +2066,8 @@ export const songsSalvoData = [
     video: null,
     desc: "Salvo, 2025",
     duration: "4:00",
-    outro: true
+    outro: true,
+    release: true
   },
 ];
 
@@ -2166,7 +2170,8 @@ export const songsMatteoData = [
     video: null,
     desc: "Matthew, 2025",
     duration: "0:50",
-    outro: true
+    outro: true,
+    release: true
   },
 ];
 

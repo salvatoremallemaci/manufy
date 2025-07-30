@@ -163,7 +163,7 @@ const DisplayAlbum = () => {
 
                             {/* Date added solo desktop */}
                             <p className='hidden md:block text-[15px] ml-2'>
-                                {item.outro ? 'Tomorrow' : `${Math.floor(Math.random() * 10) + 1} days ago`}
+                                {item.release ? '31/07/2025' : `11/07/2025`}
                             </p>
 
                             {/* Durata */}
